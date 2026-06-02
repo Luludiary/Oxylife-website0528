@@ -12,3 +12,5 @@ pnpm-debug.log*
 !.env.example
 Thumbs.db
 Desktop.ini
+
+.vercel

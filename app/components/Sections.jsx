@@ -4,40 +4,40 @@ import { QuoteForm } from "./QuoteForm";
 
 export const products = [
   {
-    id: "water-bottle",
-    title: "Water Bottle",
-    image: "/images/products/water-bottle.png",
-    alt: "Black OxyDiary stainless steel water bottle",
+    id: "coffee-cups",
+    title: "Coffee Cups",
+    image: "/images/products/category-coffee-cups.png",
+    alt: "Blue OxyDiary coffee cup with black lid",
   },
   {
-    id: "food-jars",
-    title: "Food Jars",
-    image: "/images/products/food-jars.png",
-    alt: "Blue OxyDiary insulated food jar with handle",
+    id: "tumblers",
+    title: "Tumblers",
+    image: "/images/products/category-tumblers.png",
+    alt: "Blue OxyDiary tumbler with handle and straw",
   },
   {
-    id: "smart-bottle",
-    title: "Smart Bottle",
-    image: "/images/products/smart-bottle.png",
-    alt: "White OxyDiary smart bottle with temperature display",
+    id: "smart-bottles",
+    title: "Smart Bottles",
+    image: "/images/products/category-smart-bottles.png",
+    alt: "Blue OxyDiary smart bottle with magnetic phone holder",
+  },
+  {
+    id: "water-bottles",
+    title: "Water Bottles",
+    image: "/images/products/category-water-bottles.png",
+    alt: "Blue OxyDiary stainless steel water bottle",
   },
   {
     id: "sports-bottles",
     title: "Sports Bottles",
-    image: "/images/products/sports-bottles.png",
+    image: "/images/products/category-sports-bottles.png",
     alt: "Black OxyDiary sports bottle with flip lid",
   },
   {
-    id: "tumbler",
-    title: "Tumbler",
-    image: "/images/products/tumbler.png",
-    alt: "Blue OxyDiary tumbler with handle and straw",
-  },
-  {
-    id: "coffee-cup",
-    title: "Coffee Cup",
-    image: "/images/products/coffee-cup.png",
-    alt: "Blue OxyDiary coffee cup with black lid",
+    id: "kids-bottles",
+    title: "Kids Bottles",
+    image: "/images/products/category-kids-bottles.png",
+    alt: "Cartoon OxyDiary kids bottle with blue lid",
   },
 ];
 
@@ -64,9 +64,10 @@ export function ProductCategories({ showCta = true }) {
                 className="product-image"
                 src={product.image}
                 alt={product.alt}
-                width={520}
-                height={520}
-                sizes="(max-width: 640px) 90vw, (max-width: 980px) 45vw, 31vw"
+                width={760}
+                height={760}
+                sizes="(max-width: 640px) 88vw, (max-width: 980px) 44vw, 30vw"
+                quality={100}
               />
             </div>
             <h3>{product.title}</h3>
@@ -89,20 +90,57 @@ export function StatsBand() {
     <section className="stats-band">
       <div className="stats-grid">
         <div className="stat">
-          <strong>15,000+</strong>
-          <span>sq m Factory Area</span>
+          <span className="stat-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <path d="M3 21V9l6 4V9l6 4V7h6v14H3Z" />
+              <path d="M7 17h2M12 17h2M17 17h2" />
+            </svg>
+          </span>
+          <div>
+            <strong>15,000+</strong>
+            <span>sq m Factory Area</span>
+          </div>
         </div>
         <div className="stat">
-          <strong>300+</strong>
-          <span>Employees</span>
+          <span className="stat-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+              <path d="M19.4 15a1.7 1.7 0 0 0 .34 1.87l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06A1.7 1.7 0 0 0 15 19.4a1.7 1.7 0 0 0-1 1.55V21a2 2 0 0 1-4 0v-.05a1.7 1.7 0 0 0-1-1.55 1.7 1.7 0 0 0-1.87.34l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.7 1.7 0 0 0 4.6 15a1.7 1.7 0 0 0-1.55-1H3a2 2 0 0 1 0-4h.05A1.7 1.7 0 0 0 4.6 9a1.7 1.7 0 0 0-.34-1.87l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.7 1.7 0 0 0 9 4.6a1.7 1.7 0 0 0 1-1.55V3a2 2 0 0 1 4 0v.05a1.7 1.7 0 0 0 1 1.55 1.7 1.7 0 0 0 1.87-.34l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.7 1.7 0 0 0 19.4 9a1.7 1.7 0 0 0 1.55 1H21a2 2 0 0 1 0 4h-.05A1.7 1.7 0 0 0 19.4 15Z" />
+            </svg>
+          </span>
+          <div>
+            <strong>80+</strong>
+            <span>Automated Equipments</span>
+          </div>
         </div>
         <div className="stat">
-          <strong>1,000,000+</strong>
-          <span>PCS Monthly Output</span>
+          <span className="stat-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <path d="M4 19V5" />
+              <path d="M4 19h17" />
+              <path d="M8 16v-5" />
+              <path d="M13 16V8" />
+              <path d="M18 16v-9" />
+            </svg>
+          </span>
+          <div>
+            <strong>10+ Millions</strong>
+            <span>Annual Output</span>
+          </div>
         </div>
         <div className="stat">
-          <strong>60+</strong>
-          <span>Countries & Regions</span>
+          <span className="stat-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Z" />
+              <path d="M3.6 9h16.8M3.6 15h16.8" />
+              <path d="M12 3a14 14 0 0 1 0 18" />
+              <path d="M12 3a14 14 0 0 0 0 18" />
+            </svg>
+          </span>
+          <div>
+            <strong>60+</strong>
+            <span>Countries & Regions</span>
+          </div>
         </div>
       </div>
     </section>
@@ -111,10 +149,9 @@ export function StatsBand() {
 
 export function FactoryIntro() {
   return (
-    <section className="section">
-      <div className="container split">
-        <div className="factory-art" aria-hidden="true" />
-        <div>
+    <section className="section factory-intro-section">
+      <div className="container factory-intro-content">
+        <div className="factory-copy-panel">
           <p className="eyebrow">Manufacturing strength</p>
           <h2>Your Trusted Drinkware Manufacturer</h2>
           <p>
@@ -122,16 +159,58 @@ export function FactoryIntro() {
             development, stainless steel production, surface finishing, assembly,
             and export documentation.
           </p>
-          <ul className="content-list">
-            <li>15,000 sq m modern manufacturing area</li>
-            <li>300+ trained employees and stable production lines</li>
-            <li>Advanced equipment for shaping, coating, and testing</li>
-            <li>BSCI, ISO9001, FDA, LFGB, and Sedex compliance support</li>
-          </ul>
-          <div className="hero-actions">
-            <Link className="btn btn-primary" href="/about">
-              Learn More About Us
-            </Link>
+          <div className="factory-service-grid">
+            <article>
+              <span className="factory-service-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path d="M3 21V9l6 4V9l6 4V7h6v14H3Z" />
+                  <path d="M7 17h2M12 17h2M17 17h2" />
+                </svg>
+              </span>
+              <h3>OEM</h3>
+              <p>
+                We provide reliable OEM manufacturing services for stainless
+                steel water bottles and tumblers. From product specifications to
+                bulk production, we help brands achieve stable quality,
+                efficient delivery, and consistent supply.
+              </p>
+              <Link href="/oem-odm">Custom Water Bottle</Link>
+            </article>
+            <article>
+              <span className="factory-service-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path d="M9 18h6" />
+                  <path d="M10 22h4" />
+                  <path d="M8 14a6 6 0 1 1 8 0c-1.2.9-1.7 1.9-1.8 3H9.8C9.7 15.9 9.2 14.9 8 14Z" />
+                  <path d="M12 5v2M7.8 7.2l1.4 1.4M16.2 7.2l-1.4 1.4" />
+                </svg>
+              </span>
+              <h3>ODM</h3>
+              <p>
+                Our ODM service supports product development from concept to
+                finished design. With experience in structure, materials,
+                colors, and functionality, we help customers create competitive
+                drinkware products for their markets.
+              </p>
+              <Link href="/oem-odm">Develop New Products</Link>
+            </article>
+            <article>
+              <span className="factory-service-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path d="M4 12.5 12.5 4H20v7.5L11.5 20 4 12.5Z" />
+                  <path d="M16.5 7.5h.01" />
+                  <path d="M8 12.5 11.5 16" />
+                </svg>
+              </span>
+              <h3>Private Label</h3>
+              <p>
+                Our ODM service supports product development from concept to
+                finished design. With experience in structure, materials,
+                colors, and functionality, we help customers create competitive
+                drinkware products for their markets.
+              </p>
+              <Link href="/contact">Build Your Brand</Link>
+            </article>
           </div>
         </div>
       </div>

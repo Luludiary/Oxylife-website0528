@@ -94,7 +94,7 @@ export default function HomePage() {
         <div className="container">
           <div className="section-head">
             <p className="eyebrow">Product range</p>
-            <h2>Our Product Categories</h2>
+            <h2>Product Categories</h2>
           </div>
           <ProductCategories />
         </div>

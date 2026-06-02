@@ -2,7 +2,7 @@ import { ProductCategories, PageHero } from "../components/Sections";
 
 export const metadata = {
   title: "Products | OXYDIARY",
-  description: "Insulated bottles, tumblers, coffee mugs, sports bottles, kids bottles, and drinkware accessories for B2B buyers.",
+  description: "Coffee cups, smart bottles, tumblers, water bottles, sports bottles, and kids bottles for B2B buyers.",
 };
 
 export default function ProductsPage() {
