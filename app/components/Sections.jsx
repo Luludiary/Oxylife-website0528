@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { QuoteForm } from "./QuoteForm";
+import { QualityInspection } from "./QualityInspection";
 
 export const products = [
   {
@@ -58,7 +59,7 @@ export function ProductCategories({ showCta = true }) {
     <div>
       <div className="category-grid">
         {products.map((product) => (
-          <Link className="product-card" href={`/products#${product.id}`} id={product.id} key={product.id}>
+          <Link className="product-card" href={`/products/${product.id}`} id={product.id} key={product.id}>
             <div className="product-visual">
               <Image
                 className="product-image"
@@ -220,10 +221,30 @@ export function FactoryIntro() {
 
 export function ProcessSection() {
   const steps = [
-    ["01", "Pick A Model", "Choose from existing bottle styles, sizes, and lid systems or match a custom brief."],
-    ["02", "Design & Packaging", "Confirm color, logo, finish, box, insert, and retail presentation details."],
-    ["03", "Sampling", "Approve pre-production samples before bulk manufacturing begins."],
-    ["04", "Mass Production", "Production, inspection, packing, and export handover are managed under one workflow."],
+    [
+      "01",
+      "Pick A Model",
+      "Choose from existing bottle styles, sizes, and lid systems or match a custom brief.",
+      "/images/process/pick-a-model.png",
+    ],
+    [
+      "02",
+      "Design & Packaging",
+      "Confirm color, logo, finish, box, insert, and retail presentation details.",
+      "/images/process/design-packaging-v2.png",
+    ],
+    [
+      "03",
+      "Sampling",
+      "Approve pre-production samples before bulk manufacturing begins.",
+      "/images/process/sampling.png",
+    ],
+    [
+      "04",
+      "Mass Production",
+      "Production, inspection, packing, and export handover are managed under one workflow.",
+      "/images/process/mass-production.png",
+    ],
   ];
 
   return (
@@ -235,12 +256,23 @@ export function ProcessSection() {
           <p>We keep global B2B projects simple, fast, and controlled from idea confirmation to mass production.</p>
         </div>
         <div className="steps">
-          {steps.map(([number, title, text]) => (
+          {steps.map(([number, title, text, image]) => (
             <article className="step-card" key={number}>
-              <div className="process-visual" />
+              <div className={`process-visual ${number === "02" ? "process-visual-contain" : ""}`}>
+                <Image
+                  src={image}
+                  alt={`${title} process visual`}
+                  width={720}
+                  height={720}
+                  sizes="(max-width: 640px) 86vw, (max-width: 980px) 44vw, 22vw"
+                  quality={100}
+                />
+              </div>
               <div className="step-body">
-                <span>{number}</span>
-                <h3>{title}</h3>
+                <div className="step-title-row">
+                  <span>{number}</span>
+                  <h3>{title}</h3>
+                </div>
                 <p>{text}</p>
               </div>
             </article>
@@ -252,40 +284,113 @@ export function ProcessSection() {
 }
 
 export function QualitySection() {
-  const items = [
-    ["Raw Material", "Stainless steel checks before production."],
-    ["Vacuum Test", "Thermal performance validation."],
-    ["Leak Proof", "Reliability checks for lids and seals."],
-    ["Final Inspection", "Comprehensive export QC."],
-  ];
-
   return (
     <section className="section section-alt">
-      <div className="container quality-wrap">
-        <div className="lab-art" aria-hidden="true" />
-        <div>
+      <div className="container">
+        <div className="section-head">
           <p className="eyebrow">Quality assurance</p>
           <h2>Compliance Built Into Production</h2>
           <p>
-            Our inspection process covers incoming material, vacuum performance,
-            leak resistance, coating adhesion, packaging, and final shipment readiness.
+            Our production process includes 100% inspection across surface finishing,
+            metalworking, polishing, color consistency, thermal performance, and final packaging.
           </p>
-          <div className="cert-grid" style={{ marginTop: 28 }}>
-            {items.map(([title, text]) => (
-              <div className="cert-card" key={title}>
-                <span className="line-icon" />
-                <strong>{title}</strong>
-                <p>{text}</p>
-              </div>
-            ))}
-          </div>
         </div>
+        <QualityInspection />
       </div>
     </section>
   );
 }
 
 export function BuyerSection() {
+  const buyers = [
+    {
+      title: "DTC Brands",
+      text: "Design unique bottle collections and build a branded line from concept to reality.",
+      image: "/images/buyers/dtc-brands.png",
+      alt: "DTC brand buyer receiving a branded tumbler at a trade show",
+    },
+    {
+      title: "Large Corporations",
+      text: "Reliable production capacity for promotional gifts, retail programs, and staff merchandise.",
+      image: "/images/buyers/large-corporations.png",
+      alt: "Custom sports bottle packaging for large corporate retail programs",
+    },
+    {
+      title: "Gifting Suppliers",
+      text: "Small-batch customization and OEM services for corporate gift channels.",
+      image: "/images/buyers/gifting-suppliers.png",
+      alt: "Wedding gifting tumblers customized for event suppliers",
+    },
+  ];
+  const advantages = [
+    {
+      title: "Low MOQ",
+      text: "Flexible MOQ from 300 pcs per style.",
+      icon: (
+        <>
+          <path d="M4 7h16" />
+          <path d="M7 7v12h10V7" />
+          <path d="M9.5 11h5M9.5 15h3" />
+          <path d="M8 4h8l1 3H7l1-3Z" />
+        </>
+      ),
+    },
+    {
+      title: "Fast Sampling",
+      text: "Samples ready in 7-10 days on average.",
+      icon: (
+        <>
+          <path d="M12 6v6l4 2" />
+          <path d="M12 21a9 9 0 1 0-7.8-4.5" />
+          <path d="M3 21v-5h5" />
+        </>
+      ),
+    },
+    {
+      title: "Stable Lead Time",
+      text: "Efficient production with on-time delivery.",
+      icon: (
+        <>
+          <path d="M3 17h2l2-7 4 10 3-13 3 10h4" />
+          <path d="M4 21h16" />
+          <path d="M4 4h16" />
+        </>
+      ),
+    },
+    {
+      title: "Export to 60+",
+      text: "Trusted by wholesalers and brands worldwide.",
+      icon: (
+        <>
+          <path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Z" />
+          <path d="M3.6 9h16.8M3.6 15h16.8" />
+          <path d="M12 3a14 14 0 0 1 0 18" />
+          <path d="M12 3a14 14 0 0 0 0 18" />
+        </>
+      ),
+    },
+  ];
+  const testimonials = [
+    {
+      title: "Reliable OEM Partner",
+      name: "Sophie Martinez, DTC Brand Founder",
+      quote:
+        "The sample quality was consistent with bulk production, and their team helped us move from idea to launch much faster than expected.",
+    },
+    {
+      title: "Strong Delivery Control",
+      name: "Daniel Meyer, Promotional Gift Importer",
+      quote:
+        "We appreciate their clear communication, stable lead time, and careful packaging checks before every shipment.",
+    },
+    {
+      title: "Easy Customization Workflow",
+      name: "Alicia Chen, Corporate Sourcing Manager",
+      quote:
+        "Logo, color, finish, and carton details were handled smoothly. The final drinkware looked polished and retail-ready.",
+    },
+  ];
+
   return (
     <section className="section">
       <div className="container">
@@ -294,18 +399,51 @@ export function BuyerSection() {
           <h2>Who We Work With</h2>
         </div>
         <div className="buyer-grid">
-          <article className="buyer-card"><span className="line-icon" /><h3>DTC Brands</h3><p>Design unique bottle collections and build a branded line from concept to reality.</p></article>
-          <article className="buyer-card"><span className="line-icon" /><h3>Large Corporations</h3><p>Reliable production capacity for promotional gifts, retail programs, and staff merchandise.</p></article>
-          <article className="buyer-card"><span className="line-icon" /><h3>Gifting Suppliers</h3><p>Small-batch customization and OEM services for corporate gift channels.</p></article>
+          {buyers.map((buyer) => (
+            <article className="buyer-card" key={buyer.title}>
+              <div className="buyer-image-wrap">
+                <Image
+                  src={buyer.image}
+                  alt={buyer.alt}
+                  width={760}
+                  height={920}
+                  sizes="(max-width: 640px) 100vw, (max-width: 980px) 44vw, 30vw"
+                  quality={100}
+                />
+              </div>
+              <h3>{buyer.title}</h3>
+              <p>{buyer.text}</p>
+            </article>
+          ))}
         </div>
         <div className="section-head" style={{ marginTop: 58 }}>
           <p className="eyebrow">Why global buyers choose us</p>
         </div>
         <div className="advantage-grid">
-          <article className="advantage-card"><span className="line-icon" /><h3>Low MOQ</h3><p>Flexible MOQ from 300 pcs per style.</p></article>
-          <article className="advantage-card"><span className="line-icon" /><h3>Fast Sampling</h3><p>Samples ready in 7-10 days on average.</p></article>
-          <article className="advantage-card"><span className="line-icon" /><h3>Stable Lead Time</h3><p>Efficient production with on-time delivery.</p></article>
-          <article className="advantage-card"><span className="line-icon" /><h3>Export to 60+</h3><p>Trusted by wholesalers and brands worldwide.</p></article>
+          {advantages.map((item) => (
+            <article className="advantage-card" key={item.title}>
+              <span className="advantage-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">{item.icon}</svg>
+              </span>
+              <div>
+                <h3>{item.title}</h3>
+                <p>{item.text}</p>
+              </div>
+            </article>
+          ))}
+        </div>
+        <div className="section-head partner-say-head">
+          <p className="eyebrow">What Our Partners Say</p>
+          <h2>What Our Partners Say</h2>
+        </div>
+        <div className="testimonial-grid">
+          {testimonials.map((item) => (
+            <article className="testimonial-card" key={item.title}>
+              <h3>{item.title}</h3>
+              <p>{item.quote}</p>
+              <strong>{item.name}</strong>
+            </article>
+          ))}
         </div>
       </div>
     </section>

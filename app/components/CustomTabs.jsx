@@ -84,7 +84,36 @@ const brandingOptions = [
   },
 ];
 
-const lidOptions = [];
+const lidOptions = [
+  "magnetic-lid2.png",
+  "carry-lid.png",
+  "straw-lid.png",
+  "owala-lid5.png",
+  "40oz-lid3.png",
+  "40oz-lid4.png",
+  "owala-lid.png",
+  "flip-lid.png",
+  "owala-lid2.png",
+  "plastic-lid.png",
+  "straw-lid4.jpg",
+  "straw-lid3.jpg",
+  "push-lid.png",
+  "push-lid2.png",
+  "40oz-lid2.jpg",
+  "straw-lid2.jpg",
+  "flip-lid4.jpg",
+  "flip-lid3.jpg",
+  "flip-lid2.jpg",
+  "40oz-lid.jpg",
+  "owala-lid4.jpg",
+  "owala-lid3.jpg",
+  "carry-lid3.jpg",
+  "carry-lid2.jpg",
+  "carry-lid.jpg",
+].map((fileName) => ({
+  image: `/images/lids/${fileName}`,
+  alt: "Drinkware lid design option",
+}));
 
 export function CustomTabs() {
   const [active, setActive] = useState("cml");
