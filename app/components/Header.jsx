@@ -1,17 +1,25 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 const navItems = [
-  { href: "/", label: "Home" },
-  { href: "/products", label: "Products" },
   { href: "/oem-odm", label: "OEM/ODM" },
   { href: "/factory", label: "Factory" },
   { href: "/quality", label: "Quality" },
   { href: "/about", label: "About Us" },
   { href: "/contact", label: "Contact" },
+];
+
+const productLinks = [
+  { href: "/products/coffee-cups", label: "Coffee Cups" },
+  { href: "/products/tumblers", label: "Tumblers" },
+  { href: "/products/smart-bottles", label: "Smart Bottles" },
+  { href: "/products/water-bottles", label: "Water Bottles" },
+  { href: "/products/sports-bottles", label: "Sports Bottles" },
+  { href: "/products/kids-bottles", label: "Kids Bottles" },
 ];
 
 export function Header() {
@@ -22,8 +30,14 @@ export function Header() {
     <header className="site-header">
       <div className="nav-wrap">
         <Link className="brand" href="/" aria-label="OXYDIARY home">
-          <strong>OXYDIARY</strong>
-          <span>Stainless Steel Drinkware Manufacturer</span>
+          <Image
+            src="/images/logo.png"
+            alt="OxyDiary"
+            width={580}
+            height={175}
+            priority
+          />
+          <span>CUSTOM DRINKWARE MANUFACTURER</span>
         </Link>
         <button
           className="nav-toggle"
@@ -35,6 +49,35 @@ export function Header() {
           <span />
         </button>
         <nav className={`main-nav ${open ? "is-open" : ""}`}>
+          <Link
+            href="/"
+            className={pathname === "/" ? "is-active" : ""}
+            onClick={() => setOpen(false)}
+          >
+            Home
+          </Link>
+          <div className={`nav-dropdown ${pathname.startsWith("/products") ? "is-active" : ""}`}>
+            <Link
+              className="nav-menu-button"
+              href="/products"
+              onClick={() => setOpen(false)}
+            >
+              Products
+            </Link>
+            <div className="nav-dropdown-menu">
+              {productLinks.map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  onClick={() => {
+                    setOpen(false);
+                  }}
+                >
+                  {item.label}
+                </Link>
+              ))}
+            </div>
+          </div>
           {navItems.map((item) => (
             <Link
               key={item.href}

@@ -7,7 +7,7 @@ export const products = [
   {
     id: "coffee-cups",
     title: "Coffee Cups",
-    image: "/images/products/category-coffee-cups.png",
+    image: "/images/products/category-coffee-cups-quote-update.png",
     alt: "Blue OxyDiary coffee cup with black lid",
   },
   {
@@ -125,7 +125,7 @@ export function StatsBand() {
             </svg>
           </span>
           <div>
-            <strong>10+ Millions</strong>
+            <strong>10,000,000+</strong>
             <span>Annual Output</span>
           </div>
         </div>
@@ -325,7 +325,7 @@ export function BuyerSection() {
   const advantages = [
     {
       title: "Low MOQ",
-      text: "Flexible MOQ from 300 pcs per style.",
+      text: "Flexible MOQ from 100 pcs per style.",
       icon: (
         <>
           <path d="M4 7h16" />
@@ -337,7 +337,7 @@ export function BuyerSection() {
     },
     {
       title: "Fast Sampling",
-      text: "Samples ready in 7-10 days on average.",
+      text: "Samples ready in 3-5 days on average.",
       icon: (
         <>
           <path d="M12 6v6l4 2" />
@@ -373,21 +373,35 @@ export function BuyerSection() {
   const testimonials = [
     {
       title: "Reliable OEM Partner",
-      name: "Sophie Martinez, DTC Brand Founder",
+      name: "Sophie Martinez",
+      role: "DTC Brand Founder",
+      initials: "SM",
       quote:
         "The sample quality was consistent with bulk production, and their team helped us move from idea to launch much faster than expected.",
     },
     {
       title: "Strong Delivery Control",
-      name: "Daniel Meyer, Promotional Gift Importer",
+      name: "Daniel Meyer",
+      role: "Promotional Gift Importer",
+      initials: "DM",
       quote:
         "We appreciate their clear communication, stable lead time, and careful packaging checks before every shipment.",
     },
     {
       title: "Easy Customization Workflow",
-      name: "Alicia Chen, Corporate Sourcing Manager",
+      name: "Alicia Chen",
+      role: "Corporate Sourcing Manager",
+      initials: "AC",
       quote:
         "Logo, color, finish, and carton details were handled smoothly. The final drinkware looked polished and retail-ready.",
+    },
+    {
+      title: "Responsive Project Support",
+      name: "Michael Turner",
+      role: "Wholesale Distributor",
+      initials: "MT",
+      quote:
+        "From artwork confirmation to packing details, the response was fast and practical. It made our seasonal order much easier to manage.",
     },
   ];
 
@@ -439,9 +453,16 @@ export function BuyerSection() {
         <div className="testimonial-grid">
           {testimonials.map((item) => (
             <article className="testimonial-card" key={item.title}>
+              <div className="testimonial-stars" aria-label="5 star rating">★★★★★</div>
               <h3>{item.title}</h3>
-              <p>{item.quote}</p>
-              <strong>{item.name}</strong>
+              <p>“{item.quote}”</p>
+              <div className="testimonial-author">
+                <span>{item.initials}</span>
+                <div>
+                  <strong>{item.name}</strong>
+                  <small>{item.role}</small>
+                </div>
+              </div>
             </article>
           ))}
         </div>
@@ -451,6 +472,24 @@ export function BuyerSection() {
 }
 
 export function ShippingQuoteSection() {
+  const shippingModes = [
+    {
+      title: "Ocean Freight",
+      image: "/images/shipping/sea-freight.png",
+      alt: "Ocean freight cargo ship",
+    },
+    {
+      title: "Land Transport",
+      image: "/images/shipping/land-shipping.png",
+      alt: "Land transport freight truck",
+    },
+    {
+      title: "Air Freight",
+      image: "/images/shipping/air-shipping.png",
+      alt: "Air freight cargo plane",
+    },
+  ];
+
   return (
     <section className="section section-alt">
       <div className="container shipping-quote">
@@ -462,10 +501,17 @@ export function ShippingQuoteSection() {
             delivery coordination for wholesale and promotional orders.
           </p>
           <div className="ship-grid">
-            <div className="ship-tile">Ocean Freight</div>
-            <div className="ship-tile">Land Transport</div>
-            <div className="ship-tile">Air Freight</div>
-            <div className="ship-tile">Global Delivery</div>
+            {shippingModes.map((mode) => (
+              <article className="ship-tile" key={mode.title}>
+                <Image
+                  src={mode.image}
+                  alt={mode.alt}
+                  width={520}
+                  height={520}
+                  quality={95}
+                />
+              </article>
+            ))}
           </div>
         </div>
         <div className="quote-panel">

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { BuyerSection, PageHero, StatsBand } from "../components/Sections";
 
 export const metadata = {
@@ -31,7 +32,15 @@ export default function AboutPage() {
               <li>Repeat-order service for long-term buyer relationships</li>
             </ul>
           </div>
-          <div className="factory-art" aria-hidden="true" />
+          <div className="about-manufacture-visual">
+            <Image
+              src="/images/about-manufacture-process.png"
+              alt="OXYDIARY manufacture process workshops"
+              width={750}
+              height={665}
+              quality={100}
+            />
+          </div>
         </div>
       </section>
       <StatsBand />

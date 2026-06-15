@@ -1,0 +1,886 @@
+{
+  "count": 100,
+  "latestBatchCount": 50,
+  "totalBulkProducts": 100,
+  "latestBatchDate": "2026-06-13 13:42:43",
+  "failures": [
+    {
+      "id": "1601715894103",
+      "image": 4,
+      "error": "image too small"
+    },
+    {
+      "id": "1601715756394",
+      "image": 4,
+      "error": "image too small"
+    }
+  ],
+  "latestBatchCategoryCounts": {
+    "Tumbler Series": 25,
+    "Coffee Cup Series": 17,
+    "Water Bottle Series": 2,
+    "Sports Bottle Series": 4,
+    "Smart Bottle Series": 1,
+    "Kids Bottle Series": 1
+  },
+  "allCategoryCounts": {
+    "Sports Bottle Series": 24,
+    "Tumbler Series": 36,
+    "Kids Bottle Series": 4,
+    "Coffee Cup Series": 32,
+    "Smart Bottle Series": 2,
+    "Water Bottle Series": 2
+  },
+  "products": [
+    {
+      "slug": "stainless-steel-tumbler-2421",
+      "title": "Custom Gift Set Sports Bottle",
+      "category": "Sports Bottle Series",
+      "url": "https://www.alibaba.com/product-detail/Novelties-Stainless-Steel-Water-Bottle-Simple_1601735412421.html",
+      "primaryKeyword": "custom logo gift set stainless steel sports bottle",
+      "sourceTitle": "Novelties Stainless Steel Water Bottle Simple Tumbler Logo Thermal Hiking Cup Vasos Termicos for Mother's Day Gift Set"
+    },
+    {
+      "slug": "30oz-stainless-steel-tumbler-1077",
+      "title": "Custom 30oz Diamond Style Tumbler",
+      "category": "Tumbler Series",
+      "url": "https://www.alibaba.com/product-detail/30oz-Novelty-Diamond-Durian-Style-Tumblers_1601823871077.html",
+      "primaryKeyword": "wholesale diamond style stainless steel tumbler 30oz",
+      "sourceTitle": "30oz Novelty Diamond Durian-Style Tumblers Stainless Steel Tumblers Thermal Cups Bulk Items Tumblers Wholesale Bulk"
+    },
+    {
+      "slug": "750ml-stainless-steel-sports-bottle-8189",
+      "title": "Custom 750mL Frosted Sports Bottle",
+      "category": "Sports Bottle Series",
+      "url": "https://www.alibaba.com/product-detail/750ml-Durian-Diamond-Novelty-Plastic-Cup_1601823948189.html",
+      "primaryKeyword": "custom logo frosted stainless steel sports bottle 750mL",
+      "sourceTitle": "750ml Durian Diamond Novelty Plastic Cup Cups Custom Frosted Cups Cups with Logo Hot Sale Sports Bottles for Wedding"
+    },
+    {
+      "slug": "kids-stainless-steel-water-bottle-9305",
+      "title": "Custom Frosted Kids Water Bottle",
+      "category": "Kids Bottle Series",
+      "url": "https://www.alibaba.com/product-detail/316-Stainless-Steel-Kids-Water-Bottle_1601823329305.html",
+      "primaryKeyword": "custom frosted kids stainless steel water bottle",
+      "sourceTitle": "316 Stainless Steel Kids Water Bottle Tumblers Custom Frosted Cups Novelty in Stock Insulated Tumbler for Giftes"
+    },
+    {
+      "slug": "16oz-stainless-steel-tumbler-8835",
+      "title": "Custom 16oz Leak Proof Tumbler",
+      "category": "Tumbler Series",
+      "url": "https://www.alibaba.com/product-detail/16oz-Custom-Cup-Tumblers-Stainless-Steel_1601822798835.html",
+      "primaryKeyword": "custom leak proof stainless steel tumbler 16oz",
+      "sourceTitle": "16oz Custom Cup Tumblers Stainless Steel Tumblers Drinkware & Accessories in Stock Leak Proof Tumbler for Party Favors"
+    },
+    {
+      "slug": "12oz-stainless-steel-tumbler-0418",
+      "title": "Custom 12oz Tumbler",
+      "category": "Tumbler Series",
+      "url": "https://www.alibaba.com/product-detail/12oz-Custom-Cups-Stainless-Steel-Water_1601677620418.html",
+      "primaryKeyword": "wholesale stainless steel tumbler 12oz",
+      "sourceTitle": "12oz Custom Cups Stainless Steel Water Bottle Drinkware Tumblers Wholesale Bulk for Gift Valentine's Day Wedding"
+    },
+    {
+      "slug": "12oz-stainless-steel-coffee-cup-3668",
+      "title": "Custom 12oz Leak Proof Coffee Cup",
+      "category": "Coffee Cup Series",
+      "url": "https://www.alibaba.com/product-detail/12oz-Customized-Cup-Leak-Proof-Tumbler_1601593173668.html",
+      "primaryKeyword": "custom leak proof stainless steel coffee cup 12oz",
+      "sourceTitle": "12oz Customized Cup Leak Proof Tumbler  Gourde D'eau Vasos Termicos Coffee Mug Cups With Lids Stainless Steel Cup"
+    },
+    {
+      "slug": "14oz-stainless-steel-coffee-cup-5218",
+      "title": "Custom 14oz Vacuum Insulated Coffee Cup",
+      "category": "Coffee Cup Series",
+      "url": "https://www.alibaba.com/product-detail/12-14oz-Custom-Coffee-Mug-Vase_1601782805218.html",
+      "primaryKeyword": "custom vacuum insulated stainless steel coffee cup 14oz",
+      "sourceTitle": "12/14oz Custom Coffee Mug  Vase Stainless Steel Tumblers Drinkware & Accessories in Stock Insulated Tumbler"
+    },
+    {
+      "slug": "20oz-stainless-steel-sports-bottle-3036",
+      "title": "Custom 20oz Sports Bottle",
+      "category": "Sports Bottle Series",
+      "url": "https://www.alibaba.com/product-detail/20oz-Custom-Drinkware-Stainless-Steel-Tumblers_1601803543036.html",
+      "primaryKeyword": "custom logo stainless steel sports bottle 20oz",
+      "sourceTitle": "20oz Custom Drinkware Stainless Steel Tumblers Cups with Logo Wholesale Vasos for New Products Sports Bottles"
+    },
+    {
+      "slug": "20oz-stainless-steel-sports-bottle-9636",
+      "title": "Custom 20oz Vacuum Insulated Coffee Cup",
+      "category": "Coffee Cup Series",
+      "url": "https://www.alibaba.com/product-detail/12-20oz-Tumblers-Wholesale-Bulk-Stainless_1601569469636.html",
+      "primaryKeyword": "wholesale vacuum insulated stainless steel coffee cup 20oz",
+      "sourceTitle": "12/20oz Tumblers Wholesale Bulk  Stainless Steel Cup Thermos Sports Bottles Water Bottle Insulated Tumbler Coffee Cup"
+    },
+    {
+      "slug": "24oz-stainless-steel-sports-bottle-6438",
+      "title": "Custom 24oz Magnetic Phone Holder Sports Bottle",
+      "category": "Sports Bottle Series",
+      "url": "https://www.alibaba.com/product-detail/24oz-Custom-Magnetic-Phone-Holder-Tumbler_1601782376438.html",
+      "primaryKeyword": "custom logo magnetic phone holder stainless steel sports bottle 24oz",
+      "sourceTitle": "24oz Custom Magnetic Phone Holder  Tumbler Stainless Steel Tumblers Cups with Logo Bulk Gourde D'eau for Sports"
+    },
+    {
+      "slug": "24oz-stainless-steel-tumbler-6388",
+      "title": "Custom 24oz Magnetic Phone Holder Tumbler",
+      "category": "Tumbler Series",
+      "url": "https://www.alibaba.com/product-detail/24oz-Custom-Magnetic-Phone-Holder-Drinkware_1601782376388.html",
+      "primaryKeyword": "wholesale magnetic phone holder stainless steel tumbler 24oz",
+      "sourceTitle": "24oz Custom Magnetic Phone Holder  Drinkware Custom Frosted Cups Drinkware Tumblers Wholesale Bulk for Giftes"
+    },
+    {
+      "slug": "stainless-steel-tumbler-3615",
+      "title": "Custom Tumbler",
+      "category": "Tumbler Series",
+      "url": "https://www.alibaba.com/product-detail/Cups-with-Logo-Tumblers-Wholesale-Bulk_1601764963615.html",
+      "primaryKeyword": "custom logo stainless steel tumbler",
+      "sourceTitle": "Cups with Logo Tumblers Wholesale Bulk Stainless Steel Tumbler Tea Infuser Vasos Termicos for Party Favors"
+    },
+    {
+      "slug": "kids-stainless-steel-water-bottle-6840",
+      "title": "Custom Leak Proof Kids Water Bottle",
+      "category": "Kids Bottle Series",
+      "url": "https://www.alibaba.com/product-detail/Eco-Friendly-Products-Leak-Proof-Tumbler_1601576436840.html",
+      "primaryKeyword": "custom leak proof kids stainless steel water bottle",
+      "sourceTitle": "Eco Friendly Products Leak Proof Tumbler  Gourde D'eau Vasos Termicos Water Bottle for Kids Thermos Bottle"
+    },
+    {
+      "slug": "stainless-steel-sports-bottle-8141",
+      "title": "Custom Travel Coffee Cup",
+      "category": "Coffee Cup Series",
+      "url": "https://www.alibaba.com/product-detail/Sports-Bottles-Stainless-Steel-Travel-Mug_1601651968141.html",
+      "primaryKeyword": "wholesale travel stainless steel coffee cup",
+      "sourceTitle": "Sports Bottles Stainless Steel Travel Mug  Tumblers Wholesale Bulk Insulated Water Bottles Travel Mug Stainless Steel Cup"
+    },
+    {
+      "slug": "20oz-stainless-steel-coffee-cup-9567",
+      "title": "Custom 20oz Vacuum Insulated Coffee Cup",
+      "category": "Coffee Cup Series",
+      "url": "https://www.alibaba.com/product-detail/20oz-Mugs-Insulated-Water-Bottles-Novelty_1601816339567.html",
+      "primaryKeyword": "custom vacuum insulated stainless steel coffee cup 20oz",
+      "sourceTitle": "20oz  Mugs Insulated Water Bottles Novelty in Stock Vasos Termicos Christian Art Gifts for Mother's Day"
+    },
+    {
+      "slug": "20oz-stainless-steel-tumbler-5244",
+      "title": "Custom 20oz Leak Proof Tumbler",
+      "category": "Tumbler Series",
+      "url": "https://www.alibaba.com/product-detail/20oz-Water-Bottle-Insulated-Water-Bottles_1601816325244.html",
+      "primaryKeyword": "wholesale leak proof stainless steel tumbler 20oz",
+      "sourceTitle": "20oz Water Bottle Insulated Water Bottles Color Changing Cups Bulk Bulk Items Leak Proof Tumbler for Wedding"
+    },
+    {
+      "slug": "20oz-stainless-steel-tumbler-5511",
+      "title": "Custom 20oz Gift Set Tumbler",
+      "category": "Tumbler Series",
+      "url": "https://www.alibaba.com/product-detail/20oz-Custom-Cups-Insulated-Water-Bottles_1601816265511.html",
+      "primaryKeyword": "custom gift set stainless steel tumbler 20oz",
+      "sourceTitle": "20oz Custom Cups Insulated Water Bottles Novelty Hot Sale Vasos for Mother's Day Gift Set Wedding Cups"
+    },
+    {
+      "slug": "20oz-stainless-steel-coffee-cup-5378",
+      "title": "Custom 20oz Leak Proof Coffee Cup",
+      "category": "Coffee Cup Series",
+      "url": "https://www.alibaba.com/product-detail/20oz-Blue-Water-Bottle-Stainless-Steel_1601816165378.html",
+      "primaryKeyword": "custom leak proof stainless steel coffee cup 20oz",
+      "sourceTitle": "20oz Blue Water Bottle Stainless Steel Tumblers Thermal Cups Hot Sale Leak Proof Tumbler for Coffee World Cup 2026"
+    },
+    {
+      "slug": "20oz-stainless-steel-tumbler-2343",
+      "title": "Custom 20oz Powder Coated Coffee Cup",
+      "category": "Coffee Cup Series",
+      "url": "https://www.alibaba.com/product-detail/20OZ-Drinkware-Stainless-Steel-Tumblers-Powder_1601816142343.html",
+      "primaryKeyword": "custom powder coated stainless steel coffee cup 20oz",
+      "sourceTitle": "20OZ Drinkware Stainless Steel Tumblers Powder Coated Tumbler in Stock Nespresso Leak Proof Tumbler for Wedding"
+    },
+    {
+      "slug": "40oz-stainless-steel-sports-bottle-2073",
+      "title": "Custom 40oz Frosted Sports Bottle",
+      "category": "Sports Bottle Series",
+      "url": "https://www.alibaba.com/product-detail/40oz-Custom-Frosted-Cups-Insulated-Water_1601816092073.html",
+      "primaryKeyword": "custom logo frosted stainless steel sports bottle 40oz",
+      "sourceTitle": "40oz Custom Frosted Cups Insulated Water Bottles Cups with Logo Wholesale Sports Bottles for Wedding Cups"
+    },
+    {
+      "slug": "20oz-30oz-stainless-steel-tumbler-9915",
+      "title": "Custom 20oz / 30oz Tumbler",
+      "category": "Tumbler Series",
+      "url": "https://www.alibaba.com/product-detail/20oz-30oz-Tumblers-Stainless-Steel-Tumblers_1601815869915.html",
+      "primaryKeyword": "wholesale stainless steel tumbler 20oz / 30oz",
+      "sourceTitle": "20oz 30oz  Tumblers Stainless Steel Tumblers Thermos Bulk Items Stainless Steel Cup for Wedding"
+    },
+    {
+      "slug": "24oz-stainless-steel-sports-bottle-1180",
+      "title": "Custom 24oz Magnetic Phone Holder Sports Bottle",
+      "category": "Sports Bottle Series",
+      "url": "https://www.alibaba.com/product-detail/24oz-Custom-Magnetic-Phone-Holder-Bottle_1601782401180.html",
+      "primaryKeyword": "wholesale magnetic phone holder stainless steel sports bottle 24oz",
+      "sourceTitle": "24oz Custom Magnetic Phone Holder  Bottle Stainless Steel Tumblers Thermos Wholesale Stainless Steel Cup for Sports"
+    },
+    {
+      "slug": "32oz-stainless-steel-sports-bottle-9818",
+      "title": "Custom 32oz Sports Bottle",
+      "category": "Sports Bottle Series",
+      "url": "https://www.alibaba.com/product-detail/32oz-Sports-Bottle-Water-Bottle-Stainless_1601804729818.html",
+      "primaryKeyword": "custom stainless steel sports bottle 32oz",
+      "sourceTitle": "32oz Sports Bottle Water Bottle Stainless Steel Tumblers Thermal Cups Hot Sale Sports Bottles for Party Favors"
+    },
+    {
+      "slug": "300ml-kids-stainless-steel-water-bottle-2187",
+      "title": "Custom 300mL Frosted Kids Water Bottle",
+      "category": "Kids Bottle Series",
+      "url": "https://www.alibaba.com/product-detail/300ml-Kids-Water-Bottle-Tumbler-Custom_1601803862187.html",
+      "primaryKeyword": "custom frosted kids stainless steel water bottle 300mL",
+      "sourceTitle": "300ml Kids Water Bottle Tumbler Custom Frosted Cups Novelty in Stock Vasos for Best Selling Products 2026"
+    },
+    {
+      "slug": "64oz-stainless-steel-coffee-cup-8973",
+      "title": "Custom 64oz Travel Coffee Cup",
+      "category": "Coffee Cup Series",
+      "url": "https://www.alibaba.com/product-detail/64oz-Custom-Flask-Leak-Proof-Tumbler_1601803678973.html",
+      "primaryKeyword": "wholesale travel stainless steel coffee cup 64oz",
+      "sourceTitle": "64oz Custom Flask Leak Proof Tumbler Stainless Steel Tumblers Custom Cups Bulk Items Stainless Steel Cup for Travel Mug"
+    },
+    {
+      "slug": "16oz-stainless-steel-tumbler-8873",
+      "title": "Custom 16oz Tumbler",
+      "category": "Tumbler Series",
+      "url": "https://www.alibaba.com/product-detail/16oz-Beer-Cooler-Bottle-Stainless-Steel_1601803508873.html",
+      "primaryKeyword": "wholesale stainless steel tumbler 16oz",
+      "sourceTitle": "16oz Beer Cooler Bottle Stainless Steel Tumblers Tumblers Wholesale Bulk Bulk Items Vasos Termicos for Home"
+    },
+    {
+      "slug": "20oz-stainless-steel-tumbler-8801",
+      "title": "Custom 20oz Frosted Tumbler",
+      "category": "Tumbler Series",
+      "url": "https://www.alibaba.com/product-detail/20oz-Custom-Drinkware-Custom-Frosted-Cups_1601803348801.html",
+      "primaryKeyword": "custom frosted stainless steel tumbler 20oz",
+      "sourceTitle": "20oz Custom Drinkware Custom Frosted Cups Thermal Cups Hot Sale Insulated Tumbler for Mother's Day Gift Set"
+    },
+    {
+      "slug": "17oz-stainless-steel-coffee-cup-9467",
+      "title": "Custom 17oz Vacuum Insulated Coffee Cup",
+      "category": "Coffee Cup Series",
+      "url": "https://www.alibaba.com/product-detail/17oz-Custom-Coffee-Cup-Mugs-Insulated_1601800139467.html",
+      "primaryKeyword": "custom logo vacuum insulated stainless steel coffee cup 17oz",
+      "sourceTitle": "17oz Custom Coffee Cup Mugs Insulated Water Bottles Cups with Logo Wholesale Tumblers Wholesale Bulk for Mother's Day"
+    },
+    {
+      "slug": "380ml-stainless-steel-coffee-cup-3187",
+      "title": "Custom 380mL Coffee Cup",
+      "category": "Coffee Cup Series",
+      "url": "https://www.alibaba.com/product-detail/380ml-Coffee-Cup-Bottle-Stainless-Steel_1601798543187.html",
+      "primaryKeyword": "wholesale stainless steel coffee cup 380mL",
+      "sourceTitle": "380ml Coffee Cup Bottle Stainless Steel Tumblers Custom Water Bottle Bulk Items Stainless Steel Cup for Party Favors"
+    },
+    {
+      "slug": "380ml-stainless-steel-coffee-cup-3171",
+      "title": "Custom 380mL Frosted Coffee Cup",
+      "category": "Coffee Cup Series",
+      "url": "https://www.alibaba.com/product-detail/380ml-Coffee-Cup-Tumblers-Custom-Frosted_1601798513171.html",
+      "primaryKeyword": "wholesale frosted stainless steel coffee cup 380mL",
+      "sourceTitle": "380ml Coffee Cup Tumblers Custom Frosted Cups Drinkware & Accessories Bulk Items Stainless Steel Cup for Kitchen"
+    },
+    {
+      "slug": "500ml-stainless-steel-sports-bottle-4364",
+      "title": "Custom 500mL Travel Coffee Cup",
+      "category": "Coffee Cup Series",
+      "url": "https://www.alibaba.com/product-detail/Custom-Bottle-500ml-Stainless-Steel-Cup_1601524404364.html",
+      "primaryKeyword": "custom travel stainless steel coffee cup 500mL",
+      "sourceTitle": "Custom Bottle 500ml Stainless Steel Cup Christmas Mugs Drinkware Matte Finish Travel Mug Gourde D'eau Sports Bottles"
+    },
+    {
+      "slug": "550ml-stainless-steel-coffee-cup-8896",
+      "title": "Custom 550mL Travel Coffee Cup",
+      "category": "Coffee Cup Series",
+      "url": "https://www.alibaba.com/product-detail/550ml-Custom-Bottle-Insulated-Water-Bottles_1601782738896.html",
+      "primaryKeyword": "custom travel stainless steel coffee cup 550mL",
+      "sourceTitle": "550ml Custom Bottle  Insulated Water Bottles Stainless Steel in Stock Leak Proof Tumbler for Travel Mug Tumbler Cups"
+    },
+    {
+      "slug": "550ml-stainless-steel-tumbler-0796",
+      "title": "Custom 550mL Tumbler",
+      "category": "Tumbler Series",
+      "url": "https://www.alibaba.com/product-detail/550ml-Custom-Bottle-Tumblers-Stainless-Steel_1601782750796.html",
+      "primaryKeyword": "custom logo stainless steel tumbler 550mL",
+      "sourceTitle": "550ml Custom Bottle Tumblers Stainless Steel Tumblers Cups with Logo in Stock Tumblers Wholesale Bulk"
+    },
+    {
+      "slug": "14oz-stainless-steel-coffee-cup-0106",
+      "title": "Custom 14oz Travel Coffee Cup",
+      "category": "Coffee Cup Series",
+      "url": "https://www.alibaba.com/product-detail/12-14oz-Custom-Coffee-Mug-Stainless_1601782840106.html",
+      "primaryKeyword": "custom travel stainless steel coffee cup 14oz",
+      "sourceTitle": "12/14oz Custom Coffee Mug  Stainless Steel Tumblers Powder Coated Tumbler Hot Sale Stainless Steel Cup for Travel Mug"
+    },
+    {
+      "slug": "20oz-stainless-steel-sports-bottle-5513",
+      "title": "Custom 20oz Shaker Sports Bottle",
+      "category": "Sports Bottle Series",
+      "url": "https://www.alibaba.com/product-detail/20oz-Custom-Shaker-Bottles-Tumblers-Insulated_1601782245513.html",
+      "primaryKeyword": "custom logo shaker stainless steel sports bottle 20oz",
+      "sourceTitle": "20oz Custom Shaker Bottles Tumblers Insulated Water Bottles Cups with Logo in Stock Leak Proof Tumbler"
+    },
+    {
+      "slug": "20oz-stainless-steel-sports-bottle-2629",
+      "title": "Custom 20oz Shaker Sports Bottle",
+      "category": "Sports Bottle Series",
+      "url": "https://www.alibaba.com/product-detail/20oz-Custom-Shaker-Bottles-Cups-Stainless_1601782212629.html",
+      "primaryKeyword": "custom logo shaker stainless steel sports bottle 20oz",
+      "sourceTitle": "20oz Custom Shaker Bottles  Cups Stainless Steel Tumblers Cups with Logo Hot Sale Insulated Tumbler for New Products"
+    },
+    {
+      "slug": "20oz-stainless-steel-sports-bottle-0534",
+      "title": "Custom 20oz Shaker Sports Bottle",
+      "category": "Sports Bottle Series",
+      "url": "https://www.alibaba.com/product-detail/20oz-Shaker-Bottles-Bottle-Custom-Frosted_1601782200534.html",
+      "primaryKeyword": "wholesale shaker stainless steel sports bottle 20oz",
+      "sourceTitle": "20oz Shaker Bottles  Bottle Custom Frosted Cups Thermos Wholesale Vasos for Mother's Day Gift Set Sports"
+    },
+    {
+      "slug": "20oz-stainless-steel-sports-bottle-2076",
+      "title": "Custom 20oz Shaker Sports Bottle",
+      "category": "Sports Bottle Series",
+      "url": "https://www.alibaba.com/product-detail/20oz-Shaker-Bottles-Tumbler-Insulated-Water_1601782202076.html",
+      "primaryKeyword": "wholesale shaker stainless steel sports bottle 20oz",
+      "sourceTitle": "20oz Shaker Bottles  Tumbler Insulated Water Bottles Thermal Cups Bulk Stainless Steel Cup for Sports"
+    },
+    {
+      "slug": "20oz-stainless-steel-sports-bottle-1122",
+      "title": "Custom 20oz Shaker Sports Bottle",
+      "category": "Sports Bottle Series",
+      "url": "https://www.alibaba.com/product-detail/20oz-Shaker-Bottles-Tumbler-Stainless-Steel_1601782171122.html",
+      "primaryKeyword": "wholesale shaker stainless steel sports bottle 20oz",
+      "sourceTitle": "20oz Shaker Bottles  Tumbler Stainless Steel Tumblers Wholesale Bulk in Stock Leak Proof Tumbler for Sports"
+    },
+    {
+      "slug": "24oz-stainless-steel-sports-bottle-2865",
+      "title": "Custom 24oz Shaker Coffee Cup",
+      "category": "Coffee Cup Series",
+      "url": "https://www.alibaba.com/product-detail/24oz-Shaker-Bottles-Mugs-Custom-Frosted_1601781242865.html",
+      "primaryKeyword": "wholesale shaker stainless steel coffee cup 24oz",
+      "sourceTitle": "24oz Shaker Bottles  Mugs Custom Frosted Cups Tumblers Wholesale Bulk in Stock Stainless Steel Cup for Travel Mug"
+    },
+    {
+      "slug": "24oz-stainless-steel-sports-bottle-2051",
+      "title": "Custom 24oz Shaker Sports Bottle",
+      "category": "Sports Bottle Series",
+      "url": "https://www.alibaba.com/product-detail/24oz-Shaker-Bottles-Custom-Cups-Custom_1601781372051.html",
+      "primaryKeyword": "custom shaker stainless steel sports bottle 24oz",
+      "sourceTitle": "24oz Shaker Bottles  Custom Cups Custom Frosted Cups Drinkware & Accessories in Stock Insulated Tumbler"
+    },
+    {
+      "slug": "24oz-stainless-steel-sports-bottle-1670",
+      "title": "Custom 24oz Shaker Sports Bottle",
+      "category": "Sports Bottle Series",
+      "url": "https://www.alibaba.com/product-detail/2026-New-Product-24oz-Shaker-Bottles_1601781261670.html",
+      "primaryKeyword": "wholesale shaker stainless steel sports bottle 24oz",
+      "sourceTitle": "2026 New Product 24oz Shaker Bottles  Bottle Custom Frosted Cups Novelty Bulk Items Gourde D'eau for Sports"
+    },
+    {
+      "slug": "24oz-stainless-steel-sports-bottle-3640",
+      "title": "Custom 24oz Shaker Sports Bottle",
+      "category": "Sports Bottle Series",
+      "url": "https://www.alibaba.com/product-detail/24oz-Shaker-Bottles-Tumblers-Insulated-Water_1601781263640.html",
+      "primaryKeyword": "wholesale shaker stainless steel sports bottle 24oz",
+      "sourceTitle": "24oz Shaker Bottles  Tumblers Insulated Water Bottles Custom Water Bottle Bulk Items Stainless Steel Tumbler for Sports"
+    },
+    {
+      "slug": "710ml-stainless-steel-sports-bottle-4953",
+      "title": "Custom 710mL Shaker Sports Bottle",
+      "category": "Sports Bottle Series",
+      "url": "https://www.alibaba.com/product-detail/710ml-2026-New-Stainless-Steel-Custom_1601779674953.html",
+      "primaryKeyword": "custom logo shaker stainless steel sports bottle 710mL",
+      "sourceTitle": "710ml 2026 New Stainless Steel Custom Cups Insulated Water Bottles Cups with Logo in Stock Vasos Shaker Bottle for Gym"
+    },
+    {
+      "slug": "710ml-stainless-steel-sports-bottle-1731",
+      "title": "Custom 710mL Leak Proof Sports Bottle",
+      "category": "Sports Bottle Series",
+      "url": "https://www.alibaba.com/product-detail/710ml-Custom-Cups-Double-Wall-Stainless_1601779711731.html",
+      "primaryKeyword": "custom logo leak proof stainless steel sports bottle 710mL",
+      "sourceTitle": "710ml Custom Cups Double Wall Stainless Steel Tumblers Cups with Logo Bulk Items Leak Proof Tumbler for Sports"
+    },
+    {
+      "slug": "500ml-stainless-steel-sports-bottle-7048",
+      "title": "Custom 500mL Shaker Sports Bottle",
+      "category": "Sports Bottle Series",
+      "url": "https://www.alibaba.com/product-detail/500ml-Custom-316-Stainless-Steel-Tumbler_1601779817048.html",
+      "primaryKeyword": "custom shaker stainless steel sports bottle 500mL",
+      "sourceTitle": "500ml Custom 316 Stainless Steel Tumbler Insulated Water Bottles Powder Coated  Shaker Bottle for Sports"
+    },
+    {
+      "slug": "stainless-steel-sports-bottle-5984",
+      "title": "Custom Shaker Sports Bottle",
+      "category": "Sports Bottle Series",
+      "url": "https://www.alibaba.com/product-detail/304-Stainless-Steel-Customizable-Products-Stainless_1601766235984.html",
+      "primaryKeyword": "custom shaker stainless steel sports bottle",
+      "sourceTitle": "304 Stainless Steel Customizable Products Stainless Steel Tumbler Thermos Sports Bottles Shaker Bottle for Gym"
+    },
+    {
+      "slug": "stainless-steel-sports-bottle-6295",
+      "title": "Custom Shaker Sports Bottle",
+      "category": "Sports Bottle Series",
+      "url": "https://www.alibaba.com/product-detail/Wholesale-Quality-Products-Stainless-Steel-Tumbler_1601766316295.html",
+      "primaryKeyword": "wholesale shaker stainless steel sports bottle",
+      "sourceTitle": "Wholesale Quality Products Stainless Steel Tumbler Thermos Tumblers Wholesale Bulk Shaker Bottle for Sports"
+    },
+    {
+      "slug": "smart-stainless-steel-water-bottle-1706",
+      "title": "Custom Smart Water Bottle",
+      "category": "Smart Bottle Series",
+      "url": "https://www.alibaba.com/product-detail/Bulk-Items-Stainless-Steel-Tumbler-Hydrogen_1601766131706.html",
+      "primaryKeyword": "wholesale smart stainless steel water bottle",
+      "sourceTitle": "Bulk Items Stainless Steel Tumbler Hydrogen Water Bottle Coffee Cup Sports Bottles for Wedding Souvenirs"
+    },
+    {
+      "slug": "leak-proof-straw-lid-tumbler-1938",
+      "title": "Custom Leak Proof Straw Lid Tumbler",
+      "category": "Tumbler Series",
+      "url": "https://www.alibaba.com/product-detail/Tumblers-Wholesale-Bulk-Customized-Cup-Leak_1601594771938.html",
+      "primaryKeyword": "wholesale leak proof straw lid stainless steel tumbler",
+      "sourceTitle": "Tumblers Wholesale Bulk Customized Cup Leak Proof Tumbler Sports Bottles Cups With Lids and Straws for World Cup 2026",
+      "imageCount": 6
+    },
+    {
+      "slug": "leak-proof-straw-lid-tumbler-1115",
+      "title": "Custom Leak Proof Straw Lid Tumbler",
+      "category": "Tumbler Series",
+      "url": "https://www.alibaba.com/product-detail/Party-Favors-Magnetic-Sports-Bottles-Water_1601651901115.html",
+      "primaryKeyword": "custom leak proof straw lid stainless steel tumbler",
+      "sourceTitle": "Party Favors Magnetic Sports Bottles Water Bottle Leak Proof Tumbler Cups with Lids and Straws Water Bottle",
+      "imageCount": 6
+    },
+    {
+      "slug": "straw-lid-gift-set-coffee-cup-7083",
+      "title": "Custom Straw Lid Gift Set Coffee Cup",
+      "category": "Coffee Cup Series",
+      "url": "https://www.alibaba.com/product-detail/Premium-Double-Wall-Moscow-Mule-Copper_1601823347083.html",
+      "primaryKeyword": "custom straw lid gift set stainless steel coffee cup",
+      "sourceTitle": "Premium Double Wall Moscow Mule Copper Mug Stainless Steel Straws Wedding Office Cup Gift Set Coffee Mug",
+      "imageCount": 6
+    },
+    {
+      "slug": "1l-frosted-coffee-cup-5062",
+      "title": "Custom 1l Frosted Coffee Cup",
+      "category": "Coffee Cup Series",
+      "url": "https://www.alibaba.com/product-detail/1L-Borosilicate-Glass-Carafe-Bottle-Custom_1601823085062.html",
+      "primaryKeyword": "custom frosted stainless steel coffee cup 1l",
+      "sourceTitle": "1L Borosilicate Glass Carafe Bottle Custom Frosted Cups Nespresso Kettle Custom Coffee Cups for Party Favors",
+      "imageCount": 6
+    },
+    {
+      "slug": "40oz-straw-lid-wedding-gift-tumbler-6719",
+      "title": "Custom 40oz Straw Lid Wedding Gift Tumbler",
+      "category": "Tumbler Series",
+      "url": "https://www.alibaba.com/product-detail/40oz-Custom-Tumbler-with-Straw-Stainless_1601725746719.html",
+      "primaryKeyword": "custom straw lid wedding gift stainless steel tumbler 40oz",
+      "sourceTitle": "40oz Custom Tumbler with Straw Stainless Steel Water Bottle Drinking Bottle Sports Bottles for Wedding Souvenirs",
+      "imageCount": 6
+    },
+    {
+      "slug": "32oz-vacuum-insulated-insulated-tumbler-4381",
+      "title": "Custom 32oz Vacuum Insulated Insulated Tumbler",
+      "category": "Tumbler Series",
+      "url": "https://www.alibaba.com/product-detail/Best-Selling-Products-2025-32oz-Stainless_1601721894381.html",
+      "primaryKeyword": "custom vacuum insulated insulated stainless steel tumbler 32oz",
+      "sourceTitle": "Best Selling Products 2025 32oz Stainless Steel Vacuum Insulated Tumbler with Straw Drinking Bottle Sports Bottles",
+      "imageCount": 6
+    },
+    {
+      "slug": "14oz-leak-proof-straw-lid-coffee-2229",
+      "title": "Custom 14oz Leak Proof Straw Lid Coffee Cup",
+      "category": "Coffee Cup Series",
+      "url": "https://www.alibaba.com/product-detail/14oz-Popular-Products-Stainless-Steel-Tumbler_1601648872229.html",
+      "primaryKeyword": "custom leak proof straw lid stainless steel coffee cup 14oz",
+      "sourceTitle": "14oz Popular Products Stainless Steel Tumbler Tumbler with Straw Stainless Steel Cup Leak Proof Tumbler Coffee Cup",
+      "imageCount": 6
+    },
+    {
+      "slug": "40oz-straw-lid-frosted-water-bottle-9178",
+      "title": "Custom 40oz Straw Lid Frosted Water Bottle",
+      "category": "Water Bottle Series",
+      "url": "https://www.alibaba.com/product-detail/40oz-Water-Bottle-Custom-Frosted-Cups_1601816409178.html",
+      "primaryKeyword": "wholesale straw lid frosted stainless steel water bottle 40oz",
+      "sourceTitle": "40oz Water Bottle Custom Frosted Cups Wholesale Stainless Steel Cup for Party Favors with Straw and Lid",
+      "imageCount": 6
+    },
+    {
+      "slug": "20oz-insulated-straw-lid-tumbler-6912",
+      "title": "Custom 20oz Insulated Straw Lid Tumbler",
+      "category": "Tumbler Series",
+      "url": "https://www.alibaba.com/product-detail/20OZ-Tumbler-Insulated-Water-Bottles-Powder_1601816136912.html",
+      "primaryKeyword": "custom insulated straw lid stainless steel tumbler 20oz",
+      "sourceTitle": "20OZ Tumbler Insulated Water Bottles Powder Coated Tumbler with Straw in Stock Gourde D'eau for Best Selling Products 2026",
+      "imageCount": 6
+    },
+    {
+      "slug": "20oz-coffee-cup-8087",
+      "title": "Custom 20oz Coffee Cup",
+      "category": "Coffee Cup Series",
+      "url": "https://www.alibaba.com/product-detail/20oz-New-Products-Stainless-Steel-Tumbler_1601766178087.html",
+      "primaryKeyword": "wholesale stainless steel coffee cup 20oz",
+      "sourceTitle": "20oz New Products Stainless Steel Tumbler Sports Bottle Coffee Cup Tumblers Wholesale Bulk Coffee Mug",
+      "imageCount": 6
+    },
+    {
+      "slug": "frosted-coffee-cup-7214",
+      "title": "Custom Frosted Coffee Cup",
+      "category": "Coffee Cup Series",
+      "url": "https://www.alibaba.com/product-detail/Custom-Frosted-Cups-Stainless-Steel-Water_1601765947214.html",
+      "primaryKeyword": "custom frosted stainless steel coffee cup",
+      "sourceTitle": "Custom Frosted Cups Stainless Steel Water Bottle Coffee Mug Sports Bottles Coffee Mug for Gifts for Women",
+      "imageCount": 6
+    },
+    {
+      "slug": "frosted-tea-infuser-coffee-cup-8944",
+      "title": "Custom Frosted Tea Infuser Coffee Cup",
+      "category": "Coffee Cup Series",
+      "url": "https://www.alibaba.com/product-detail/Custom-Frosted-Cups-Stainless-Steel-Tumbler_1601765818944.html",
+      "primaryKeyword": "wholesale frosted tea infuser stainless steel coffee cup",
+      "sourceTitle": "Custom Frosted Cups Stainless Steel Tumbler Tea Cup Coffee Cup Tumblers Wholesale Bulk for Mother Day",
+      "imageCount": 6
+    },
+    {
+      "slug": "straw-lid-gift-set-coffee-cup-9557",
+      "title": "Custom Straw Lid Gift Set Coffee Cup",
+      "category": "Coffee Cup Series",
+      "url": "https://www.alibaba.com/product-detail/New-Products-Stainless-Steel-Tumbler-Custom_1601765649557.html",
+      "primaryKeyword": "custom straw lid gift set stainless steel coffee cup oem",
+      "sourceTitle": "New Products Stainless Steel Tumbler Custom Coffee Cup Tumbler with Straw Vasos for Mother's Day Gift Set",
+      "imageCount": 6
+    },
+    {
+      "slug": "leak-proof-tea-infuser-coffee-cup-7364",
+      "title": "Custom Leak Proof Tea Infuser Coffee Cup",
+      "category": "Coffee Cup Series",
+      "url": "https://www.alibaba.com/product-detail/Tumblers-Wholesale-Bulk-Stainless-Steel-Tumbler_1601765137364.html",
+      "primaryKeyword": "wholesale leak proof tea infuser stainless steel coffee cup",
+      "sourceTitle": "Tumblers Wholesale Bulk Stainless Steel Tumbler Espresso Cups Leak Proof Tumbler for Bars with Tea Infuser",
+      "imageCount": 6
+    },
+    {
+      "slug": "tumbler-2122",
+      "title": "Custom Tumbler",
+      "category": "Tumbler Series",
+      "url": "https://www.alibaba.com/product-detail/Customizable-Products-Stainless-Steel-Tumbler-Drinking_1601765042122.html",
+      "primaryKeyword": "custom stainless steel tumbler",
+      "sourceTitle": "Customizable Products Stainless Steel Tumbler Drinking Bottle Gourde D'eau Stainless Steel Cup for Bachelorette",
+      "imageCount": 6
+    },
+    {
+      "slug": "vacuum-insulated-insulated-coffee-cup-2417",
+      "title": "Custom Vacuum Insulated Insulated Coffee Cup",
+      "category": "Coffee Cup Series",
+      "url": "https://www.alibaba.com/product-detail/Custom-Logo-304-Stainless-Steel-Double_1601764972417.html",
+      "primaryKeyword": "custom logo vacuum insulated insulated stainless steel coffee cup",
+      "sourceTitle": "Custom Logo 304 Stainless Steel Double Wall Insulated Coffee Mug Tumbler Lids Vacuum Thermal for Camping",
+      "imageCount": 6
+    },
+    {
+      "slug": "coffee-cup-2461",
+      "title": "Custom Coffee Cup",
+      "category": "Coffee Cup Series",
+      "url": "https://www.alibaba.com/product-detail/Bulk-Items-Stainless-Steel-Tumbler-Water_1601764962461.html",
+      "primaryKeyword": "wholesale stainless steel coffee cup",
+      "sourceTitle": "Bulk Items Stainless Steel Tumbler Water Jug Espresso Cups Stainless Steel Cup Wholesale Quality Products",
+      "imageCount": 6
+    },
+    {
+      "slug": "40oz-vacuum-insulated-insulated-tumbler-4103",
+      "title": "Custom 40oz Vacuum Insulated Insulated Tumbler",
+      "category": "Tumbler Series",
+      "url": "https://www.alibaba.com/product-detail/40oz-Stainless-Steel-Vacuum-Flask-Custom_1601715894103.html",
+      "primaryKeyword": "custom vacuum insulated insulated stainless steel tumbler 40oz",
+      "sourceTitle": "40oz Stainless Steel Vacuum Flask Custom Football Teams Sports Water Bottle Insulated Tumbler Sports Bottles",
+      "imageCount": 5
+    },
+    {
+      "slug": "40oz-vacuum-insulated-insulated-sports-bottle-5089",
+      "title": "Custom 40oz Vacuum Insulated Insulated Sports Bottle",
+      "category": "Sports Bottle Series",
+      "url": "https://www.alibaba.com/product-detail/Custom-40oz-Insulated-Vacuum-Thermal-Cups_1601715995089.html",
+      "primaryKeyword": "custom vacuum insulated insulated stainless steel sports bottle 40oz",
+      "sourceTitle": "Custom 40oz Insulated Vacuum Thermal Cups for Football Fans Stainless Steel Cup Sports Bottles World Cup 2026",
+      "imageCount": 6
+    },
+    {
+      "slug": "straw-lid-wedding-gift-coffee-cup-7401",
+      "title": "Custom Straw Lid Wedding Gift Coffee Cup",
+      "category": "Coffee Cup Series",
+      "url": "https://www.alibaba.com/product-detail/Custom-Cups-Stainless-Steel-Tumbler-Cups_1601762067401.html",
+      "primaryKeyword": "custom straw lid wedding gift stainless steel coffee cup",
+      "sourceTitle": "Custom Cups Stainless Steel Tumbler Cups with Lids and Straws Coffee Mug Vasos for Office Wedding Souvenirs",
+      "imageCount": 6
+    },
+    {
+      "slug": "insulated-straw-lid-tumbler-2827",
+      "title": "Custom Insulated Straw Lid Tumbler",
+      "category": "Tumbler Series",
+      "url": "https://www.alibaba.com/product-detail/Tumblers-Wholesale-Bulk-Stainless-Steel-Cup_1601400732827.html",
+      "primaryKeyword": "wholesale insulated straw lid stainless steel tumbler",
+      "sourceTitle": "Tumblers Wholesale Bulk Stainless Steel Cup Insulated Tumbler Sublimation Mugs Tumbler with Straw and Lid",
+      "imageCount": 6
+    },
+    {
+      "slug": "vacuum-insulated-insulated-coffee-cup-4781",
+      "title": "Custom Vacuum Insulated Insulated Coffee Cup",
+      "category": "Coffee Cup Series",
+      "url": "https://www.alibaba.com/product-detail/Ceramic-Inner-316-Stainless-Steel-Vacuum_1601691744781.html",
+      "primaryKeyword": "custom vacuum insulated insulated stainless steel coffee cup",
+      "sourceTitle": "Ceramic Inner 316 Stainless Steel Vacuum Insulated Coffee Cup High Aesthetic Gift Souvenir Custom Water Cup",
+      "imageCount": 6
+    },
+    {
+      "slug": "gift-set-coffee-cup-4534",
+      "title": "Custom Gift Set Coffee Cup",
+      "category": "Coffee Cup Series",
+      "url": "https://www.alibaba.com/product-detail/Best-Selling-Products-2025-Stainless-Steel_1601717974534.html",
+      "primaryKeyword": "wholesale gift set stainless steel coffee cup",
+      "sourceTitle": "Best Selling Products 2025 Stainless Steel Water Bottle Coffee Cup Tumblers Wholesale Bulk for Mother's Day Gift Set",
+      "imageCount": 6
+    },
+    {
+      "slug": "straw-lid-gift-coffee-cup-6093",
+      "title": "Custom Straw Lid Gift Coffee Cup",
+      "category": "Coffee Cup Series",
+      "url": "https://www.alibaba.com/product-detail/Eco-Friendly-Products-Stainless-Steel-Tumblers_1601735476093.html",
+      "primaryKeyword": "custom straw lid gift stainless steel coffee cup",
+      "sourceTitle": "Eco Friendly Products Stainless Steel Tumblers Stainless Steel Cup Christmas Mugs Metal Water Bottle with Straw",
+      "imageCount": 6
+    },
+    {
+      "slug": "insulated-coffee-cup-2362",
+      "title": "Custom Insulated Coffee Cup",
+      "category": "Coffee Cup Series",
+      "url": "https://www.alibaba.com/product-detail/Tumblers-Wholesale-Bulk-Insulated-Water-Bottles_1601733402362.html",
+      "primaryKeyword": "wholesale insulated stainless steel coffee cup",
+      "sourceTitle": "Tumblers Wholesale Bulk Insulated Water Bottles Stainless Steel Cup Insulated Tumbler Custom Coffee Cups",
+      "imageCount": 6
+    },
+    {
+      "slug": "leak-proof-wedding-gift-smart-temperature-0994",
+      "title": "Custom Leak Proof Wedding Gift Smart Temperature Bottle",
+      "category": "Smart Bottle Series",
+      "url": "https://www.alibaba.com/product-detail/Smart-Home-Products-Custom-Mugs-316_1601733260994.html",
+      "primaryKeyword": "custom leak proof wedding gift smart temperature bottle",
+      "sourceTitle": "Smart Home Products Custom Mugs 316 Stainless Steel Water Bottle Tea Cup Leak Proof Tumbler Vasos for Wedding Souvenirs",
+      "imageCount": 6
+    },
+    {
+      "slug": "handle-tumbler-3937",
+      "title": "Custom Handle Tumbler",
+      "category": "Tumbler Series",
+      "url": "https://www.alibaba.com/product-detail/Custom-Water-Bottle-Wholesale-Products-Stainless_1601733223937.html",
+      "primaryKeyword": "custom logo handle stainless steel tumbler",
+      "sourceTitle": "Custom Water Bottle Wholesale Products Stainless Steel Water Bottle Thermal Cup Logo Travel Handle Double Wall Tumblers",
+      "imageCount": 6
+    },
+    {
+      "slug": "leak-proof-tumbler-7792",
+      "title": "Custom Leak Proof Tumbler",
+      "category": "Tumbler Series",
+      "url": "https://www.alibaba.com/product-detail/Custom-Mugs-Stainless-Steel-Water-Bottle_1601726787792.html",
+      "primaryKeyword": "custom leak proof stainless steel tumbler",
+      "sourceTitle": "Custom Mugs Stainless Steel Water Bottle Drinking Bottle Leak Proof Tumbler for Sports Stainless Steel Cup",
+      "imageCount": 6
+    },
+    {
+      "slug": "leak-proof-tumbler-0666",
+      "title": "Custom Leak Proof Tumbler",
+      "category": "Tumbler Series",
+      "url": "https://www.alibaba.com/product-detail/Tumblers-Wholesale-Bulk-Stainless-Steel-Tumbler_1601726730666.html",
+      "primaryKeyword": "wholesale leak proof stainless steel tumbler",
+      "sourceTitle": "Tumblers Wholesale Bulk Stainless Steel Tumbler Sports Bottle Tumbler Leak Proof Tumbler for Mother Day",
+      "imageCount": 6
+    },
+    {
+      "slug": "leak-proof-gift-coffee-cup-5811",
+      "title": "Custom Leak Proof Gift Coffee Cup",
+      "category": "Coffee Cup Series",
+      "url": "https://www.alibaba.com/product-detail/Best-Selling-Products-2025-Water-Bottle_1601726695811.html",
+      "primaryKeyword": "custom leak proof gift stainless steel coffee cup",
+      "sourceTitle": "Best Selling Products 2025 Water Bottle Stainless Steel Leak Proof Tumbler Christmas Mugs Travel Mugs for Hot Drinks",
+      "imageCount": 6
+    },
+    {
+      "slug": "17oz-thermos-kids-water-bottle-3749",
+      "title": "Custom 17oz Thermos Kids Water Bottle",
+      "category": "Kids Bottle Series",
+      "url": "https://www.alibaba.com/product-detail/17OZ-New-Products-Stainless-Steel-Water_1601724493749.html",
+      "primaryKeyword": "wholesale thermos kids stainless steel water bottle 17oz",
+      "sourceTitle": "17OZ New Products Stainless Steel Water Bottle Tumblers Wholesale Bulk Kid Water Bottle Thermos Bottle",
+      "imageCount": 6
+    },
+    {
+      "slug": "leak-proof-gift-set-tumbler-9174",
+      "title": "Custom Leak Proof Gift Set Tumbler",
+      "category": "Tumbler Series",
+      "url": "https://www.alibaba.com/product-detail/Custom-Mugs-Stainless-Steel-Tumbler-Water_1601721999174.html",
+      "primaryKeyword": "custom leak proof gift set stainless steel tumbler",
+      "sourceTitle": "Custom Mugs Stainless Steel Tumbler Water Bottle Leak Proof Tumbler for Mother's Day Gift Set Valentine's Gift",
+      "imageCount": 6
+    },
+    {
+      "slug": "wedding-gift-sports-bottle-5034",
+      "title": "Custom Wedding Gift Sports Bottle",
+      "category": "Sports Bottle Series",
+      "url": "https://www.alibaba.com/product-detail/Novelties-Stainless-Steel-Water-Bottle-Drinking_1601722025034.html",
+      "primaryKeyword": "custom wedding gift stainless steel sports bottle",
+      "sourceTitle": "Novelties Stainless Steel Water Bottle Drinking Bottle Sports Bottles Vasos for Party Favors Wedding Souvenirs",
+      "imageCount": 6
+    },
+    {
+      "slug": "gift-set-wedding-gift-tumbler-5444",
+      "title": "Custom Gift Set Wedding Gift Tumbler",
+      "category": "Tumbler Series",
+      "url": "https://www.alibaba.com/product-detail/Tumblers-Wholesale-Bulk-Stainless-Steel-Tumbler_1601721895444.html",
+      "primaryKeyword": "wholesale gift set wedding gift stainless steel tumbler",
+      "sourceTitle": "Tumblers Wholesale Bulk Stainless Steel Tumbler Tumbler Vasos Termicos for Mother's Day Gift Set Wedding Gift",
+      "imageCount": 6
+    },
+    {
+      "slug": "gift-set-wedding-gift-tumbler-2792",
+      "title": "Custom Gift Set Wedding Gift Tumbler",
+      "category": "Tumbler Series",
+      "url": "https://www.alibaba.com/product-detail/Custom-Cups-for-Wedding-Stainless-Steel_1601721492792.html",
+      "primaryKeyword": "custom gift set wedding gift stainless steel tumbler",
+      "sourceTitle": "Custom Cups for Wedding Stainless Steel Tumbler Tumbler with Lid Gourde D'eau for Mother's Day Gift Set",
+      "imageCount": 6
+    },
+    {
+      "slug": "vacuum-insulated-wedding-gift-tumbler-3482",
+      "title": "Custom Vacuum Insulated Wedding Gift Tumbler",
+      "category": "Tumbler Series",
+      "url": "https://www.alibaba.com/product-detail/Tumblers-Wholesale-Bulk-Leakproof-Travel-Mugs_1601721513482.html",
+      "primaryKeyword": "wholesale vacuum insulated wedding gift stainless steel tumbler",
+      "sourceTitle": "Tumblers Wholesale Bulk Leakproof Travel Mugs Classic Vacuum Tumbler Mugs for Mother Day Wedding Souvenirs",
+      "imageCount": 6
+    },
+    {
+      "slug": "insulated-wedding-gift-tumbler-7766",
+      "title": "Custom Insulated Wedding Gift Tumbler",
+      "category": "Tumbler Series",
+      "url": "https://www.alibaba.com/product-detail/Custom-Cups-for-Wedding-Insulated-Stainless_1601721427766.html",
+      "primaryKeyword": "custom insulated wedding gift stainless steel tumbler",
+      "sourceTitle": "Custom Cups for Wedding Insulated Stainless Steel Cup Double Wall Tumbler for Wedding Souvenirs Mother Day",
+      "imageCount": 6
+    },
+    {
+      "slug": "12oz-wedding-gift-tumbler-4074",
+      "title": "Custom 12oz Wedding Gift Tumbler",
+      "category": "Tumbler Series",
+      "url": "https://www.alibaba.com/product-detail/12oz-Custom-Cups-for-Wedding-Stainless_1601677604074.html",
+      "primaryKeyword": "wholesale wedding gift stainless steel tumbler 12oz",
+      "sourceTitle": "12oz Custom Cups for Wedding Stainless Steel Water Bottle Drinkware Tumblers Wholesale Bulk for Gift Valentine's Day",
+      "imageCount": 6
+    },
+    {
+      "slug": "insulated-wedding-gift-tumbler-1395",
+      "title": "Custom Insulated Wedding Gift Tumbler",
+      "category": "Tumbler Series",
+      "url": "https://www.alibaba.com/product-detail/Custom-Cups-for-Wedding-Stainless-Steel_1601677561395.html",
+      "primaryKeyword": "custom insulated wedding gift stainless steel tumbler oem",
+      "sourceTitle": "Custom Cups for Wedding Stainless Steel Cup Hydrogen Water Bottle Insulated Tumbler for Valentine's Day",
+      "imageCount": 6
+    },
+    {
+      "slug": "gift-set-tumbler-8680",
+      "title": "Custom Gift Set Tumbler",
+      "category": "Tumbler Series",
+      "url": "https://www.alibaba.com/product-detail/Custom-Cups-Stainless-Steel-Water-Bottle_1601717978680.html",
+      "primaryKeyword": "wholesale gift set stainless steel tumbler",
+      "sourceTitle": "Custom Cups Stainless Steel Water Bottle Drink Bottle Tumblers Wholesale Bulk for Mother's Day Gift Set",
+      "imageCount": 6
+    },
+    {
+      "slug": "gift-set-thermos-water-bottle-6630",
+      "title": "Custom Gift Set Thermos Water Bottle",
+      "category": "Water Bottle Series",
+      "url": "https://www.alibaba.com/product-detail/Bulk-Items-Stainless-Steel-Water-Bottle_1601717986630.html",
+      "primaryKeyword": "wholesale gift set thermos stainless steel water bottle",
+      "sourceTitle": "Bulk Items Stainless Steel Water Bottle Thermos Gourde D'eau Drinking Bottle for Mother's Day Gift Set",
+      "imageCount": 6
+    },
+    {
+      "slug": "leak-proof-tumbler-4521",
+      "title": "Custom Leak Proof Tumbler",
+      "category": "Tumbler Series",
+      "url": "https://www.alibaba.com/product-detail/Custom-Water-Bottle-Stainless-Steel-Tumbler_1601718024521.html",
+      "primaryKeyword": "custom logo leak proof stainless steel tumbler",
+      "sourceTitle": "Custom Water Bottle Stainless Steel Tumbler Thermal Cup Logo Double Wall Leak Proof Tumbler for Mother Day Party Favors",
+      "imageCount": 6
+    },
+    {
+      "slug": "straw-lid-tumbler-5461",
+      "title": "Custom Straw Lid Tumbler",
+      "category": "Tumbler Series",
+      "url": "https://www.alibaba.com/product-detail/Custom-3D-Printed-Leakproof-Tumbler-New_1601718035461.html",
+      "primaryKeyword": "custom straw lid stainless steel tumbler",
+      "sourceTitle": "Custom 3D Printed Leakproof Tumbler New Products Stainless Steel Water Bottle Tumbler with Straw for Mother Day",
+      "imageCount": 6
+    },
+    {
+      "slug": "straw-lid-tumbler-7660",
+      "title": "Custom Straw Lid Tumbler",
+      "category": "Tumbler Series",
+      "url": "https://www.alibaba.com/product-detail/Bulk-Items-New-Products-Stainless-Steel_1601717957660.html",
+      "primaryKeyword": "wholesale straw lid stainless steel tumbler",
+      "sourceTitle": "Bulk Items New Products Stainless Steel Water Bottle Tumbler with Straw Sports Bottles for Mother Day Gift",
+      "imageCount": 6
+    },
+    {
+      "slug": "gift-set-wedding-gift-tumbler-4453",
+      "title": "Custom Gift Set Wedding Gift Tumbler",
+      "category": "Tumbler Series",
+      "url": "https://www.alibaba.com/product-detail/Custom-Cups-for-Wedding-Stainless-Steel_1601718014453.html",
+      "primaryKeyword": "wholesale gift set wedding gift stainless steel tumbler oem",
+      "sourceTitle": "Custom Cups for Wedding Stainless Steel Water Bottle Travel Mug Tumblers Wholesale Bulk for Mother's Day Gift Set",
+      "imageCount": 6
+    },
+    {
+      "slug": "40oz-leak-proof-tumbler-6394",
+      "title": "Custom 40oz Leak Proof Tumbler",
+      "category": "Tumbler Series",
+      "url": "https://www.alibaba.com/product-detail/Tumblers-Wholesale-Bulk-40oz-Stainless-Steel_1601715756394.html",
+      "primaryKeyword": "wholesale leak proof stainless steel tumbler 40oz",
+      "sourceTitle": "Tumblers Wholesale Bulk 40oz Stainless Steel Tumbler Water Bottle Leak Proof Tumbler for World Cup 2026",
+      "imageCount": 5
+    },
+    {
+      "slug": "sports-bottle-7648",
+      "title": "Custom Sports Bottle",
+      "category": "Sports Bottle Series",
+      "url": "https://www.alibaba.com/product-detail/Hot-Selling-Products-2026-Plastic-Cups_1601686697648.html",
+      "primaryKeyword": "custom stainless steel sports bottle",
+      "sourceTitle": "Hot Selling Products 2026 Plastic Cups BPA Free Drink Sports Bottles Squeeze Cycling Bottle for Sports",
+      "imageCount": 6
+    },
+    {
+      "slug": "coffee-cup-2145",
+      "title": "Custom Coffee Cup",
+      "category": "Coffee Cup Series",
+      "url": "https://www.alibaba.com/product-detail/Custom-Logo-Clear-Cute-Teddy-Bear_1601635442145.html",
+      "primaryKeyword": "custom logo stainless steel coffee cup",
+      "sourceTitle": "Custom Logo Clear Cute Teddy Bear Cup Glass Drinkware Lid for Water Coffee Mug and Beanie Lids-as a Gift",
+      "imageCount": 6
+    },
+    {
+      "slug": "20oz-sports-bottle-4207",
+      "title": "Custom 20oz Sports Bottle",
+      "category": "Sports Bottle Series",
+      "url": "https://www.alibaba.com/product-detail/20oz-Large-Portable-Protein-Shaker-Cup_1601448694207.html",
+      "primaryKeyword": "custom stainless steel sports bottle 20oz",
+      "sourceTitle": "20oz Large Portable Protein Shaker Cup Cute Plastic Drinkware for Sports Bottles Fitness Gym and Travel",
+      "imageCount": 6
+    },
+    {
+      "slug": "16oz-frosted-tumbler-8009",
+      "title": "Custom 16oz Frosted Tumbler",
+      "category": "Tumbler Series",
+      "url": "https://www.alibaba.com/product-detail/16oz-20oz-High-Borosilicate-Frosted-Glass_1601702568009.html",
+      "primaryKeyword": "custom frosted stainless steel tumbler 16oz",
+      "sourceTitle": "16oz 20oz High Borosilicate Frosted Glass Heat Transfer Tumbler Custom Cups Sublimation Blanks Party Favors Sublimation Tumbler",
+      "imageCount": 6
+    }
+  ]
+}

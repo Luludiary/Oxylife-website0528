@@ -1,8 +1,7 @@
 import "./globals.css";
 import { Header } from "./components/Header";
 import { SiteFooter } from "./components/SiteFooter";
-import { SocialLinks } from "./components/SocialLinks";
-import { WhatsAppButton } from "./components/WhatsAppButton";
+import { FloatingContactButtons } from "./components/FloatingContactButtons";
 
 export const metadata = {
   title: "OXYDIARY | Stainless Steel Drinkware Manufacturer",
@@ -16,8 +15,7 @@ export default function RootLayout({ children }) {
       <body>
         <Header />
         {children}
-        <WhatsAppButton />
-        <SocialLinks variant="floating" />
+        <FloatingContactButtons />
         <SiteFooter />
       </body>
     </html>

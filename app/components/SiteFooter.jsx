@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { SocialLinks } from "./SocialLinks";
 
 export function SiteFooter() {
@@ -7,8 +8,13 @@ export function SiteFooter() {
       <div className="footer-grid">
         <div>
           <div className="brand">
-            <strong>OXYDIARY</strong>
-            <span>Stainless Steel Drinkware Manufacturer</span>
+            <Image
+              src="/images/logo.png"
+              alt="OxyDiary"
+              width={580}
+              height={175}
+            />
+            <span>CUSTOM DRINKWARE MANUFACTURER</span>
           </div>
           <p style={{ marginTop: 18 }}>
             OEM/ODM drinkware manufacturing for global brands, importers,
@@ -27,8 +33,11 @@ export function SiteFooter() {
         <div>
           <h3>Contact Us</h3>
           <div className="footer-links">
-            <a href="mailto:sales@oxydiary.com">sales@oxydiary.com</a>
-            <span>No. 8 Industry Road, Yongkang City, Zhejiang, China</span>
+            <a href="https://wa.me/8615102106279" target="_blank" rel="noopener noreferrer">
+              Whatsapp: +86 15102106279
+            </a>
+            <a href="mailto:shservice@oxylifediary.com">Email: shservice@oxylifediary.com</a>
+            <span>Address: 181 Yingbin Ave, Xiangzhu Town, Yongkang, Zhejiang 321313, P.R.China</span>
           </div>
         </div>
         <div>
