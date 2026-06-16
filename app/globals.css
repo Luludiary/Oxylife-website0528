@@ -2353,6 +2353,7 @@ textarea.field {
 
 .form-status {
   display: none;
+  grid-column: 1 / -1;
   margin-top: 16px;
   padding: 12px 14px;
   border-radius: 6px;
@@ -2364,6 +2365,11 @@ textarea.field {
 
 .form-status.is-visible {
   display: block;
+}
+
+.form-status.is-error {
+  background: rgba(190, 54, 54, .18);
+  color: #ffe0e0;
 }
 
 .sustainability {
