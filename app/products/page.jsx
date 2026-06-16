@@ -1,5 +1,7 @@
 ﻿import Image from "next/image";
 import Link from "next/link";
+import { bulkProductDetails } from "./[slug]/bulkProducts";
+import { ProductCatalogList } from "./ProductCatalogList";
 
 export const metadata = {
   title: "Products | OXYDIARY",
@@ -142,6 +144,28 @@ const featuredProducts = [
   },
 ];
 
+const manualProducts = featuredProducts.map((product, index) => ({
+  slug: product.href.replace("/products/", ""),
+  title: product.title,
+  image: product.image,
+  capacities: product.specs,
+  primaryKeyword: product.title,
+  popularityRank: index,
+  latestRank: index,
+}));
+
+const bulkProducts = Object.entries(bulkProductDetails).map(([slug, product], index) => ({
+  slug,
+  title: product.title,
+  image: product.image,
+  capacities: product.capacities,
+  primaryKeyword: product.primaryKeyword,
+  popularityRank: manualProducts.length + index,
+  latestRank: manualProducts.length + index,
+}));
+
+const catalogProducts = [...manualProducts, ...bulkProducts];
+
 export default function ProductsPage() {
   return (
     <main className="products-page">
@@ -154,8 +178,8 @@ export default function ProductsPage() {
               retail program, or corporate project.
             </p>
             <div className="products-hero-actions">
-              <Link className="btn btn-primary" href="#product-categories">
-                View Categories
+              <Link className="btn btn-primary" href="#product-list">
+                View Products
               </Link>
               <Link className="btn btn-green" href="/contact">
                 Request a Quote
@@ -165,30 +189,9 @@ export default function ProductsPage() {
         </div>
       </section>
 
-      <section className="products-catalog-section" id="product-categories">
+      <section className="products-catalog-section" id="product-list">
         <div className="container">
-          <div className="products-section-head">
-            <h2>Product Categories</h2>
-            <p>Browse our core drinkware series and find the right solution for your market.</p>
-          </div>
-          <div className="products-category-grid">
-            {categories.map((category) => (
-              <Link className="products-category-card" href={category.href} key={category.title}>
-                <div className="products-category-image">
-                  <Image
-                    src={category.image}
-                    alt={category.title}
-                    width={520}
-                    height={520}
-                    quality={100}
-                  />
-                </div>
-                <h3>{category.title}</h3>
-                <p>{category.subtitle}</p>
-                <span>View Series</span>
-              </Link>
-            ))}
-          </div>
+          <ProductCatalogList products={catalogProducts} />
         </div>
       </section>
 

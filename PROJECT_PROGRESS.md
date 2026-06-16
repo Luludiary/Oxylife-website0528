@@ -495,3 +495,19 @@ npm.cmd run build
   - `app/products/[slug]/page.jsx`
   - `app/globals.css`
 - Confirmed `npm.cmd run build` passed after this update.
+
+## Products Page Product List Update - 2026-06-16
+
+- Replaced the `/products` page `Product Categories` section with a direct all-product listing.
+- Added two sorting controls:
+  - `Sort by popularity`
+  - `Sort by latest`
+- Added paginated product listing behavior with 20 products per page.
+- The first Products page CTA now jumps to the product list instead of category cards.
+- Added file:
+  - `app/products/ProductCatalogList.jsx`
+- Updated files:
+  - `app/products/page.jsx`
+  - `app/globals.css`
+  - `PROJECT_PROGRESS.md`
+- Confirmed `npm.cmd run build` passed after this update.
