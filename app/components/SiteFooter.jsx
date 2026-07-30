@@ -14,20 +14,23 @@ export function SiteFooter() {
               width={580}
               height={175}
             />
-            <span>CUSTOM DRINKWARE MANUFACTURER</span>
+            <span>CUSTOM DRINKWARE & FOODWARE</span>
           </div>
           <p style={{ marginTop: 18 }}>
-            OEM/ODM drinkware manufacturing for global brands, importers,
-            distributors, and corporate gift programs.
+            Custom stainless steel, plastic, and glass drinkware plus lunch boxes
+            for global brands, importers, distributors, and corporate programs.
           </p>
         </div>
         <div>
           <h3>Quick Links</h3>
           <div className="footer-links">
             <Link href="/products">Products</Link>
+            <Link href="/solutions">Solutions</Link>
             <Link href="/oem-odm">OEM/ODM</Link>
             <Link href="/factory">Factory</Link>
             <Link href="/quality">Quality</Link>
+            <Link href="/resources">Buyer Resources</Link>
+            <Link href="/about">About Us</Link>
           </div>
         </div>
         <div>

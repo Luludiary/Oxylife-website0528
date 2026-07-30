@@ -1,12 +1,17 @@
-﻿import Image from "next/image";
+import Image from "next/image";
 import Link from "next/link";
 import { bulkProductDetails } from "./[slug]/bulkProducts";
+import {
+  redirectedProductSlugs,
+  verifiedProductDetails,
+} from "./[slug]/verifiedProducts";
 import { ProductCatalogList } from "./ProductCatalogList";
 
 export const metadata = {
-  title: "Products | OXYDIARY",
+  title: "Custom Drinkware & Lunch Boxes",
   description:
-    "Coffee cups, smart bottles, tumblers, water bottles, sports bottles, and kids bottles for B2B buyers.",
+    "Custom stainless steel, plastic, and glass drinkware plus lunch boxes for B2B buyers. Compare verified models, materials, capacities, customization, and compliance scope.",
+  alternates: { canonical: "/products" },
 };
 
 const categories = [
@@ -45,6 +50,24 @@ const categories = [
     title: "Kids Bottles",
     subtitle: "For School & Children's Markets",
     image: "/images/products/category-kids-bottles.png",
+  },
+  {
+    href: "/products/plastic-drinkware",
+    title: "Plastic Drinkware",
+    subtitle: "For Sports & Promotional Programs",
+    image: "/images/products/alibaba-bulk/sports-bottle-7648-1.avif",
+  },
+  {
+    href: "/products/glass-drinkware",
+    title: "Glass Drinkware",
+    subtitle: "For Retail & Hospitality",
+    image: "/images/products/alibaba-bulk/16oz-frosted-tumbler-8009-1.avif",
+  },
+  {
+    href: "/products/lunch-boxes",
+    title: "Lunch Boxes",
+    subtitle: "For School, Office & Retail",
+    image: "/images/products/lunch-boxes/pp-lunch-box-1.avif",
   },
 ];
 
@@ -111,35 +134,35 @@ const featuredProducts = [
     category: "Tumblers",
     title: "Leak Proof Tumbler with Straw",
     specs: "380ml / 500ml - Custom Logo",
-    image: "/images/products/alibaba/leak-proof-tumbler-1.jpg",
+    image: "/images/products/alibaba/leak-proof-tumbler-1.actual-png.png",
     href: "/products/custom-leak-proof-stainless-steel-tumbler-with-straw",
   },
   {
     category: "Sports Bottles",
     title: "24oz/32oz Sports Bottle",
     specs: "24oz / 32oz - Vacuum Insulated",
-    image: "/images/products/alibaba/sports-tumbler-24-32-1.jpg",
+    image: "/images/products/alibaba/sports-tumbler-24-32-1.actual-png.png",
     href: "/products/wholesale-24-32oz-insulated-sports-bottle",
   },
   {
     category: "Coffee Cups",
     title: "20oz Coffee Tumbler",
     specs: "20oz / 600ml - Custom Logo",
-    image: "/images/products/alibaba/coffee-tumbler-20oz-1.jpg",
+    image: "/images/products/alibaba/coffee-tumbler-20oz-1.actual-png.png",
     href: "/products/custom-20oz-stainless-steel-coffee-tumbler",
   },
   {
     category: "Water Bottles",
     title: "16-32oz Water Bottle",
     specs: "16oz / 19oz / 24oz / 32oz",
-    image: "/images/products/alibaba/outdoor-sports-bottle-1.jpg",
+    image: "/images/products/alibaba/outdoor-sports-bottle-1.actual-png.png",
     href: "/products/custom-16-32oz-stainless-steel-water-bottle",
   },
   {
     category: "Kids Bottles",
     title: "500ml Kids Water Bottle",
     specs: "500ml - BPA-Free Flip Straw",
-    image: "/images/products/alibaba/kids-bottle-500ml-1.jpg",
+    image: "/images/products/alibaba/kids-bottle-500ml-1.actual-png.png",
     href: "/products/custom-500ml-bpa-free-kids-stainless-steel-water-bottle",
   },
 ];
@@ -152,19 +175,43 @@ const manualProducts = featuredProducts.map((product, index) => ({
   primaryKeyword: product.title,
   popularityRank: index,
   latestRank: index,
+  indexable: true,
 }));
 
-const bulkProducts = Object.entries(bulkProductDetails).map(([slug, product], index) => ({
-  slug,
-  title: product.title,
-  image: product.image,
-  capacities: product.capacities,
-  primaryKeyword: product.primaryKeyword,
-  popularityRank: manualProducts.length + index,
-  latestRank: manualProducts.length + index,
-}));
+const bulkProducts = Object.entries(bulkProductDetails)
+  .filter(([slug]) => !redirectedProductSlugs.includes(slug))
+  .map(([slug, product], index) => ({
+    slug,
+    title: product.title,
+    image: product.image,
+    capacities: product.capacities,
+    primaryKeyword: product.primaryKeyword,
+    popularityRank: manualProducts.length + index,
+    latestRank: manualProducts.length + index,
+    indexable: false,
+  }));
 
-const catalogProducts = [...manualProducts, ...bulkProducts];
+const verifiedProducts = Object.entries(verifiedProductDetails).map(
+  ([slug, product], index) => ({
+    slug,
+    title: product.title,
+    image: product.image,
+    capacities: product.capacities,
+    primaryKeyword: product.primaryKeyword,
+    popularityRank: manualProducts.length + index,
+    latestRank: manualProducts.length + index,
+    indexable: true,
+  }),
+);
+
+const catalogProducts = [
+  ...manualProducts,
+  ...verifiedProducts,
+  ...bulkProducts.map((product, index) => ({
+    ...product,
+    popularityRank: manualProducts.length + verifiedProducts.length + index,
+  })),
+];
 
 export default function ProductsPage() {
   return (
@@ -172,10 +219,10 @@ export default function ProductsPage() {
       <section className="products-catalog-hero">
         <div className="container products-hero-inner">
           <div className="products-hero-copy">
-            <h1>Explore Our Drinkware Product Series</h1>
+            <h1>Custom Drinkware & Lunch Box Product Series</h1>
             <p>
-              Find the right stainless steel drinkware solution for your brand,
-              retail program, or corporate project.
+              Compare stainless steel, plastic, and glass drinkware plus lunch
+              boxes for private-label, retail, promotional, and hospitality programs.
             </p>
             <div className="products-hero-actions">
               <Link className="btn btn-primary" href="#product-list">
@@ -197,7 +244,7 @@ export default function ProductsPage() {
 
       <section className="products-custom-strip">
         <div className="container products-custom-inner">
-          <h2>Custom Options Available for All Series</h2>
+          <h2>Customization Confirmed by Product & Order</h2>
           <div className="products-custom-options">
             {customOptions.map((option) => (
               <div className="products-custom-option" key={option.title}>
@@ -213,7 +260,7 @@ export default function ProductsPage() {
         <div className="container">
           <div className="products-section-head">
             <h2>Inside Our Factory</h2>
-            <p>A quick look at our manufacturing environment and production capabilities.</p>
+            <p>A quick look at production, inspection, assembly, and packaging activities used for qualified orders.</p>
           </div>
           <div className="products-factory-grid">
             {factoryItems.map((item) => (
@@ -266,10 +313,10 @@ export default function ProductsPage() {
 
       <section className="products-assurance-strip">
         <div className="container">
-          <span>High-Quality Manufacturing</span>
-          <span>Global Compliance</span>
-          <span>On-Time Delivery</span>
-          <span>Long-Term Partnership</span>
+          <span>Model-Specific Specifications</span>
+          <span>Compliance Matched per SKU</span>
+          <span>Documented Order Milestones</span>
+          <span>Private-Label Support</span>
         </div>
       </section>
     </main>

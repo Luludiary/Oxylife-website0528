@@ -1,10 +1,23 @@
 import Image from "next/image";
 import Link from "next/link";
+import { notFound } from "next/navigation";
 import { QuoteForm } from "../../components/QuoteForm";
 import { products } from "../../components/Sections";
 import { CategoryProductGrid } from "./CategoryProductGrid";
 import { ProductGallery } from "./ProductGallery";
 import { bulkProductDetails } from "./bulkProducts";
+import { verifiedProductDetails } from "./verifiedProducts";
+import { categoryGuides } from "../../_data/categoryGuides";
+import {
+  Checklist,
+  ComparisonTable,
+  ContentSections,
+  DirectAnswer,
+  EditorialMeta,
+  FaqSection,
+  RelatedLinks,
+  faqSchema,
+} from "../../components/GeoContent";
 
 const baseProductDetails = {
   "coffee-cups": {
@@ -73,6 +86,48 @@ const baseProductDetails = {
     ],
     capacities: "350ml / 500ml / 600ml",
   },
+  "plastic-drinkware": {
+    category: "Plastic Drinkware Series",
+    title: "Custom Plastic Drinkware",
+    image: "/images/products/alibaba-bulk/sports-bottle-7648-1.avif",
+    gallery: [
+      "/images/products/alibaba-bulk/sports-bottle-7648-1.avif",
+      "/images/products/alibaba-bulk/750ml-stainless-steel-sports-bottle-8189-1.jpg",
+    ],
+    capacities: "Capacity and resin confirmed by model",
+    metaDescription:
+      "Custom plastic cups and sports bottles for wholesale and private-label projects. Compare material, capacity, closure, logo, packaging, MOQ, and testing by model.",
+    collectionIntro:
+      "Compare verified plastic drinkware by use case, capacity, resin, closure, decoration, and destination-market requirements. Material and BPA-related claims are confirmed per SKU, not applied across the whole collection.",
+  },
+  "glass-drinkware": {
+    category: "Glass Drinkware Series",
+    title: "Custom Glass Drinkware",
+    image: "/images/products/alibaba-bulk/16oz-frosted-tumbler-8009-1.avif",
+    gallery: [
+      "/images/products/alibaba-bulk/16oz-frosted-tumbler-8009-1.avif",
+      "/images/products/alibaba-bulk/1l-frosted-coffee-cup-5062-1.avif",
+    ],
+    capacities: "16oz / 20oz / 1L verified models",
+    metaDescription:
+      "Custom borosilicate glass tumblers and carafes for wholesale, hospitality, retail, and private-label programs. Confirm components, packaging, and testing by model.",
+    collectionIntro:
+      "This collection covers verified borosilicate glass tumblers and carafes. Buyers can compare capacity, lid or infuser configuration, decoration method, protective packaging, and test requirements for the exact model.",
+  },
+  "lunch-boxes": {
+    category: "Lunch Box Series",
+    title: "Custom Lunch Boxes & Insulated Food Containers",
+    image: "/images/products/lunch-boxes/pp-lunch-box-1.avif",
+    gallery: [
+      "/images/products/lunch-boxes/pp-lunch-box-1.avif",
+      "/images/products/lunch-boxes/stainless-lunch-box-1.avif",
+    ],
+    capacities: "Compact cup and 1L / 2L / 3L box models",
+    metaDescription:
+      "Custom stainless steel insulated lunch cups and PP buckle lunch boxes for wholesale and private-label programs. Compare material, capacity, closure, logo, and packaging.",
+    collectionIntro:
+      "Choose between a compact stainless steel insulated food cup and large-capacity PP buckle lunch boxes. Microwave, insulation, food-contact, and BPA-related claims are confirmed only for the exact model and tested components.",
+  },
   "custom-20oz-stainless-steel-coffee-tumbler": {
     category: "Coffee Cup Series",
     categorySlug: "coffee-cups",
@@ -87,7 +142,7 @@ const baseProductDetails = {
     image: "/images/products/alibaba/coffee-tumbler-20oz-1.png",
     gallery: [
       "/images/products/alibaba/coffee-tumbler-20oz-1.png",
-      "/images/products/alibaba/coffee-tumbler-20oz-2.png",
+      "/images/products/alibaba/coffee-tumbler-20oz-2.actual-jpg.jpg",
       "/images/products/alibaba/coffee-tumbler-20oz-3.png",
       "/images/products/alibaba/coffee-tumbler-20oz-4.png",
       "/images/products/alibaba/coffee-tumbler-20oz-5.png",
@@ -142,13 +197,13 @@ const baseProductDetails = {
     gallery: [
       "/images/products/alibaba/leak-proof-tumbler-1.png",
       "/images/products/alibaba/leak-proof-tumbler-2.png",
-      "/images/products/alibaba/leak-proof-tumbler-3.png",
+      "/images/products/alibaba/leak-proof-tumbler-3.actual-jpg.jpg",
       "/images/products/alibaba/leak-proof-tumbler-4.jpg",
-      "/images/products/alibaba/leak-proof-tumbler-5.png",
+      "/images/products/alibaba/leak-proof-tumbler-5.jpg",
       "/images/products/alibaba/leak-proof-tumbler-6.jpg",
     ],
     scenarioImages: [
-      "/images/products/alibaba/leak-proof-tumbler-3.png",
+      "/images/products/alibaba/leak-proof-tumbler-3.actual-jpg.jpg",
       "/images/products/alibaba/leak-proof-tumbler-4.jpg",
     ],
     capacities: "380ml / 500ml",
@@ -412,6 +467,7 @@ const baseProductDetails = {
 const productDetails = {
   ...baseProductDetails,
   ...bulkProductDetails,
+  ...verifiedProductDetails,
 };
 
 const categoryRoutes = {
@@ -421,11 +477,14 @@ const categoryRoutes = {
   "Water Bottle Series": "water-bottles",
   "Sports Bottle Series": "sports-bottles",
   "Kids Bottle Series": "kids-bottles",
+  "Plastic Drinkware Series": "plastic-drinkware",
+  "Glass Drinkware Series": "glass-drinkware",
+  "Lunch Box Series": "lunch-boxes",
 };
 
 const summaryRows = [
   ["Material", "Inner: 18/8 (304) Stainless Steel / Outer: 201 Stainless Steel"],
-  ["MOQ", "100 pcs per model"],
+  ["MOQ", "Confirmed by model and configuration"],
   ["Color Customization", "Pantone color available"],
   ["Lid Options", "Screw cap / Sport lid / Straw lid"],
   ["Logo Options", "Silk print / 3D logo / Laser engraving"],
@@ -443,8 +502,8 @@ const keyFeatures = [
     image: "/images/detail-features/leak-resistant-lid.png",
   },
   {
-    title: "Food-Grade Steel",
-    text: "Durable 18/8 stainless steel with BPA-free contact parts.",
+    title: "Material Specification",
+    text: "Steel grade and food-contact components are confirmed for the selected model and order.",
     image: "/images/detail-features/food-grade-steel.png",
   },
   {
@@ -461,9 +520,9 @@ const specs = [
   ["Finish", "Powder Coated"],
   ["Logo", "Silk Print / 3D Logo / Laser Engraving"],
   ["Packing", "White Box / Custom Box"],
-  ["MOQ", "100 pcs per model"],
-  ["Sample Time", "3-5 Days"],
-  ["Lead Time", "5-15 Days"],
+  ["MOQ", "Confirmed by model and configuration"],
+  ["Sample Time", "Confirmed after artwork and requirements review"],
+  ["Lead Time", "Confirmed after sample approval and order review"],
   ["Port", "Shanghai / Ningbo"],
 ];
 
@@ -539,28 +598,29 @@ const qualitySteps = [
 
 const whyChoose = [
   {
-    title: "Low MOQ",
-    text: "Flexible MOQ from 100 pcs per style.",
+    title: "Model-Specific MOQ",
+    text: "MOQ is quoted against the exact model, color, decoration, and packaging.",
     icon: "moq",
   },
   {
-    title: "Fast Sampling",
-    text: "Samples ready in 3-5 days on average.",
+    title: "Sampling Plan",
+    text: "Sampling scope and timing are confirmed after the product brief is reviewed.",
     icon: "sampling",
   },
   {
-    title: "Stable Lead Time",
-    text: "Efficient production with on-time delivery.",
+    title: "Documented Order Plan",
+    text: "Approved sample, production milestones, inspection, and shipping details are tracked per order.",
     icon: "leadTime",
   },
   {
-    title: "Export to 60+",
-    text: "Trusted by wholesalers and brands worldwide.",
+    title: "Export Coordination",
+    text: "Product, packaging, inspection, and shipping documents are aligned to the destination and buyer brief.",
     icon: "global",
   },
 ];
 
 function getProductFaqs(item) {
+  if (item.faqs) return item.faqs;
   return [
     {
       question: `Can I customize the logo on this ${item.title.toLowerCase()}?`,
@@ -570,12 +630,12 @@ function getProductFaqs(item) {
     {
       question: "What is the MOQ for custom orders?",
       answer:
-        "The MOQ starts from 100 pcs per model, making it suitable for small-batch trials, retail programs, and promotional projects.",
+        "MOQ is confirmed by model, material, decoration method, packaging, and order quantity. Ask for a model-specific quotation before planning a launch.",
     },
     {
       question: "How long does sampling and bulk production take?",
       answer:
-        "Sample time is usually 3-5 days. Bulk production lead time is commonly 5-15 days after sample approval and order confirmation.",
+        "Sample and production timing are confirmed after the exact model, artwork, packaging, quantity, and test requirements are reviewed.",
     },
     {
       question: "Can you provide custom packaging for wholesale buyers?",
@@ -709,12 +769,46 @@ function AdvantageDetailIcon({ type }) {
 }
 
 function CategoryCollectionPage({ category, categorySlug }) {
+  const guide = categoryGuides[categorySlug];
   const categoryProducts = Object.entries(productDetails)
-    .filter(([, product]) => product.sourceUrl && product.categorySlug === categorySlug)
+    .filter(
+      ([, product]) =>
+        product.sourceUrl &&
+        product.categorySlug === categorySlug &&
+        (!Object.values(bulkProductDetails).includes(product) || product.indexable === true),
+    )
     .map(([slug, product]) => ({ slug, ...product }));
+  const collectionSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: category.title,
+    description: category.collectionIntro,
+    url: `https://oxylifediary.com/products/${categorySlug}`,
+    mainEntity: {
+      "@type": "ItemList",
+      itemListElement: categoryProducts.map((product, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        url: `https://oxylifediary.com/products/${product.slug}`,
+        name: product.title,
+      })),
+    },
+  };
+  const categorySchema = guide
+    ? {
+        "@context": "https://schema.org",
+        "@graph": [{ ...collectionSchema, "@context": undefined }, faqSchema(guide.faqs)],
+      }
+    : collectionSchema;
 
   return (
     <main className="product-detail-page">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(categorySchema).replace(/</g, "\\u003c"),
+        }}
+      />
       <section className="category-collection-hero">
         <div className="container">
           <nav className="product-breadcrumb" aria-label="Breadcrumb">
@@ -727,10 +821,7 @@ function CategoryCollectionPage({ category, categorySlug }) {
           <div className="category-collection-head">
             <span className="product-series">{category.category}</span>
             <h1>{category.title}</h1>
-            <p>
-              Browse custom drinkware models in this series for wholesale,
-              OEM logo, color matching, and retail packaging projects.
-            </p>
+            <p>{category.collectionIntro || "Browse verified models for wholesale, private-label, color, logo, and packaging projects."}</p>
           </div>
         </div>
       </section>
@@ -748,6 +839,27 @@ function CategoryCollectionPage({ category, categorySlug }) {
           )}
         </div>
       </section>
+      {guide ? (
+        <>
+          <EditorialMeta />
+          <DirectAnswer>{guide.answer}</DirectAnswer>
+          <ContentSections sections={guide.decisions} />
+          <ComparisonTable
+            headers={guide.headers}
+            rows={guide.rows}
+            title={`${category.title} buyer comparison`}
+          />
+          <Checklist items={guide.checklist} />
+          <FaqSection faqs={guide.faqs} title={`${category.title} sourcing questions`} />
+          <RelatedLinks
+            links={[
+              ["/oem-odm", "Review OEM/ODM options"],
+              ["/quality", "Match evidence to the SKU"],
+              ["/contact", "Request a model recommendation"],
+            ]}
+          />
+        </>
+      ) : null}
     </main>
   );
 }
@@ -764,18 +876,40 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
-  const item = productDetails[slug] || productDetails["sports-bottles"];
+  const item = productDetails[slug];
+  if (!item) notFound();
+  const pageTitle = (
+    item.seoTitle ||
+    `${item.title} | Custom Drinkware Manufacturer`
+  ).replace(/\s*\|\s*OXYDIARY$/i, "");
+  const isUnverifiedBulk =
+    Object.prototype.hasOwnProperty.call(bulkProductDetails, slug) &&
+    item.indexable !== true;
   return {
-    title: item.seoTitle || `${item.title} | Custom Drinkware Manufacturer | OXYDIARY`,
+    title: pageTitle,
     description:
       item.metaDescription ||
       `OEM/ODM ${item.title.toLowerCase()} detail page for global B2B buyers. Custom logo, packaging, and wholesale support available.`,
+    alternates: {
+      canonical: `/products/${slug}`,
+    },
+    robots: isUnverifiedBulk
+      ? { index: false, follow: true }
+      : { index: true, follow: true },
+    openGraph: {
+      title: item.title,
+      description: item.metaDescription || item.collectionIntro,
+      url: `/products/${slug}`,
+      type: "website",
+      images: item.image ? [{ url: item.image, alt: item.title }] : [],
+    },
   };
 }
 
 export default async function ProductDetailPage({ params }) {
   const { slug } = await params;
-  const item = productDetails[slug] || productDetails["sports-bottles"];
+  const item = productDetails[slug];
+  if (!item) notFound();
   const categorySlug = item.categorySlug || categoryRoutes[item.category];
   const isCategoryPage = !item.sourceUrl && categorySlug;
 
@@ -784,11 +918,15 @@ export default async function ProductDetailPage({ params }) {
   }
 
   const rows = item.summaryRows || [summaryRows[0], ["Capacity", item.capacities], ...summaryRows.slice(1)];
-  const specValues = Object.fromEntries(item.specs || []);
-  const specRows = specs.map(([label, value]) => [
-    label,
-    label === "Capacity" ? item.capacities : specValues[label] || value,
-  ]);
+  const specRows =
+    item.specs ||
+    specs.map(([label, value]) => [
+      label,
+      label === "Capacity" ? item.capacities : value,
+    ]);
+  const appliedKeyFeatures = item.keyFeatures || keyFeatures;
+  const appliedCustomOptions = item.customOptions || customOptions;
+  const appliedQualitySteps = item.qualitySteps || qualitySteps;
   const detailTexts = item.detailPlaceholders || detailPlaceholders;
   const scenarioTexts =
     item.scenarioCopy || [
@@ -830,9 +968,63 @@ export default async function ProductDetailPage({ params }) {
       ? relatedImportedProducts
       : products.filter((product) => product.id !== slug).slice(0, 4);
   const faqs = getProductFaqs(item);
+  const productSchema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: item.title,
+    description: item.metaDescription || item.heroSubtitle,
+    url: `https://oxylifediary.com/products/${slug}`,
+    image: galleryImages.map((image) => `https://oxylifediary.com${image}`),
+    category: item.category,
+    brand: {
+      "@type": "Brand",
+      name: "OXYDIARY",
+    },
+    additionalProperty: specRows.map(([name, value]) => ({
+      "@type": "PropertyValue",
+      name,
+      value,
+    })),
+  };
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: "https://oxylifediary.com/",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Products",
+        item: "https://oxylifediary.com/products",
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: item.title,
+        item: `https://oxylifediary.com/products/${slug}`,
+      },
+    ],
+  };
 
   return (
     <main className="product-detail-page">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(productSchema).replace(/</g, "\\u003c"),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(breadcrumbSchema).replace(/</g, "\\u003c"),
+        }}
+      />
       <section className="product-detail-hero">
         <div className="container">
           <nav className="product-breadcrumb" aria-label="Breadcrumb">
@@ -874,7 +1066,7 @@ export default async function ProductDetailPage({ params }) {
         <div className="container">
           <h2 className="detail-section-title">Key Features</h2>
           <div className="detail-card-grid four">
-            {keyFeatures.map((feature) => (
+            {appliedKeyFeatures.map((feature) => (
               <article className="detail-feature-card" key={feature.title}>
                 <div className="detail-feature-icon-image">
                   <Image
@@ -903,7 +1095,7 @@ export default async function ProductDetailPage({ params }) {
 
           <h2 className="detail-section-title">Customization Options</h2>
           <div className="custom-option-grid">
-            {customOptions.map((option) => (
+            {appliedCustomOptions.map((option) => (
               <article className="custom-option-card" key={option.title}>
                 <div className={`custom-option-image ${option.logoCrop ? "is-logo-crop" : ""}`}>
                   <Image
@@ -945,7 +1137,7 @@ export default async function ProductDetailPage({ params }) {
 
           <h2 className="detail-section-title">Quality Control</h2>
           <div className="quality-flow">
-            {qualitySteps.map((step) => (
+            {appliedQualitySteps.map((step) => (
               <article key={step.title}>
                 <div className="quality-flow-image">
                   <Image src={step.image} alt={step.title} width={360} height={360} quality={95} />
@@ -992,8 +1184,8 @@ export default async function ProductDetailPage({ params }) {
       <section className="product-inquiry-band">
         <div className="container product-inquiry-grid">
           <div>
-            <h2>Start Your Custom Drinkware Project</h2>
-            <p>Tell us your ideas and requirements. Our team will provide the best solution for your market.</p>
+            <h2>Start Your Custom Product Project</h2>
+            <p>Share the model, quantity, market, logo, packaging, and testing requirements for a configuration-specific quotation.</p>
           </div>
           <QuoteForm />
         </div>

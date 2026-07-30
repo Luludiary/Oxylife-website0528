@@ -40,6 +40,24 @@ export const products = [
     image: "/images/products/category-kids-bottles.png",
     alt: "Cartoon OxyDiary kids bottle with blue lid",
   },
+  {
+    id: "plastic-drinkware",
+    title: "Plastic Drinkware",
+    image: "/images/products/alibaba-bulk/sports-bottle-7648-1.avif",
+    alt: "Custom plastic squeeze sports bottles",
+  },
+  {
+    id: "glass-drinkware",
+    title: "Glass Drinkware",
+    image: "/images/products/alibaba-bulk/16oz-frosted-tumbler-8009-1.avif",
+    alt: "Frosted borosilicate glass tumblers",
+  },
+  {
+    id: "lunch-boxes",
+    title: "Lunch Boxes",
+    image: "/images/products/lunch-boxes/pp-lunch-box-1.avif",
+    alt: "PP four-sided buckle lunch boxes",
+  },
 ];
 
 export function PageHero({ eyebrow, title, text }) {
@@ -68,7 +86,7 @@ export function ProductCategories({ showCta = true }) {
                 width={760}
                 height={760}
                 sizes="(max-width: 640px) 88vw, (max-width: 980px) 44vw, 30vw"
-                quality={100}
+                quality={86}
               />
             </div>
             <h3>{product.title}</h3>
@@ -98,8 +116,8 @@ export function StatsBand() {
             </svg>
           </span>
           <div>
-            <strong>15,000+</strong>
-            <span>sq m Factory Area</span>
+            <strong>SKU Based</strong>
+            <span>Material & Compliance Review</span>
           </div>
         </div>
         <div className="stat">
@@ -110,8 +128,8 @@ export function StatsBand() {
             </svg>
           </span>
           <div>
-            <strong>80+</strong>
-            <span>Automated Equipments</span>
+            <strong>2024</strong>
+            <span>Space Pot Test Report on File</span>
           </div>
         </div>
         <div className="stat">
@@ -125,8 +143,8 @@ export function StatsBand() {
             </svg>
           </span>
           <div>
-            <strong>10,000,000+</strong>
-            <span>Annual Output</span>
+            <strong>FSC CoC</strong>
+            <span>Wood & Paper Packaging Scope</span>
           </div>
         </div>
         <div className="stat">
@@ -139,8 +157,8 @@ export function StatsBand() {
             </svg>
           </span>
           <div>
-            <strong>60+</strong>
-            <span>Countries & Regions</span>
+            <strong>Per Order</strong>
+            <span>Sample, QC & Shipment Plan</span>
           </div>
         </div>
       </div>
@@ -156,9 +174,9 @@ export function FactoryIntro() {
           <p className="eyebrow">Manufacturing strength</p>
           <h2>Your Trusted Drinkware Manufacturer</h2>
           <p>
-            Located in Yongkang, our factory supports global buyers with design
-            development, stainless steel production, surface finishing, assembly,
-            and export documentation.
+            From Yongkang and Shanghai, our team coordinates product development,
+            qualified manufacturing, surface finishing, assembly, inspection,
+            packaging, and export documentation for confirmed orders.
           </p>
           <div className="factory-service-grid">
             <article>
@@ -188,10 +206,9 @@ export function FactoryIntro() {
               </span>
               <h3>ODM</h3>
               <p>
-                Our ODM service supports product development from concept to
-                finished design. With experience in structure, materials,
-                colors, and functionality, we help customers create competitive
-                drinkware products for their markets.
+                Private-label programs can combine a verified model with approved
+                color, logo, components, retail packaging, and destination-market
+                documentation. Availability is confirmed per SKU.
               </p>
               <Link href="/oem-odm">Develop New Products</Link>
             </article>
@@ -289,10 +306,11 @@ export function QualitySection() {
       <div className="container">
         <div className="section-head">
           <p className="eyebrow">Quality assurance</p>
-          <h2>Compliance Built Into Production</h2>
+          <h2>Quality & Compliance Matched to the Order</h2>
           <p>
-            Our production process includes 100% inspection across surface finishing,
-            metalworking, polishing, color consistency, thermal performance, and final packaging.
+            The inspection plan is set by product and order. It can cover incoming
+            materials, surface finish, assembly, sealing or thermal performance,
+            logo, packaging, carton marks, and final shipment checks.
           </p>
         </div>
         <QualityInspection />
@@ -324,8 +342,8 @@ export function BuyerSection() {
   ];
   const advantages = [
     {
-      title: "Low MOQ",
-      text: "Flexible MOQ from 100 pcs per style.",
+      title: "Model-Specific MOQ",
+      text: "MOQ is confirmed by model, material, color, decoration, and packaging.",
       icon: (
         <>
           <path d="M4 7h16" />
@@ -336,8 +354,8 @@ export function BuyerSection() {
       ),
     },
     {
-      title: "Fast Sampling",
-      text: "Samples ready in 3-5 days on average.",
+      title: "Defined Sampling Plan",
+      text: "Sample scope and timing are confirmed after the product brief and artwork review.",
       icon: (
         <>
           <path d="M12 6v6l4 2" />
@@ -347,8 +365,8 @@ export function BuyerSection() {
       ),
     },
     {
-      title: "Stable Lead Time",
-      text: "Efficient production with on-time delivery.",
+      title: "Order Milestones",
+      text: "Sample, production, inspection, and shipment milestones are confirmed for the order.",
       icon: (
         <>
           <path d="M3 17h2l2-7 4 10 3-13 3 10h4" />
@@ -358,8 +376,8 @@ export function BuyerSection() {
       ),
     },
     {
-      title: "Export to 60+",
-      text: "Trusted by wholesalers and brands worldwide.",
+      title: "Destination Review",
+      text: "Product, packaging, testing, and documents are matched to the buyer and destination.",
       icon: (
         <>
           <path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Z" />
@@ -370,38 +388,22 @@ export function BuyerSection() {
       ),
     },
   ];
-  const testimonials = [
+  const sourcingChecks = [
     {
-      title: "Reliable OEM Partner",
-      name: "Sophie Martinez",
-      role: "DTC Brand Founder",
-      initials: "SM",
-      quote:
-        "The sample quality was consistent with bulk production, and their team helped us move from idea to launch much faster than expected.",
+      title: "Match the Exact SKU",
+      text: "Confirm material, capacity, lid, accessories, logo, and packaging against one approved model.",
     },
     {
-      title: "Strong Delivery Control",
-      name: "Daniel Meyer",
-      role: "Promotional Gift Importer",
-      initials: "DM",
-      quote:
-        "We appreciate their clear communication, stable lead time, and careful packaging checks before every shipment.",
+      title: "Match the Test Evidence",
+      text: "Use only reports that identify the tested sample, components, method, and relevant destination requirement.",
     },
     {
-      title: "Easy Customization Workflow",
-      name: "Alicia Chen",
-      role: "Corporate Sourcing Manager",
-      initials: "AC",
-      quote:
-        "Logo, color, finish, and carton details were handled smoothly. The final drinkware looked polished and retail-ready.",
+      title: "Approve the Sample",
+      text: "Lock artwork, color, function, packaging, and inspection criteria before bulk production.",
     },
     {
-      title: "Responsive Project Support",
-      name: "Michael Turner",
-      role: "Wholesale Distributor",
-      initials: "MT",
-      quote:
-        "From artwork confirmation to packing details, the response was fast and practical. It made our seasonal order much easier to manage.",
+      title: "Document the Shipment",
+      text: "Confirm quantities, carton marks, final inspection, and shipping documents before dispatch.",
     },
   ];
 
@@ -447,22 +449,17 @@ export function BuyerSection() {
           ))}
         </div>
         <div className="section-head partner-say-head">
-          <p className="eyebrow">What Our Partners Say</p>
-          <h2>What Our Partners Say</h2>
+          <p className="eyebrow">Buyer verification checklist</p>
+          <h2>Four Checks Before a Bulk Order</h2>
         </div>
         <div className="testimonial-grid">
-          {testimonials.map((item) => (
+          {sourcingChecks.map((item, index) => (
             <article className="testimonial-card" key={item.title}>
-              <div className="testimonial-stars" aria-label="5 star rating">★★★★★</div>
-              <h3>{item.title}</h3>
-              <p>“{item.quote}”</p>
-              <div className="testimonial-author">
-                <span>{item.initials}</span>
-                <div>
-                  <strong>{item.name}</strong>
-                  <small>{item.role}</small>
-                </div>
+              <div className="testimonial-stars" aria-label={`Step ${index + 1}`}>
+                Step {index + 1}
               </div>
+              <h3>{item.title}</h3>
+              <p>{item.text}</p>
             </article>
           ))}
         </div>

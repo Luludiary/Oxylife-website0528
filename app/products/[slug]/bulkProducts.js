@@ -4908,18 +4908,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom Leak Proof Straw Lid Tumbler for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from OXYD",
     "heroSubtitle": "Custom Leak Proof Straw Lid Tumbler for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/Tumblers-Wholesale-Bulk-Customized-Cup-Leak_1601594771938.html",
-    "image": "/images/products/alibaba-bulk/leak-proof-straw-lid-tumbler-1938-1.png",
+    "image": "/images/products/alibaba-bulk/leak-proof-straw-lid-tumbler-1938-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/leak-proof-straw-lid-tumbler-1938-1.png",
-      "/images/products/alibaba-bulk/leak-proof-straw-lid-tumbler-1938-2.png",
-      "/images/products/alibaba-bulk/leak-proof-straw-lid-tumbler-1938-3.png",
-      "/images/products/alibaba-bulk/leak-proof-straw-lid-tumbler-1938-4.png",
-      "/images/products/alibaba-bulk/leak-proof-straw-lid-tumbler-1938-5.png",
-      "/images/products/alibaba-bulk/leak-proof-straw-lid-tumbler-1938-6.png"
+      "/images/products/alibaba-bulk/leak-proof-straw-lid-tumbler-1938-1.avif",
+      "/images/products/alibaba-bulk/leak-proof-straw-lid-tumbler-1938-2.avif",
+      "/images/products/alibaba-bulk/leak-proof-straw-lid-tumbler-1938-3.avif",
+      "/images/products/alibaba-bulk/leak-proof-straw-lid-tumbler-1938-4.avif",
+      "/images/products/alibaba-bulk/leak-proof-straw-lid-tumbler-1938-5.avif",
+      "/images/products/alibaba-bulk/leak-proof-straw-lid-tumbler-1938-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/leak-proof-straw-lid-tumbler-1938-5.png",
-      "/images/products/alibaba-bulk/leak-proof-straw-lid-tumbler-1938-6.png"
+      "/images/products/alibaba-bulk/leak-proof-straw-lid-tumbler-1938-5.avif",
+      "/images/products/alibaba-bulk/leak-proof-straw-lid-tumbler-1938-6.avif"
     ],
     "capacities": "Customized capacity",
     "summaryRows": [
@@ -5006,18 +5006,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom Leak Proof Straw Lid Tumbler for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from OXYD",
     "heroSubtitle": "Custom Leak Proof Straw Lid Tumbler for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/Party-Favors-Magnetic-Sports-Bottles-Water_1601651901115.html",
-    "image": "/images/products/alibaba-bulk/leak-proof-straw-lid-tumbler-1115-1.jpg",
+    "image": "/images/products/alibaba-bulk/leak-proof-straw-lid-tumbler-1115-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/leak-proof-straw-lid-tumbler-1115-1.jpg",
-      "/images/products/alibaba-bulk/leak-proof-straw-lid-tumbler-1115-2.jpg",
-      "/images/products/alibaba-bulk/leak-proof-straw-lid-tumbler-1115-3.jpg",
-      "/images/products/alibaba-bulk/leak-proof-straw-lid-tumbler-1115-4.jpg",
-      "/images/products/alibaba-bulk/leak-proof-straw-lid-tumbler-1115-5.png",
-      "/images/products/alibaba-bulk/leak-proof-straw-lid-tumbler-1115-6.jpg"
+      "/images/products/alibaba-bulk/leak-proof-straw-lid-tumbler-1115-1.avif",
+      "/images/products/alibaba-bulk/leak-proof-straw-lid-tumbler-1115-2.avif",
+      "/images/products/alibaba-bulk/leak-proof-straw-lid-tumbler-1115-3.avif",
+      "/images/products/alibaba-bulk/leak-proof-straw-lid-tumbler-1115-4.avif",
+      "/images/products/alibaba-bulk/leak-proof-straw-lid-tumbler-1115-5.avif",
+      "/images/products/alibaba-bulk/leak-proof-straw-lid-tumbler-1115-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/leak-proof-straw-lid-tumbler-1115-5.png",
-      "/images/products/alibaba-bulk/leak-proof-straw-lid-tumbler-1115-6.jpg"
+      "/images/products/alibaba-bulk/leak-proof-straw-lid-tumbler-1115-5.avif",
+      "/images/products/alibaba-bulk/leak-proof-straw-lid-tumbler-1115-6.avif"
     ],
     "capacities": "Customized capacity",
     "summaryRows": [
@@ -5104,18 +5104,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom Straw Lid Gift Set Coffee Cup for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from OXY",
     "heroSubtitle": "Custom Straw Lid Gift Set Coffee Cup for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/Premium-Double-Wall-Moscow-Mule-Copper_1601823347083.html",
-    "image": "/images/products/alibaba-bulk/straw-lid-gift-set-coffee-cup-7083-1.png",
+    "image": "/images/products/alibaba-bulk/straw-lid-gift-set-coffee-cup-7083-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/straw-lid-gift-set-coffee-cup-7083-1.png",
-      "/images/products/alibaba-bulk/straw-lid-gift-set-coffee-cup-7083-2.png",
-      "/images/products/alibaba-bulk/straw-lid-gift-set-coffee-cup-7083-3.png",
-      "/images/products/alibaba-bulk/straw-lid-gift-set-coffee-cup-7083-4.png",
-      "/images/products/alibaba-bulk/straw-lid-gift-set-coffee-cup-7083-5.png",
-      "/images/products/alibaba-bulk/straw-lid-gift-set-coffee-cup-7083-6.png"
+      "/images/products/alibaba-bulk/straw-lid-gift-set-coffee-cup-7083-1.avif",
+      "/images/products/alibaba-bulk/straw-lid-gift-set-coffee-cup-7083-2.avif",
+      "/images/products/alibaba-bulk/straw-lid-gift-set-coffee-cup-7083-3.avif",
+      "/images/products/alibaba-bulk/straw-lid-gift-set-coffee-cup-7083-4.avif",
+      "/images/products/alibaba-bulk/straw-lid-gift-set-coffee-cup-7083-5.avif",
+      "/images/products/alibaba-bulk/straw-lid-gift-set-coffee-cup-7083-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/straw-lid-gift-set-coffee-cup-7083-5.png",
-      "/images/products/alibaba-bulk/straw-lid-gift-set-coffee-cup-7083-6.png"
+      "/images/products/alibaba-bulk/straw-lid-gift-set-coffee-cup-7083-5.avif",
+      "/images/products/alibaba-bulk/straw-lid-gift-set-coffee-cup-7083-6.avif"
     ],
     "capacities": "Customized capacity",
     "summaryRows": [
@@ -5202,18 +5202,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom 1l Frosted Coffee Cup for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from OXYDIARY.",
     "heroSubtitle": "Custom 1l Frosted Coffee Cup for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/1L-Borosilicate-Glass-Carafe-Bottle-Custom_1601823085062.html",
-    "image": "/images/products/alibaba-bulk/1l-frosted-coffee-cup-5062-1.png",
+    "image": "/images/products/alibaba-bulk/1l-frosted-coffee-cup-5062-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/1l-frosted-coffee-cup-5062-1.png",
-      "/images/products/alibaba-bulk/1l-frosted-coffee-cup-5062-2.png",
-      "/images/products/alibaba-bulk/1l-frosted-coffee-cup-5062-3.png",
-      "/images/products/alibaba-bulk/1l-frosted-coffee-cup-5062-4.png",
-      "/images/products/alibaba-bulk/1l-frosted-coffee-cup-5062-5.png",
-      "/images/products/alibaba-bulk/1l-frosted-coffee-cup-5062-6.png"
+      "/images/products/alibaba-bulk/1l-frosted-coffee-cup-5062-1.avif",
+      "/images/products/alibaba-bulk/1l-frosted-coffee-cup-5062-2.avif",
+      "/images/products/alibaba-bulk/1l-frosted-coffee-cup-5062-3.avif",
+      "/images/products/alibaba-bulk/1l-frosted-coffee-cup-5062-4.avif",
+      "/images/products/alibaba-bulk/1l-frosted-coffee-cup-5062-5.avif",
+      "/images/products/alibaba-bulk/1l-frosted-coffee-cup-5062-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/1l-frosted-coffee-cup-5062-5.png",
-      "/images/products/alibaba-bulk/1l-frosted-coffee-cup-5062-6.png"
+      "/images/products/alibaba-bulk/1l-frosted-coffee-cup-5062-5.avif",
+      "/images/products/alibaba-bulk/1l-frosted-coffee-cup-5062-6.avif"
     ],
     "capacities": "1l",
     "summaryRows": [
@@ -5300,18 +5300,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom 40oz Straw Lid Wedding Gift Tumbler for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote fr",
     "heroSubtitle": "Custom 40oz Straw Lid Wedding Gift Tumbler for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/40oz-Custom-Tumbler-with-Straw-Stainless_1601725746719.html",
-    "image": "/images/products/alibaba-bulk/40oz-straw-lid-wedding-gift-tumbler-6719-1.png",
+    "image": "/images/products/alibaba-bulk/40oz-straw-lid-wedding-gift-tumbler-6719-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/40oz-straw-lid-wedding-gift-tumbler-6719-1.png",
-      "/images/products/alibaba-bulk/40oz-straw-lid-wedding-gift-tumbler-6719-2.png",
-      "/images/products/alibaba-bulk/40oz-straw-lid-wedding-gift-tumbler-6719-3.png",
-      "/images/products/alibaba-bulk/40oz-straw-lid-wedding-gift-tumbler-6719-4.png",
-      "/images/products/alibaba-bulk/40oz-straw-lid-wedding-gift-tumbler-6719-5.png",
-      "/images/products/alibaba-bulk/40oz-straw-lid-wedding-gift-tumbler-6719-6.png"
+      "/images/products/alibaba-bulk/40oz-straw-lid-wedding-gift-tumbler-6719-1.avif",
+      "/images/products/alibaba-bulk/40oz-straw-lid-wedding-gift-tumbler-6719-2.avif",
+      "/images/products/alibaba-bulk/40oz-straw-lid-wedding-gift-tumbler-6719-3.avif",
+      "/images/products/alibaba-bulk/40oz-straw-lid-wedding-gift-tumbler-6719-4.avif",
+      "/images/products/alibaba-bulk/40oz-straw-lid-wedding-gift-tumbler-6719-5.avif",
+      "/images/products/alibaba-bulk/40oz-straw-lid-wedding-gift-tumbler-6719-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/40oz-straw-lid-wedding-gift-tumbler-6719-5.png",
-      "/images/products/alibaba-bulk/40oz-straw-lid-wedding-gift-tumbler-6719-6.png"
+      "/images/products/alibaba-bulk/40oz-straw-lid-wedding-gift-tumbler-6719-5.avif",
+      "/images/products/alibaba-bulk/40oz-straw-lid-wedding-gift-tumbler-6719-6.avif"
     ],
     "capacities": "40oz",
     "summaryRows": [
@@ -5398,18 +5398,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom 32oz Vacuum Insulated Tumbler for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quot",
     "heroSubtitle": "Custom 32oz Vacuum Insulated Tumbler for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/Best-Selling-Products-2025-32oz-Stainless_1601721894381.html",
-    "image": "/images/products/alibaba-bulk/32oz-vacuum-insulated-insulated-tumbler-4381-1.png",
+    "image": "/images/products/alibaba-bulk/32oz-vacuum-insulated-insulated-tumbler-4381-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/32oz-vacuum-insulated-insulated-tumbler-4381-1.png",
-      "/images/products/alibaba-bulk/32oz-vacuum-insulated-insulated-tumbler-4381-2.png",
-      "/images/products/alibaba-bulk/32oz-vacuum-insulated-insulated-tumbler-4381-3.png",
-      "/images/products/alibaba-bulk/32oz-vacuum-insulated-insulated-tumbler-4381-4.png",
-      "/images/products/alibaba-bulk/32oz-vacuum-insulated-insulated-tumbler-4381-5.png",
-      "/images/products/alibaba-bulk/32oz-vacuum-insulated-insulated-tumbler-4381-6.png"
+      "/images/products/alibaba-bulk/32oz-vacuum-insulated-insulated-tumbler-4381-1.avif",
+      "/images/products/alibaba-bulk/32oz-vacuum-insulated-insulated-tumbler-4381-2.avif",
+      "/images/products/alibaba-bulk/32oz-vacuum-insulated-insulated-tumbler-4381-3.avif",
+      "/images/products/alibaba-bulk/32oz-vacuum-insulated-insulated-tumbler-4381-4.avif",
+      "/images/products/alibaba-bulk/32oz-vacuum-insulated-insulated-tumbler-4381-5.avif",
+      "/images/products/alibaba-bulk/32oz-vacuum-insulated-insulated-tumbler-4381-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/32oz-vacuum-insulated-insulated-tumbler-4381-5.png",
-      "/images/products/alibaba-bulk/32oz-vacuum-insulated-insulated-tumbler-4381-6.png"
+      "/images/products/alibaba-bulk/32oz-vacuum-insulated-insulated-tumbler-4381-5.avif",
+      "/images/products/alibaba-bulk/32oz-vacuum-insulated-insulated-tumbler-4381-6.avif"
     ],
     "capacities": "32oz",
     "summaryRows": [
@@ -5496,18 +5496,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom 14oz Leak Proof Straw Lid Coffee Cup for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote f",
     "heroSubtitle": "Custom 14oz Leak Proof Straw Lid Coffee Cup for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/14oz-Popular-Products-Stainless-Steel-Tumbler_1601648872229.html",
-    "image": "/images/products/alibaba-bulk/14oz-leak-proof-straw-lid-coffee-2229-1.png",
+    "image": "/images/products/alibaba-bulk/14oz-leak-proof-straw-lid-coffee-2229-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/14oz-leak-proof-straw-lid-coffee-2229-1.png",
-      "/images/products/alibaba-bulk/14oz-leak-proof-straw-lid-coffee-2229-2.jpg",
-      "/images/products/alibaba-bulk/14oz-leak-proof-straw-lid-coffee-2229-3.png",
-      "/images/products/alibaba-bulk/14oz-leak-proof-straw-lid-coffee-2229-4.jpg",
-      "/images/products/alibaba-bulk/14oz-leak-proof-straw-lid-coffee-2229-5.jpg",
-      "/images/products/alibaba-bulk/14oz-leak-proof-straw-lid-coffee-2229-6.png"
+      "/images/products/alibaba-bulk/14oz-leak-proof-straw-lid-coffee-2229-1.avif",
+      "/images/products/alibaba-bulk/14oz-leak-proof-straw-lid-coffee-2229-2.avif",
+      "/images/products/alibaba-bulk/14oz-leak-proof-straw-lid-coffee-2229-3.avif",
+      "/images/products/alibaba-bulk/14oz-leak-proof-straw-lid-coffee-2229-4.avif",
+      "/images/products/alibaba-bulk/14oz-leak-proof-straw-lid-coffee-2229-5.avif",
+      "/images/products/alibaba-bulk/14oz-leak-proof-straw-lid-coffee-2229-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/14oz-leak-proof-straw-lid-coffee-2229-5.jpg",
-      "/images/products/alibaba-bulk/14oz-leak-proof-straw-lid-coffee-2229-6.png"
+      "/images/products/alibaba-bulk/14oz-leak-proof-straw-lid-coffee-2229-5.avif",
+      "/images/products/alibaba-bulk/14oz-leak-proof-straw-lid-coffee-2229-6.avif"
     ],
     "capacities": "14oz",
     "summaryRows": [
@@ -5594,18 +5594,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom 40oz Straw Lid Frosted Water Bottle for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote fr",
     "heroSubtitle": "Custom 40oz Straw Lid Frosted Water Bottle for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/40oz-Water-Bottle-Custom-Frosted-Cups_1601816409178.html",
-    "image": "/images/products/alibaba-bulk/40oz-straw-lid-frosted-water-bottle-9178-1.png",
+    "image": "/images/products/alibaba-bulk/40oz-straw-lid-frosted-water-bottle-9178-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/40oz-straw-lid-frosted-water-bottle-9178-1.png",
-      "/images/products/alibaba-bulk/40oz-straw-lid-frosted-water-bottle-9178-2.png",
-      "/images/products/alibaba-bulk/40oz-straw-lid-frosted-water-bottle-9178-3.png",
-      "/images/products/alibaba-bulk/40oz-straw-lid-frosted-water-bottle-9178-4.png",
-      "/images/products/alibaba-bulk/40oz-straw-lid-frosted-water-bottle-9178-5.png",
-      "/images/products/alibaba-bulk/40oz-straw-lid-frosted-water-bottle-9178-6.png"
+      "/images/products/alibaba-bulk/40oz-straw-lid-frosted-water-bottle-9178-1.avif",
+      "/images/products/alibaba-bulk/40oz-straw-lid-frosted-water-bottle-9178-2.avif",
+      "/images/products/alibaba-bulk/40oz-straw-lid-frosted-water-bottle-9178-3.avif",
+      "/images/products/alibaba-bulk/40oz-straw-lid-frosted-water-bottle-9178-4.avif",
+      "/images/products/alibaba-bulk/40oz-straw-lid-frosted-water-bottle-9178-5.avif",
+      "/images/products/alibaba-bulk/40oz-straw-lid-frosted-water-bottle-9178-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/40oz-straw-lid-frosted-water-bottle-9178-5.png",
-      "/images/products/alibaba-bulk/40oz-straw-lid-frosted-water-bottle-9178-6.png"
+      "/images/products/alibaba-bulk/40oz-straw-lid-frosted-water-bottle-9178-5.avif",
+      "/images/products/alibaba-bulk/40oz-straw-lid-frosted-water-bottle-9178-6.avif"
     ],
     "capacities": "40oz",
     "summaryRows": [
@@ -5692,18 +5692,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom 20oz Insulated Straw Lid Tumbler for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from ",
     "heroSubtitle": "Custom 20oz Insulated Straw Lid Tumbler for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/20OZ-Tumbler-Insulated-Water-Bottles-Powder_1601816136912.html",
-    "image": "/images/products/alibaba-bulk/20oz-insulated-straw-lid-tumbler-6912-1.png",
+    "image": "/images/products/alibaba-bulk/20oz-insulated-straw-lid-tumbler-6912-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/20oz-insulated-straw-lid-tumbler-6912-1.png",
-      "/images/products/alibaba-bulk/20oz-insulated-straw-lid-tumbler-6912-2.png",
-      "/images/products/alibaba-bulk/20oz-insulated-straw-lid-tumbler-6912-3.png",
-      "/images/products/alibaba-bulk/20oz-insulated-straw-lid-tumbler-6912-4.jpg",
-      "/images/products/alibaba-bulk/20oz-insulated-straw-lid-tumbler-6912-5.png",
-      "/images/products/alibaba-bulk/20oz-insulated-straw-lid-tumbler-6912-6.png"
+      "/images/products/alibaba-bulk/20oz-insulated-straw-lid-tumbler-6912-1.avif",
+      "/images/products/alibaba-bulk/20oz-insulated-straw-lid-tumbler-6912-2.avif",
+      "/images/products/alibaba-bulk/20oz-insulated-straw-lid-tumbler-6912-3.avif",
+      "/images/products/alibaba-bulk/20oz-insulated-straw-lid-tumbler-6912-4.avif",
+      "/images/products/alibaba-bulk/20oz-insulated-straw-lid-tumbler-6912-5.avif",
+      "/images/products/alibaba-bulk/20oz-insulated-straw-lid-tumbler-6912-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/20oz-insulated-straw-lid-tumbler-6912-5.png",
-      "/images/products/alibaba-bulk/20oz-insulated-straw-lid-tumbler-6912-6.png"
+      "/images/products/alibaba-bulk/20oz-insulated-straw-lid-tumbler-6912-5.avif",
+      "/images/products/alibaba-bulk/20oz-insulated-straw-lid-tumbler-6912-6.avif"
     ],
     "capacities": "20oz",
     "summaryRows": [
@@ -5790,18 +5790,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom 20oz Coffee Cup for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from OXYDIARY.",
     "heroSubtitle": "Custom 20oz Coffee Cup for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/20oz-New-Products-Stainless-Steel-Tumbler_1601766178087.html",
-    "image": "/images/products/alibaba-bulk/20oz-coffee-cup-8087-1.png",
+    "image": "/images/products/alibaba-bulk/20oz-coffee-cup-8087-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/20oz-coffee-cup-8087-1.png",
-      "/images/products/alibaba-bulk/20oz-coffee-cup-8087-2.png",
-      "/images/products/alibaba-bulk/20oz-coffee-cup-8087-3.png",
-      "/images/products/alibaba-bulk/20oz-coffee-cup-8087-4.png",
-      "/images/products/alibaba-bulk/20oz-coffee-cup-8087-5.png",
-      "/images/products/alibaba-bulk/20oz-coffee-cup-8087-6.jpg"
+      "/images/products/alibaba-bulk/20oz-coffee-cup-8087-1.avif",
+      "/images/products/alibaba-bulk/20oz-coffee-cup-8087-2.avif",
+      "/images/products/alibaba-bulk/20oz-coffee-cup-8087-3.avif",
+      "/images/products/alibaba-bulk/20oz-coffee-cup-8087-4.avif",
+      "/images/products/alibaba-bulk/20oz-coffee-cup-8087-5.avif",
+      "/images/products/alibaba-bulk/20oz-coffee-cup-8087-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/20oz-coffee-cup-8087-5.png",
-      "/images/products/alibaba-bulk/20oz-coffee-cup-8087-6.jpg"
+      "/images/products/alibaba-bulk/20oz-coffee-cup-8087-5.avif",
+      "/images/products/alibaba-bulk/20oz-coffee-cup-8087-6.avif"
     ],
     "capacities": "20oz",
     "summaryRows": [
@@ -5888,18 +5888,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom Frosted Coffee Cup for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from OXYDIARY.",
     "heroSubtitle": "Custom Frosted Coffee Cup for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/Custom-Frosted-Cups-Stainless-Steel-Water_1601765947214.html",
-    "image": "/images/products/alibaba-bulk/frosted-coffee-cup-7214-1.png",
+    "image": "/images/products/alibaba-bulk/frosted-coffee-cup-7214-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/frosted-coffee-cup-7214-1.png",
-      "/images/products/alibaba-bulk/frosted-coffee-cup-7214-2.png",
-      "/images/products/alibaba-bulk/frosted-coffee-cup-7214-3.png",
-      "/images/products/alibaba-bulk/frosted-coffee-cup-7214-4.png",
-      "/images/products/alibaba-bulk/frosted-coffee-cup-7214-5.png",
-      "/images/products/alibaba-bulk/frosted-coffee-cup-7214-6.png"
+      "/images/products/alibaba-bulk/frosted-coffee-cup-7214-1.avif",
+      "/images/products/alibaba-bulk/frosted-coffee-cup-7214-2.avif",
+      "/images/products/alibaba-bulk/frosted-coffee-cup-7214-3.avif",
+      "/images/products/alibaba-bulk/frosted-coffee-cup-7214-4.avif",
+      "/images/products/alibaba-bulk/frosted-coffee-cup-7214-5.avif",
+      "/images/products/alibaba-bulk/frosted-coffee-cup-7214-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/frosted-coffee-cup-7214-5.png",
-      "/images/products/alibaba-bulk/frosted-coffee-cup-7214-6.png"
+      "/images/products/alibaba-bulk/frosted-coffee-cup-7214-5.avif",
+      "/images/products/alibaba-bulk/frosted-coffee-cup-7214-6.avif"
     ],
     "capacities": "Customized capacity",
     "summaryRows": [
@@ -5986,18 +5986,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom Frosted Tea Infuser Coffee Cup for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from OX",
     "heroSubtitle": "Custom Frosted Tea Infuser Coffee Cup for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/Custom-Frosted-Cups-Stainless-Steel-Tumbler_1601765818944.html",
-    "image": "/images/products/alibaba-bulk/frosted-tea-infuser-coffee-cup-8944-1.png",
+    "image": "/images/products/alibaba-bulk/frosted-tea-infuser-coffee-cup-8944-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/frosted-tea-infuser-coffee-cup-8944-1.png",
-      "/images/products/alibaba-bulk/frosted-tea-infuser-coffee-cup-8944-2.png",
-      "/images/products/alibaba-bulk/frosted-tea-infuser-coffee-cup-8944-3.png",
-      "/images/products/alibaba-bulk/frosted-tea-infuser-coffee-cup-8944-4.png",
-      "/images/products/alibaba-bulk/frosted-tea-infuser-coffee-cup-8944-5.png",
-      "/images/products/alibaba-bulk/frosted-tea-infuser-coffee-cup-8944-6.png"
+      "/images/products/alibaba-bulk/frosted-tea-infuser-coffee-cup-8944-1.avif",
+      "/images/products/alibaba-bulk/frosted-tea-infuser-coffee-cup-8944-2.avif",
+      "/images/products/alibaba-bulk/frosted-tea-infuser-coffee-cup-8944-3.avif",
+      "/images/products/alibaba-bulk/frosted-tea-infuser-coffee-cup-8944-4.avif",
+      "/images/products/alibaba-bulk/frosted-tea-infuser-coffee-cup-8944-5.avif",
+      "/images/products/alibaba-bulk/frosted-tea-infuser-coffee-cup-8944-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/frosted-tea-infuser-coffee-cup-8944-5.png",
-      "/images/products/alibaba-bulk/frosted-tea-infuser-coffee-cup-8944-6.png"
+      "/images/products/alibaba-bulk/frosted-tea-infuser-coffee-cup-8944-5.avif",
+      "/images/products/alibaba-bulk/frosted-tea-infuser-coffee-cup-8944-6.avif"
     ],
     "capacities": "Customized capacity",
     "summaryRows": [
@@ -6084,18 +6084,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom Straw Lid Gift Set Coffee Cup for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from OXY",
     "heroSubtitle": "Custom Straw Lid Gift Set Coffee Cup for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/New-Products-Stainless-Steel-Tumbler-Custom_1601765649557.html",
-    "image": "/images/products/alibaba-bulk/straw-lid-gift-set-coffee-cup-9557-1.png",
+    "image": "/images/products/alibaba-bulk/straw-lid-gift-set-coffee-cup-9557-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/straw-lid-gift-set-coffee-cup-9557-1.png",
-      "/images/products/alibaba-bulk/straw-lid-gift-set-coffee-cup-9557-2.png",
-      "/images/products/alibaba-bulk/straw-lid-gift-set-coffee-cup-9557-3.png",
-      "/images/products/alibaba-bulk/straw-lid-gift-set-coffee-cup-9557-4.png",
-      "/images/products/alibaba-bulk/straw-lid-gift-set-coffee-cup-9557-5.png",
-      "/images/products/alibaba-bulk/straw-lid-gift-set-coffee-cup-9557-6.png"
+      "/images/products/alibaba-bulk/straw-lid-gift-set-coffee-cup-9557-1.avif",
+      "/images/products/alibaba-bulk/straw-lid-gift-set-coffee-cup-9557-2.avif",
+      "/images/products/alibaba-bulk/straw-lid-gift-set-coffee-cup-9557-3.avif",
+      "/images/products/alibaba-bulk/straw-lid-gift-set-coffee-cup-9557-4.avif",
+      "/images/products/alibaba-bulk/straw-lid-gift-set-coffee-cup-9557-5.avif",
+      "/images/products/alibaba-bulk/straw-lid-gift-set-coffee-cup-9557-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/straw-lid-gift-set-coffee-cup-9557-5.png",
-      "/images/products/alibaba-bulk/straw-lid-gift-set-coffee-cup-9557-6.png"
+      "/images/products/alibaba-bulk/straw-lid-gift-set-coffee-cup-9557-5.avif",
+      "/images/products/alibaba-bulk/straw-lid-gift-set-coffee-cup-9557-6.avif"
     ],
     "capacities": "Customized capacity",
     "summaryRows": [
@@ -6182,18 +6182,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom Leak Proof Tea Infuser Coffee Cup for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from",
     "heroSubtitle": "Custom Leak Proof Tea Infuser Coffee Cup for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/Tumblers-Wholesale-Bulk-Stainless-Steel-Tumbler_1601765137364.html",
-    "image": "/images/products/alibaba-bulk/leak-proof-tea-infuser-coffee-cup-7364-1.png",
+    "image": "/images/products/alibaba-bulk/leak-proof-tea-infuser-coffee-cup-7364-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/leak-proof-tea-infuser-coffee-cup-7364-1.png",
-      "/images/products/alibaba-bulk/leak-proof-tea-infuser-coffee-cup-7364-2.jpg",
-      "/images/products/alibaba-bulk/leak-proof-tea-infuser-coffee-cup-7364-3.png",
-      "/images/products/alibaba-bulk/leak-proof-tea-infuser-coffee-cup-7364-4.png",
-      "/images/products/alibaba-bulk/leak-proof-tea-infuser-coffee-cup-7364-5.png",
-      "/images/products/alibaba-bulk/leak-proof-tea-infuser-coffee-cup-7364-6.jpg"
+      "/images/products/alibaba-bulk/leak-proof-tea-infuser-coffee-cup-7364-1.avif",
+      "/images/products/alibaba-bulk/leak-proof-tea-infuser-coffee-cup-7364-2.avif",
+      "/images/products/alibaba-bulk/leak-proof-tea-infuser-coffee-cup-7364-3.avif",
+      "/images/products/alibaba-bulk/leak-proof-tea-infuser-coffee-cup-7364-4.avif",
+      "/images/products/alibaba-bulk/leak-proof-tea-infuser-coffee-cup-7364-5.avif",
+      "/images/products/alibaba-bulk/leak-proof-tea-infuser-coffee-cup-7364-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/leak-proof-tea-infuser-coffee-cup-7364-5.png",
-      "/images/products/alibaba-bulk/leak-proof-tea-infuser-coffee-cup-7364-6.jpg"
+      "/images/products/alibaba-bulk/leak-proof-tea-infuser-coffee-cup-7364-5.avif",
+      "/images/products/alibaba-bulk/leak-proof-tea-infuser-coffee-cup-7364-6.avif"
     ],
     "capacities": "Customized capacity",
     "summaryRows": [
@@ -6280,18 +6280,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom Tumbler for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from OXYDIARY.",
     "heroSubtitle": "Custom Tumbler for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/Customizable-Products-Stainless-Steel-Tumbler-Drinking_1601765042122.html",
-    "image": "/images/products/alibaba-bulk/tumbler-2122-1.png",
+    "image": "/images/products/alibaba-bulk/tumbler-2122-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/tumbler-2122-1.png",
-      "/images/products/alibaba-bulk/tumbler-2122-2.jpg",
-      "/images/products/alibaba-bulk/tumbler-2122-3.jpg",
-      "/images/products/alibaba-bulk/tumbler-2122-4.jpg",
-      "/images/products/alibaba-bulk/tumbler-2122-5.jpg",
-      "/images/products/alibaba-bulk/tumbler-2122-6.jpg"
+      "/images/products/alibaba-bulk/tumbler-2122-1.avif",
+      "/images/products/alibaba-bulk/tumbler-2122-2.avif",
+      "/images/products/alibaba-bulk/tumbler-2122-3.avif",
+      "/images/products/alibaba-bulk/tumbler-2122-4.avif",
+      "/images/products/alibaba-bulk/tumbler-2122-5.avif",
+      "/images/products/alibaba-bulk/tumbler-2122-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/tumbler-2122-5.jpg",
-      "/images/products/alibaba-bulk/tumbler-2122-6.jpg"
+      "/images/products/alibaba-bulk/tumbler-2122-5.avif",
+      "/images/products/alibaba-bulk/tumbler-2122-6.avif"
     ],
     "capacities": "Customized capacity",
     "summaryRows": [
@@ -6378,18 +6378,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom Vacuum Insulated Coffee Cup for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote ",
     "heroSubtitle": "Custom Vacuum Insulated Coffee Cup for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/Custom-Logo-304-Stainless-Steel-Double_1601764972417.html",
-    "image": "/images/products/alibaba-bulk/vacuum-insulated-insulated-coffee-cup-2417-1.png",
+    "image": "/images/products/alibaba-bulk/vacuum-insulated-insulated-coffee-cup-2417-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/vacuum-insulated-insulated-coffee-cup-2417-1.png",
-      "/images/products/alibaba-bulk/vacuum-insulated-insulated-coffee-cup-2417-2.jpg",
-      "/images/products/alibaba-bulk/vacuum-insulated-insulated-coffee-cup-2417-3.jpg",
-      "/images/products/alibaba-bulk/vacuum-insulated-insulated-coffee-cup-2417-4.jpg",
-      "/images/products/alibaba-bulk/vacuum-insulated-insulated-coffee-cup-2417-5.jpg",
-      "/images/products/alibaba-bulk/vacuum-insulated-insulated-coffee-cup-2417-6.jpg"
+      "/images/products/alibaba-bulk/vacuum-insulated-insulated-coffee-cup-2417-1.avif",
+      "/images/products/alibaba-bulk/vacuum-insulated-insulated-coffee-cup-2417-2.avif",
+      "/images/products/alibaba-bulk/vacuum-insulated-insulated-coffee-cup-2417-3.avif",
+      "/images/products/alibaba-bulk/vacuum-insulated-insulated-coffee-cup-2417-4.avif",
+      "/images/products/alibaba-bulk/vacuum-insulated-insulated-coffee-cup-2417-5.avif",
+      "/images/products/alibaba-bulk/vacuum-insulated-insulated-coffee-cup-2417-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/vacuum-insulated-insulated-coffee-cup-2417-5.jpg",
-      "/images/products/alibaba-bulk/vacuum-insulated-insulated-coffee-cup-2417-6.jpg"
+      "/images/products/alibaba-bulk/vacuum-insulated-insulated-coffee-cup-2417-5.avif",
+      "/images/products/alibaba-bulk/vacuum-insulated-insulated-coffee-cup-2417-6.avif"
     ],
     "capacities": "Customized capacity",
     "summaryRows": [
@@ -6476,18 +6476,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom Coffee Cup for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from OXYDIARY.",
     "heroSubtitle": "Custom Coffee Cup for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/Bulk-Items-Stainless-Steel-Tumbler-Water_1601764962461.html",
-    "image": "/images/products/alibaba-bulk/coffee-cup-2461-1.png",
+    "image": "/images/products/alibaba-bulk/coffee-cup-2461-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/coffee-cup-2461-1.png",
-      "/images/products/alibaba-bulk/coffee-cup-2461-2.jpg",
-      "/images/products/alibaba-bulk/coffee-cup-2461-3.jpg",
-      "/images/products/alibaba-bulk/coffee-cup-2461-4.jpg",
-      "/images/products/alibaba-bulk/coffee-cup-2461-5.jpg",
-      "/images/products/alibaba-bulk/coffee-cup-2461-6.jpg"
+      "/images/products/alibaba-bulk/coffee-cup-2461-1.avif",
+      "/images/products/alibaba-bulk/coffee-cup-2461-2.avif",
+      "/images/products/alibaba-bulk/coffee-cup-2461-3.avif",
+      "/images/products/alibaba-bulk/coffee-cup-2461-4.avif",
+      "/images/products/alibaba-bulk/coffee-cup-2461-5.avif",
+      "/images/products/alibaba-bulk/coffee-cup-2461-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/coffee-cup-2461-5.jpg",
-      "/images/products/alibaba-bulk/coffee-cup-2461-6.jpg"
+      "/images/products/alibaba-bulk/coffee-cup-2461-5.avif",
+      "/images/products/alibaba-bulk/coffee-cup-2461-6.avif"
     ],
     "capacities": "Customized capacity",
     "summaryRows": [
@@ -6574,17 +6574,17 @@ export const bulkProductDetails = {
     "metaDescription": "Custom 40oz Vacuum Insulated Tumbler for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quot",
     "heroSubtitle": "Custom 40oz Vacuum Insulated Tumbler for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/40oz-Stainless-Steel-Vacuum-Flask-Custom_1601715894103.html",
-    "image": "/images/products/alibaba-bulk/40oz-vacuum-insulated-insulated-tumbler-4103-1.png",
+    "image": "/images/products/alibaba-bulk/40oz-vacuum-insulated-insulated-tumbler-4103-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/40oz-vacuum-insulated-insulated-tumbler-4103-1.png",
-      "/images/products/alibaba-bulk/40oz-vacuum-insulated-insulated-tumbler-4103-2.png",
-      "/images/products/alibaba-bulk/40oz-vacuum-insulated-insulated-tumbler-4103-3.jpg",
-      "/images/products/alibaba-bulk/40oz-vacuum-insulated-insulated-tumbler-4103-5.png",
-      "/images/products/alibaba-bulk/40oz-vacuum-insulated-insulated-tumbler-4103-6.png"
+      "/images/products/alibaba-bulk/40oz-vacuum-insulated-insulated-tumbler-4103-1.avif",
+      "/images/products/alibaba-bulk/40oz-vacuum-insulated-insulated-tumbler-4103-2.avif",
+      "/images/products/alibaba-bulk/40oz-vacuum-insulated-insulated-tumbler-4103-3.avif",
+      "/images/products/alibaba-bulk/40oz-vacuum-insulated-insulated-tumbler-4103-5.avif",
+      "/images/products/alibaba-bulk/40oz-vacuum-insulated-insulated-tumbler-4103-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/40oz-vacuum-insulated-insulated-tumbler-4103-5.png",
-      "/images/products/alibaba-bulk/40oz-vacuum-insulated-insulated-tumbler-4103-6.png"
+      "/images/products/alibaba-bulk/40oz-vacuum-insulated-insulated-tumbler-4103-5.avif",
+      "/images/products/alibaba-bulk/40oz-vacuum-insulated-insulated-tumbler-4103-6.avif"
     ],
     "capacities": "40oz",
     "summaryRows": [
@@ -6671,18 +6671,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom 40oz Vacuum Insulated Sports Bottle for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request ",
     "heroSubtitle": "Custom 40oz Vacuum Insulated Sports Bottle for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/Custom-40oz-Insulated-Vacuum-Thermal-Cups_1601715995089.html",
-    "image": "/images/products/alibaba-bulk/40oz-vacuum-insulated-insulated-sports-bottle-5089-1.png",
+    "image": "/images/products/alibaba-bulk/40oz-vacuum-insulated-insulated-sports-bottle-5089-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/40oz-vacuum-insulated-insulated-sports-bottle-5089-1.png",
-      "/images/products/alibaba-bulk/40oz-vacuum-insulated-insulated-sports-bottle-5089-2.png",
-      "/images/products/alibaba-bulk/40oz-vacuum-insulated-insulated-sports-bottle-5089-3.jpg",
-      "/images/products/alibaba-bulk/40oz-vacuum-insulated-insulated-sports-bottle-5089-4.jpg",
-      "/images/products/alibaba-bulk/40oz-vacuum-insulated-insulated-sports-bottle-5089-5.png",
-      "/images/products/alibaba-bulk/40oz-vacuum-insulated-insulated-sports-bottle-5089-6.png"
+      "/images/products/alibaba-bulk/40oz-vacuum-insulated-insulated-sports-bottle-5089-1.avif",
+      "/images/products/alibaba-bulk/40oz-vacuum-insulated-insulated-sports-bottle-5089-2.avif",
+      "/images/products/alibaba-bulk/40oz-vacuum-insulated-insulated-sports-bottle-5089-3.avif",
+      "/images/products/alibaba-bulk/40oz-vacuum-insulated-insulated-sports-bottle-5089-4.avif",
+      "/images/products/alibaba-bulk/40oz-vacuum-insulated-insulated-sports-bottle-5089-5.avif",
+      "/images/products/alibaba-bulk/40oz-vacuum-insulated-insulated-sports-bottle-5089-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/40oz-vacuum-insulated-insulated-sports-bottle-5089-5.png",
-      "/images/products/alibaba-bulk/40oz-vacuum-insulated-insulated-sports-bottle-5089-6.png"
+      "/images/products/alibaba-bulk/40oz-vacuum-insulated-insulated-sports-bottle-5089-5.avif",
+      "/images/products/alibaba-bulk/40oz-vacuum-insulated-insulated-sports-bottle-5089-6.avif"
     ],
     "capacities": "40oz",
     "summaryRows": [
@@ -6769,18 +6769,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom Straw Lid Wedding Gift Coffee Cup for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from",
     "heroSubtitle": "Custom Straw Lid Wedding Gift Coffee Cup for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/Custom-Cups-Stainless-Steel-Tumbler-Cups_1601762067401.html",
-    "image": "/images/products/alibaba-bulk/straw-lid-wedding-gift-coffee-cup-7401-1.png",
+    "image": "/images/products/alibaba-bulk/straw-lid-wedding-gift-coffee-cup-7401-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/straw-lid-wedding-gift-coffee-cup-7401-1.png",
-      "/images/products/alibaba-bulk/straw-lid-wedding-gift-coffee-cup-7401-2.png",
-      "/images/products/alibaba-bulk/straw-lid-wedding-gift-coffee-cup-7401-3.png",
-      "/images/products/alibaba-bulk/straw-lid-wedding-gift-coffee-cup-7401-4.png",
-      "/images/products/alibaba-bulk/straw-lid-wedding-gift-coffee-cup-7401-5.jpg",
-      "/images/products/alibaba-bulk/straw-lid-wedding-gift-coffee-cup-7401-6.png"
+      "/images/products/alibaba-bulk/straw-lid-wedding-gift-coffee-cup-7401-1.avif",
+      "/images/products/alibaba-bulk/straw-lid-wedding-gift-coffee-cup-7401-2.avif",
+      "/images/products/alibaba-bulk/straw-lid-wedding-gift-coffee-cup-7401-3.avif",
+      "/images/products/alibaba-bulk/straw-lid-wedding-gift-coffee-cup-7401-4.avif",
+      "/images/products/alibaba-bulk/straw-lid-wedding-gift-coffee-cup-7401-5.avif",
+      "/images/products/alibaba-bulk/straw-lid-wedding-gift-coffee-cup-7401-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/straw-lid-wedding-gift-coffee-cup-7401-5.jpg",
-      "/images/products/alibaba-bulk/straw-lid-wedding-gift-coffee-cup-7401-6.png"
+      "/images/products/alibaba-bulk/straw-lid-wedding-gift-coffee-cup-7401-5.avif",
+      "/images/products/alibaba-bulk/straw-lid-wedding-gift-coffee-cup-7401-6.avif"
     ],
     "capacities": "Customized capacity",
     "summaryRows": [
@@ -6867,18 +6867,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom Insulated Straw Lid Tumbler for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from OXYDI",
     "heroSubtitle": "Custom Insulated Straw Lid Tumbler for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/Tumblers-Wholesale-Bulk-Stainless-Steel-Cup_1601400732827.html",
-    "image": "/images/products/alibaba-bulk/insulated-straw-lid-tumbler-2827-1.png",
+    "image": "/images/products/alibaba-bulk/insulated-straw-lid-tumbler-2827-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/insulated-straw-lid-tumbler-2827-1.png",
-      "/images/products/alibaba-bulk/insulated-straw-lid-tumbler-2827-2.png",
-      "/images/products/alibaba-bulk/insulated-straw-lid-tumbler-2827-3.jpg",
-      "/images/products/alibaba-bulk/insulated-straw-lid-tumbler-2827-4.png",
-      "/images/products/alibaba-bulk/insulated-straw-lid-tumbler-2827-5.png",
-      "/images/products/alibaba-bulk/insulated-straw-lid-tumbler-2827-6.jpg"
+      "/images/products/alibaba-bulk/insulated-straw-lid-tumbler-2827-1.avif",
+      "/images/products/alibaba-bulk/insulated-straw-lid-tumbler-2827-2.avif",
+      "/images/products/alibaba-bulk/insulated-straw-lid-tumbler-2827-3.avif",
+      "/images/products/alibaba-bulk/insulated-straw-lid-tumbler-2827-4.avif",
+      "/images/products/alibaba-bulk/insulated-straw-lid-tumbler-2827-5.avif",
+      "/images/products/alibaba-bulk/insulated-straw-lid-tumbler-2827-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/insulated-straw-lid-tumbler-2827-5.png",
-      "/images/products/alibaba-bulk/insulated-straw-lid-tumbler-2827-6.jpg"
+      "/images/products/alibaba-bulk/insulated-straw-lid-tumbler-2827-5.avif",
+      "/images/products/alibaba-bulk/insulated-straw-lid-tumbler-2827-6.avif"
     ],
     "capacities": "Customized capacity",
     "summaryRows": [
@@ -6965,18 +6965,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom Vacuum Insulated Coffee Cup for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote ",
     "heroSubtitle": "Custom Vacuum Insulated Coffee Cup for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/Ceramic-Inner-316-Stainless-Steel-Vacuum_1601691744781.html",
-    "image": "/images/products/alibaba-bulk/vacuum-insulated-insulated-coffee-cup-4781-1.png",
+    "image": "/images/products/alibaba-bulk/vacuum-insulated-insulated-coffee-cup-4781-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/vacuum-insulated-insulated-coffee-cup-4781-1.png",
-      "/images/products/alibaba-bulk/vacuum-insulated-insulated-coffee-cup-4781-2.png",
-      "/images/products/alibaba-bulk/vacuum-insulated-insulated-coffee-cup-4781-3.png",
-      "/images/products/alibaba-bulk/vacuum-insulated-insulated-coffee-cup-4781-4.png",
-      "/images/products/alibaba-bulk/vacuum-insulated-insulated-coffee-cup-4781-5.png",
-      "/images/products/alibaba-bulk/vacuum-insulated-insulated-coffee-cup-4781-6.png"
+      "/images/products/alibaba-bulk/vacuum-insulated-insulated-coffee-cup-4781-1.avif",
+      "/images/products/alibaba-bulk/vacuum-insulated-insulated-coffee-cup-4781-2.avif",
+      "/images/products/alibaba-bulk/vacuum-insulated-insulated-coffee-cup-4781-3.avif",
+      "/images/products/alibaba-bulk/vacuum-insulated-insulated-coffee-cup-4781-4.avif",
+      "/images/products/alibaba-bulk/vacuum-insulated-insulated-coffee-cup-4781-5.avif",
+      "/images/products/alibaba-bulk/vacuum-insulated-insulated-coffee-cup-4781-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/vacuum-insulated-insulated-coffee-cup-4781-5.png",
-      "/images/products/alibaba-bulk/vacuum-insulated-insulated-coffee-cup-4781-6.png"
+      "/images/products/alibaba-bulk/vacuum-insulated-insulated-coffee-cup-4781-5.avif",
+      "/images/products/alibaba-bulk/vacuum-insulated-insulated-coffee-cup-4781-6.avif"
     ],
     "capacities": "Customized capacity",
     "summaryRows": [
@@ -7063,18 +7063,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom Gift Set Coffee Cup for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from OXYDIARY.",
     "heroSubtitle": "Custom Gift Set Coffee Cup for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/Best-Selling-Products-2025-Stainless-Steel_1601717974534.html",
-    "image": "/images/products/alibaba-bulk/gift-set-coffee-cup-4534-1.png",
+    "image": "/images/products/alibaba-bulk/gift-set-coffee-cup-4534-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/gift-set-coffee-cup-4534-1.png",
-      "/images/products/alibaba-bulk/gift-set-coffee-cup-4534-2.png",
-      "/images/products/alibaba-bulk/gift-set-coffee-cup-4534-3.png",
-      "/images/products/alibaba-bulk/gift-set-coffee-cup-4534-4.png",
-      "/images/products/alibaba-bulk/gift-set-coffee-cup-4534-5.jpg",
-      "/images/products/alibaba-bulk/gift-set-coffee-cup-4534-6.jpg"
+      "/images/products/alibaba-bulk/gift-set-coffee-cup-4534-1.avif",
+      "/images/products/alibaba-bulk/gift-set-coffee-cup-4534-2.avif",
+      "/images/products/alibaba-bulk/gift-set-coffee-cup-4534-3.avif",
+      "/images/products/alibaba-bulk/gift-set-coffee-cup-4534-4.avif",
+      "/images/products/alibaba-bulk/gift-set-coffee-cup-4534-5.avif",
+      "/images/products/alibaba-bulk/gift-set-coffee-cup-4534-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/gift-set-coffee-cup-4534-5.jpg",
-      "/images/products/alibaba-bulk/gift-set-coffee-cup-4534-6.jpg"
+      "/images/products/alibaba-bulk/gift-set-coffee-cup-4534-5.avif",
+      "/images/products/alibaba-bulk/gift-set-coffee-cup-4534-6.avif"
     ],
     "capacities": "Customized capacity",
     "summaryRows": [
@@ -7161,18 +7161,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom Straw Lid Gift Coffee Cup for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from OXYDIAR",
     "heroSubtitle": "Custom Straw Lid Gift Coffee Cup for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/Eco-Friendly-Products-Stainless-Steel-Tumblers_1601735476093.html",
-    "image": "/images/products/alibaba-bulk/straw-lid-gift-coffee-cup-6093-1.png",
+    "image": "/images/products/alibaba-bulk/straw-lid-gift-coffee-cup-6093-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/straw-lid-gift-coffee-cup-6093-1.png",
-      "/images/products/alibaba-bulk/straw-lid-gift-coffee-cup-6093-2.png",
-      "/images/products/alibaba-bulk/straw-lid-gift-coffee-cup-6093-3.png",
-      "/images/products/alibaba-bulk/straw-lid-gift-coffee-cup-6093-4.png",
-      "/images/products/alibaba-bulk/straw-lid-gift-coffee-cup-6093-5.png",
-      "/images/products/alibaba-bulk/straw-lid-gift-coffee-cup-6093-6.png"
+      "/images/products/alibaba-bulk/straw-lid-gift-coffee-cup-6093-1.avif",
+      "/images/products/alibaba-bulk/straw-lid-gift-coffee-cup-6093-2.avif",
+      "/images/products/alibaba-bulk/straw-lid-gift-coffee-cup-6093-3.avif",
+      "/images/products/alibaba-bulk/straw-lid-gift-coffee-cup-6093-4.avif",
+      "/images/products/alibaba-bulk/straw-lid-gift-coffee-cup-6093-5.avif",
+      "/images/products/alibaba-bulk/straw-lid-gift-coffee-cup-6093-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/straw-lid-gift-coffee-cup-6093-5.png",
-      "/images/products/alibaba-bulk/straw-lid-gift-coffee-cup-6093-6.png"
+      "/images/products/alibaba-bulk/straw-lid-gift-coffee-cup-6093-5.avif",
+      "/images/products/alibaba-bulk/straw-lid-gift-coffee-cup-6093-6.avif"
     ],
     "capacities": "Customized capacity",
     "summaryRows": [
@@ -7259,18 +7259,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom Insulated Coffee Cup for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from OXYDIARY.",
     "heroSubtitle": "Custom Insulated Coffee Cup for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/Tumblers-Wholesale-Bulk-Insulated-Water-Bottles_1601733402362.html",
-    "image": "/images/products/alibaba-bulk/insulated-coffee-cup-2362-1.png",
+    "image": "/images/products/alibaba-bulk/insulated-coffee-cup-2362-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/insulated-coffee-cup-2362-1.png",
-      "/images/products/alibaba-bulk/insulated-coffee-cup-2362-2.png",
-      "/images/products/alibaba-bulk/insulated-coffee-cup-2362-3.png",
-      "/images/products/alibaba-bulk/insulated-coffee-cup-2362-4.png",
-      "/images/products/alibaba-bulk/insulated-coffee-cup-2362-5.jpg",
-      "/images/products/alibaba-bulk/insulated-coffee-cup-2362-6.png"
+      "/images/products/alibaba-bulk/insulated-coffee-cup-2362-1.avif",
+      "/images/products/alibaba-bulk/insulated-coffee-cup-2362-2.avif",
+      "/images/products/alibaba-bulk/insulated-coffee-cup-2362-3.avif",
+      "/images/products/alibaba-bulk/insulated-coffee-cup-2362-4.avif",
+      "/images/products/alibaba-bulk/insulated-coffee-cup-2362-5.avif",
+      "/images/products/alibaba-bulk/insulated-coffee-cup-2362-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/insulated-coffee-cup-2362-5.jpg",
-      "/images/products/alibaba-bulk/insulated-coffee-cup-2362-6.png"
+      "/images/products/alibaba-bulk/insulated-coffee-cup-2362-5.avif",
+      "/images/products/alibaba-bulk/insulated-coffee-cup-2362-6.avif"
     ],
     "capacities": "Customized capacity",
     "summaryRows": [
@@ -7357,18 +7357,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom Leak Proof Wedding Gift Smart Temperature Bottle for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Reque",
     "heroSubtitle": "Custom Leak Proof Wedding Gift Smart Temperature Bottle for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/Smart-Home-Products-Custom-Mugs-316_1601733260994.html",
-    "image": "/images/products/alibaba-bulk/leak-proof-wedding-gift-smart-temperature-0994-1.png",
+    "image": "/images/products/alibaba-bulk/leak-proof-wedding-gift-smart-temperature-0994-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/leak-proof-wedding-gift-smart-temperature-0994-1.png",
-      "/images/products/alibaba-bulk/leak-proof-wedding-gift-smart-temperature-0994-2.png",
-      "/images/products/alibaba-bulk/leak-proof-wedding-gift-smart-temperature-0994-3.png",
-      "/images/products/alibaba-bulk/leak-proof-wedding-gift-smart-temperature-0994-4.png",
-      "/images/products/alibaba-bulk/leak-proof-wedding-gift-smart-temperature-0994-5.png",
-      "/images/products/alibaba-bulk/leak-proof-wedding-gift-smart-temperature-0994-6.png"
+      "/images/products/alibaba-bulk/leak-proof-wedding-gift-smart-temperature-0994-1.avif",
+      "/images/products/alibaba-bulk/leak-proof-wedding-gift-smart-temperature-0994-2.avif",
+      "/images/products/alibaba-bulk/leak-proof-wedding-gift-smart-temperature-0994-3.avif",
+      "/images/products/alibaba-bulk/leak-proof-wedding-gift-smart-temperature-0994-4.avif",
+      "/images/products/alibaba-bulk/leak-proof-wedding-gift-smart-temperature-0994-5.avif",
+      "/images/products/alibaba-bulk/leak-proof-wedding-gift-smart-temperature-0994-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/leak-proof-wedding-gift-smart-temperature-0994-5.png",
-      "/images/products/alibaba-bulk/leak-proof-wedding-gift-smart-temperature-0994-6.png"
+      "/images/products/alibaba-bulk/leak-proof-wedding-gift-smart-temperature-0994-5.avif",
+      "/images/products/alibaba-bulk/leak-proof-wedding-gift-smart-temperature-0994-6.avif"
     ],
     "capacities": "Customized capacity",
     "summaryRows": [
@@ -7455,18 +7455,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom Handle Tumbler for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from OXYDIARY.",
     "heroSubtitle": "Custom Handle Tumbler for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/Custom-Water-Bottle-Wholesale-Products-Stainless_1601733223937.html",
-    "image": "/images/products/alibaba-bulk/handle-tumbler-3937-1.png",
+    "image": "/images/products/alibaba-bulk/handle-tumbler-3937-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/handle-tumbler-3937-1.png",
-      "/images/products/alibaba-bulk/handle-tumbler-3937-2.png",
-      "/images/products/alibaba-bulk/handle-tumbler-3937-3.png",
-      "/images/products/alibaba-bulk/handle-tumbler-3937-4.png",
-      "/images/products/alibaba-bulk/handle-tumbler-3937-5.jpg",
-      "/images/products/alibaba-bulk/handle-tumbler-3937-6.jpg"
+      "/images/products/alibaba-bulk/handle-tumbler-3937-1.avif",
+      "/images/products/alibaba-bulk/handle-tumbler-3937-2.avif",
+      "/images/products/alibaba-bulk/handle-tumbler-3937-3.avif",
+      "/images/products/alibaba-bulk/handle-tumbler-3937-4.avif",
+      "/images/products/alibaba-bulk/handle-tumbler-3937-5.avif",
+      "/images/products/alibaba-bulk/handle-tumbler-3937-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/handle-tumbler-3937-5.jpg",
-      "/images/products/alibaba-bulk/handle-tumbler-3937-6.jpg"
+      "/images/products/alibaba-bulk/handle-tumbler-3937-5.avif",
+      "/images/products/alibaba-bulk/handle-tumbler-3937-6.avif"
     ],
     "capacities": "Customized capacity",
     "summaryRows": [
@@ -7553,18 +7553,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom Leak Proof Tumbler for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from OXYDIARY.",
     "heroSubtitle": "Custom Leak Proof Tumbler for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/Custom-Mugs-Stainless-Steel-Water-Bottle_1601726787792.html",
-    "image": "/images/products/alibaba-bulk/leak-proof-tumbler-7792-1.png",
+    "image": "/images/products/alibaba-bulk/leak-proof-tumbler-7792-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/leak-proof-tumbler-7792-1.png",
-      "/images/products/alibaba-bulk/leak-proof-tumbler-7792-2.png",
-      "/images/products/alibaba-bulk/leak-proof-tumbler-7792-3.png",
-      "/images/products/alibaba-bulk/leak-proof-tumbler-7792-4.jpg",
-      "/images/products/alibaba-bulk/leak-proof-tumbler-7792-5.jpg",
-      "/images/products/alibaba-bulk/leak-proof-tumbler-7792-6.jpg"
+      "/images/products/alibaba-bulk/leak-proof-tumbler-7792-1.avif",
+      "/images/products/alibaba-bulk/leak-proof-tumbler-7792-2.avif",
+      "/images/products/alibaba-bulk/leak-proof-tumbler-7792-3.avif",
+      "/images/products/alibaba-bulk/leak-proof-tumbler-7792-4.avif",
+      "/images/products/alibaba-bulk/leak-proof-tumbler-7792-5.avif",
+      "/images/products/alibaba-bulk/leak-proof-tumbler-7792-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/leak-proof-tumbler-7792-5.jpg",
-      "/images/products/alibaba-bulk/leak-proof-tumbler-7792-6.jpg"
+      "/images/products/alibaba-bulk/leak-proof-tumbler-7792-5.avif",
+      "/images/products/alibaba-bulk/leak-proof-tumbler-7792-6.avif"
     ],
     "capacities": "Customized capacity",
     "summaryRows": [
@@ -7651,18 +7651,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom Leak Proof Tumbler for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from OXYDIARY.",
     "heroSubtitle": "Custom Leak Proof Tumbler for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/Tumblers-Wholesale-Bulk-Stainless-Steel-Tumbler_1601726730666.html",
-    "image": "/images/products/alibaba-bulk/leak-proof-tumbler-0666-1.png",
+    "image": "/images/products/alibaba-bulk/leak-proof-tumbler-0666-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/leak-proof-tumbler-0666-1.png",
-      "/images/products/alibaba-bulk/leak-proof-tumbler-0666-2.jpg",
-      "/images/products/alibaba-bulk/leak-proof-tumbler-0666-3.jpg",
-      "/images/products/alibaba-bulk/leak-proof-tumbler-0666-4.jpg",
-      "/images/products/alibaba-bulk/leak-proof-tumbler-0666-5.png",
-      "/images/products/alibaba-bulk/leak-proof-tumbler-0666-6.png"
+      "/images/products/alibaba-bulk/leak-proof-tumbler-0666-1.avif",
+      "/images/products/alibaba-bulk/leak-proof-tumbler-0666-2.avif",
+      "/images/products/alibaba-bulk/leak-proof-tumbler-0666-3.avif",
+      "/images/products/alibaba-bulk/leak-proof-tumbler-0666-4.avif",
+      "/images/products/alibaba-bulk/leak-proof-tumbler-0666-5.avif",
+      "/images/products/alibaba-bulk/leak-proof-tumbler-0666-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/leak-proof-tumbler-0666-5.png",
-      "/images/products/alibaba-bulk/leak-proof-tumbler-0666-6.png"
+      "/images/products/alibaba-bulk/leak-proof-tumbler-0666-5.avif",
+      "/images/products/alibaba-bulk/leak-proof-tumbler-0666-6.avif"
     ],
     "capacities": "Customized capacity",
     "summaryRows": [
@@ -7749,18 +7749,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom Leak Proof Gift Coffee Cup for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from OXYDIA",
     "heroSubtitle": "Custom Leak Proof Gift Coffee Cup for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/Best-Selling-Products-2025-Water-Bottle_1601726695811.html",
-    "image": "/images/products/alibaba-bulk/leak-proof-gift-coffee-cup-5811-1.png",
+    "image": "/images/products/alibaba-bulk/leak-proof-gift-coffee-cup-5811-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/leak-proof-gift-coffee-cup-5811-1.png",
-      "/images/products/alibaba-bulk/leak-proof-gift-coffee-cup-5811-2.jpg",
-      "/images/products/alibaba-bulk/leak-proof-gift-coffee-cup-5811-3.jpg",
-      "/images/products/alibaba-bulk/leak-proof-gift-coffee-cup-5811-4.jpg",
-      "/images/products/alibaba-bulk/leak-proof-gift-coffee-cup-5811-5.png",
-      "/images/products/alibaba-bulk/leak-proof-gift-coffee-cup-5811-6.jpg"
+      "/images/products/alibaba-bulk/leak-proof-gift-coffee-cup-5811-1.avif",
+      "/images/products/alibaba-bulk/leak-proof-gift-coffee-cup-5811-2.avif",
+      "/images/products/alibaba-bulk/leak-proof-gift-coffee-cup-5811-3.avif",
+      "/images/products/alibaba-bulk/leak-proof-gift-coffee-cup-5811-4.avif",
+      "/images/products/alibaba-bulk/leak-proof-gift-coffee-cup-5811-5.avif",
+      "/images/products/alibaba-bulk/leak-proof-gift-coffee-cup-5811-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/leak-proof-gift-coffee-cup-5811-5.png",
-      "/images/products/alibaba-bulk/leak-proof-gift-coffee-cup-5811-6.jpg"
+      "/images/products/alibaba-bulk/leak-proof-gift-coffee-cup-5811-5.avif",
+      "/images/products/alibaba-bulk/leak-proof-gift-coffee-cup-5811-6.avif"
     ],
     "capacities": "Customized capacity",
     "summaryRows": [
@@ -7847,18 +7847,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom 17oz Thermos Kids Water Bottle for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from OX",
     "heroSubtitle": "Custom 17oz Thermos Kids Water Bottle for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/17OZ-New-Products-Stainless-Steel-Water_1601724493749.html",
-    "image": "/images/products/alibaba-bulk/17oz-thermos-kids-water-bottle-3749-1.jpg",
+    "image": "/images/products/alibaba-bulk/17oz-thermos-kids-water-bottle-3749-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/17oz-thermos-kids-water-bottle-3749-1.jpg",
-      "/images/products/alibaba-bulk/17oz-thermos-kids-water-bottle-3749-2.jpg",
-      "/images/products/alibaba-bulk/17oz-thermos-kids-water-bottle-3749-3.jpg",
-      "/images/products/alibaba-bulk/17oz-thermos-kids-water-bottle-3749-4.jpg",
-      "/images/products/alibaba-bulk/17oz-thermos-kids-water-bottle-3749-5.jpg",
-      "/images/products/alibaba-bulk/17oz-thermos-kids-water-bottle-3749-6.jpg"
+      "/images/products/alibaba-bulk/17oz-thermos-kids-water-bottle-3749-1.avif",
+      "/images/products/alibaba-bulk/17oz-thermos-kids-water-bottle-3749-2.avif",
+      "/images/products/alibaba-bulk/17oz-thermos-kids-water-bottle-3749-3.avif",
+      "/images/products/alibaba-bulk/17oz-thermos-kids-water-bottle-3749-4.avif",
+      "/images/products/alibaba-bulk/17oz-thermos-kids-water-bottle-3749-5.avif",
+      "/images/products/alibaba-bulk/17oz-thermos-kids-water-bottle-3749-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/17oz-thermos-kids-water-bottle-3749-5.jpg",
-      "/images/products/alibaba-bulk/17oz-thermos-kids-water-bottle-3749-6.jpg"
+      "/images/products/alibaba-bulk/17oz-thermos-kids-water-bottle-3749-5.avif",
+      "/images/products/alibaba-bulk/17oz-thermos-kids-water-bottle-3749-6.avif"
     ],
     "capacities": "17oz",
     "summaryRows": [
@@ -7945,18 +7945,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom Leak Proof Gift Set Tumbler for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from OXYDI",
     "heroSubtitle": "Custom Leak Proof Gift Set Tumbler for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/Custom-Mugs-Stainless-Steel-Tumbler-Water_1601721999174.html",
-    "image": "/images/products/alibaba-bulk/leak-proof-gift-set-tumbler-9174-1.png",
+    "image": "/images/products/alibaba-bulk/leak-proof-gift-set-tumbler-9174-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/leak-proof-gift-set-tumbler-9174-1.png",
-      "/images/products/alibaba-bulk/leak-proof-gift-set-tumbler-9174-2.png",
-      "/images/products/alibaba-bulk/leak-proof-gift-set-tumbler-9174-3.png",
-      "/images/products/alibaba-bulk/leak-proof-gift-set-tumbler-9174-4.png",
-      "/images/products/alibaba-bulk/leak-proof-gift-set-tumbler-9174-5.png",
-      "/images/products/alibaba-bulk/leak-proof-gift-set-tumbler-9174-6.png"
+      "/images/products/alibaba-bulk/leak-proof-gift-set-tumbler-9174-1.avif",
+      "/images/products/alibaba-bulk/leak-proof-gift-set-tumbler-9174-2.avif",
+      "/images/products/alibaba-bulk/leak-proof-gift-set-tumbler-9174-3.avif",
+      "/images/products/alibaba-bulk/leak-proof-gift-set-tumbler-9174-4.avif",
+      "/images/products/alibaba-bulk/leak-proof-gift-set-tumbler-9174-5.avif",
+      "/images/products/alibaba-bulk/leak-proof-gift-set-tumbler-9174-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/leak-proof-gift-set-tumbler-9174-5.png",
-      "/images/products/alibaba-bulk/leak-proof-gift-set-tumbler-9174-6.png"
+      "/images/products/alibaba-bulk/leak-proof-gift-set-tumbler-9174-5.avif",
+      "/images/products/alibaba-bulk/leak-proof-gift-set-tumbler-9174-6.avif"
     ],
     "capacities": "Customized capacity",
     "summaryRows": [
@@ -8043,18 +8043,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom Wedding Gift Sports Bottle for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from OXYDIA",
     "heroSubtitle": "Custom Wedding Gift Sports Bottle for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/Novelties-Stainless-Steel-Water-Bottle-Drinking_1601722025034.html",
-    "image": "/images/products/alibaba-bulk/wedding-gift-sports-bottle-5034-1.png",
+    "image": "/images/products/alibaba-bulk/wedding-gift-sports-bottle-5034-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/wedding-gift-sports-bottle-5034-1.png",
-      "/images/products/alibaba-bulk/wedding-gift-sports-bottle-5034-2.png",
-      "/images/products/alibaba-bulk/wedding-gift-sports-bottle-5034-3.png",
-      "/images/products/alibaba-bulk/wedding-gift-sports-bottle-5034-4.png",
-      "/images/products/alibaba-bulk/wedding-gift-sports-bottle-5034-5.png",
-      "/images/products/alibaba-bulk/wedding-gift-sports-bottle-5034-6.png"
+      "/images/products/alibaba-bulk/wedding-gift-sports-bottle-5034-1.avif",
+      "/images/products/alibaba-bulk/wedding-gift-sports-bottle-5034-2.avif",
+      "/images/products/alibaba-bulk/wedding-gift-sports-bottle-5034-3.avif",
+      "/images/products/alibaba-bulk/wedding-gift-sports-bottle-5034-4.avif",
+      "/images/products/alibaba-bulk/wedding-gift-sports-bottle-5034-5.avif",
+      "/images/products/alibaba-bulk/wedding-gift-sports-bottle-5034-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/wedding-gift-sports-bottle-5034-5.png",
-      "/images/products/alibaba-bulk/wedding-gift-sports-bottle-5034-6.png"
+      "/images/products/alibaba-bulk/wedding-gift-sports-bottle-5034-5.avif",
+      "/images/products/alibaba-bulk/wedding-gift-sports-bottle-5034-6.avif"
     ],
     "capacities": "Customized capacity",
     "summaryRows": [
@@ -8141,18 +8141,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom Wedding Gift Set Tumbler for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from OXY",
     "heroSubtitle": "Custom Wedding Gift Set Tumbler for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/Tumblers-Wholesale-Bulk-Stainless-Steel-Tumbler_1601721895444.html",
-    "image": "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-5444-1.png",
+    "image": "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-5444-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-5444-1.png",
-      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-5444-2.png",
-      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-5444-3.png",
-      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-5444-4.png",
-      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-5444-5.png",
-      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-5444-6.png"
+      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-5444-1.avif",
+      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-5444-2.avif",
+      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-5444-3.avif",
+      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-5444-4.avif",
+      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-5444-5.avif",
+      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-5444-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-5444-5.png",
-      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-5444-6.png"
+      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-5444-5.avif",
+      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-5444-6.avif"
     ],
     "capacities": "Customized capacity",
     "summaryRows": [
@@ -8239,18 +8239,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom Wedding Gift Set Tumbler for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from OXY",
     "heroSubtitle": "Custom Wedding Gift Set Tumbler for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/Custom-Cups-for-Wedding-Stainless-Steel_1601721492792.html",
-    "image": "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-2792-1.png",
+    "image": "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-2792-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-2792-1.png",
-      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-2792-2.png",
-      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-2792-3.png",
-      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-2792-4.png",
-      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-2792-5.png",
-      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-2792-6.png"
+      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-2792-1.avif",
+      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-2792-2.avif",
+      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-2792-3.avif",
+      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-2792-4.avif",
+      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-2792-5.avif",
+      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-2792-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-2792-5.png",
-      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-2792-6.png"
+      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-2792-5.avif",
+      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-2792-6.avif"
     ],
     "capacities": "Customized capacity",
     "summaryRows": [
@@ -8337,18 +8337,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom Vacuum Insulated Wedding Gift Tumbler for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote ",
     "heroSubtitle": "Custom Vacuum Insulated Wedding Gift Tumbler for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/Tumblers-Wholesale-Bulk-Leakproof-Travel-Mugs_1601721513482.html",
-    "image": "/images/products/alibaba-bulk/vacuum-insulated-wedding-gift-tumbler-3482-1.png",
+    "image": "/images/products/alibaba-bulk/vacuum-insulated-wedding-gift-tumbler-3482-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/vacuum-insulated-wedding-gift-tumbler-3482-1.png",
-      "/images/products/alibaba-bulk/vacuum-insulated-wedding-gift-tumbler-3482-2.png",
-      "/images/products/alibaba-bulk/vacuum-insulated-wedding-gift-tumbler-3482-3.png",
-      "/images/products/alibaba-bulk/vacuum-insulated-wedding-gift-tumbler-3482-4.png",
-      "/images/products/alibaba-bulk/vacuum-insulated-wedding-gift-tumbler-3482-5.png",
-      "/images/products/alibaba-bulk/vacuum-insulated-wedding-gift-tumbler-3482-6.png"
+      "/images/products/alibaba-bulk/vacuum-insulated-wedding-gift-tumbler-3482-1.avif",
+      "/images/products/alibaba-bulk/vacuum-insulated-wedding-gift-tumbler-3482-2.avif",
+      "/images/products/alibaba-bulk/vacuum-insulated-wedding-gift-tumbler-3482-3.avif",
+      "/images/products/alibaba-bulk/vacuum-insulated-wedding-gift-tumbler-3482-4.avif",
+      "/images/products/alibaba-bulk/vacuum-insulated-wedding-gift-tumbler-3482-5.avif",
+      "/images/products/alibaba-bulk/vacuum-insulated-wedding-gift-tumbler-3482-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/vacuum-insulated-wedding-gift-tumbler-3482-5.png",
-      "/images/products/alibaba-bulk/vacuum-insulated-wedding-gift-tumbler-3482-6.png"
+      "/images/products/alibaba-bulk/vacuum-insulated-wedding-gift-tumbler-3482-5.avif",
+      "/images/products/alibaba-bulk/vacuum-insulated-wedding-gift-tumbler-3482-6.avif"
     ],
     "capacities": "Customized capacity",
     "summaryRows": [
@@ -8435,18 +8435,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom Insulated Wedding Gift Tumbler for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from OX",
     "heroSubtitle": "Custom Insulated Wedding Gift Tumbler for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/Custom-Cups-for-Wedding-Insulated-Stainless_1601721427766.html",
-    "image": "/images/products/alibaba-bulk/insulated-wedding-gift-tumbler-7766-1.png",
+    "image": "/images/products/alibaba-bulk/insulated-wedding-gift-tumbler-7766-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/insulated-wedding-gift-tumbler-7766-1.png",
-      "/images/products/alibaba-bulk/insulated-wedding-gift-tumbler-7766-2.png",
-      "/images/products/alibaba-bulk/insulated-wedding-gift-tumbler-7766-3.png",
-      "/images/products/alibaba-bulk/insulated-wedding-gift-tumbler-7766-4.png",
-      "/images/products/alibaba-bulk/insulated-wedding-gift-tumbler-7766-5.png",
-      "/images/products/alibaba-bulk/insulated-wedding-gift-tumbler-7766-6.png"
+      "/images/products/alibaba-bulk/insulated-wedding-gift-tumbler-7766-1.avif",
+      "/images/products/alibaba-bulk/insulated-wedding-gift-tumbler-7766-2.avif",
+      "/images/products/alibaba-bulk/insulated-wedding-gift-tumbler-7766-3.avif",
+      "/images/products/alibaba-bulk/insulated-wedding-gift-tumbler-7766-4.avif",
+      "/images/products/alibaba-bulk/insulated-wedding-gift-tumbler-7766-5.avif",
+      "/images/products/alibaba-bulk/insulated-wedding-gift-tumbler-7766-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/insulated-wedding-gift-tumbler-7766-5.png",
-      "/images/products/alibaba-bulk/insulated-wedding-gift-tumbler-7766-6.png"
+      "/images/products/alibaba-bulk/insulated-wedding-gift-tumbler-7766-5.avif",
+      "/images/products/alibaba-bulk/insulated-wedding-gift-tumbler-7766-6.avif"
     ],
     "capacities": "Customized capacity",
     "summaryRows": [
@@ -8533,18 +8533,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom 12oz Wedding Gift Tumbler for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from OXYDIAR",
     "heroSubtitle": "Custom 12oz Wedding Gift Tumbler for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/12oz-Custom-Cups-for-Wedding-Stainless_1601677604074.html",
-    "image": "/images/products/alibaba-bulk/12oz-wedding-gift-tumbler-4074-1.jpg",
+    "image": "/images/products/alibaba-bulk/12oz-wedding-gift-tumbler-4074-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/12oz-wedding-gift-tumbler-4074-1.jpg",
-      "/images/products/alibaba-bulk/12oz-wedding-gift-tumbler-4074-2.jpg",
-      "/images/products/alibaba-bulk/12oz-wedding-gift-tumbler-4074-3.jpg",
-      "/images/products/alibaba-bulk/12oz-wedding-gift-tumbler-4074-4.png",
-      "/images/products/alibaba-bulk/12oz-wedding-gift-tumbler-4074-5.jpg",
-      "/images/products/alibaba-bulk/12oz-wedding-gift-tumbler-4074-6.png"
+      "/images/products/alibaba-bulk/12oz-wedding-gift-tumbler-4074-1.avif",
+      "/images/products/alibaba-bulk/12oz-wedding-gift-tumbler-4074-2.avif",
+      "/images/products/alibaba-bulk/12oz-wedding-gift-tumbler-4074-3.avif",
+      "/images/products/alibaba-bulk/12oz-wedding-gift-tumbler-4074-4.avif",
+      "/images/products/alibaba-bulk/12oz-wedding-gift-tumbler-4074-5.avif",
+      "/images/products/alibaba-bulk/12oz-wedding-gift-tumbler-4074-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/12oz-wedding-gift-tumbler-4074-5.jpg",
-      "/images/products/alibaba-bulk/12oz-wedding-gift-tumbler-4074-6.png"
+      "/images/products/alibaba-bulk/12oz-wedding-gift-tumbler-4074-5.avif",
+      "/images/products/alibaba-bulk/12oz-wedding-gift-tumbler-4074-6.avif"
     ],
     "capacities": "12oz",
     "summaryRows": [
@@ -8631,18 +8631,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom Insulated Wedding Gift Tumbler for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from OX",
     "heroSubtitle": "Custom Insulated Wedding Gift Tumbler for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/Custom-Cups-for-Wedding-Stainless-Steel_1601677561395.html",
-    "image": "/images/products/alibaba-bulk/insulated-wedding-gift-tumbler-1395-1.png",
+    "image": "/images/products/alibaba-bulk/insulated-wedding-gift-tumbler-1395-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/insulated-wedding-gift-tumbler-1395-1.png",
-      "/images/products/alibaba-bulk/insulated-wedding-gift-tumbler-1395-2.png",
-      "/images/products/alibaba-bulk/insulated-wedding-gift-tumbler-1395-3.png",
-      "/images/products/alibaba-bulk/insulated-wedding-gift-tumbler-1395-4.jpg",
-      "/images/products/alibaba-bulk/insulated-wedding-gift-tumbler-1395-5.png",
-      "/images/products/alibaba-bulk/insulated-wedding-gift-tumbler-1395-6.png"
+      "/images/products/alibaba-bulk/insulated-wedding-gift-tumbler-1395-1.avif",
+      "/images/products/alibaba-bulk/insulated-wedding-gift-tumbler-1395-2.avif",
+      "/images/products/alibaba-bulk/insulated-wedding-gift-tumbler-1395-3.avif",
+      "/images/products/alibaba-bulk/insulated-wedding-gift-tumbler-1395-4.avif",
+      "/images/products/alibaba-bulk/insulated-wedding-gift-tumbler-1395-5.avif",
+      "/images/products/alibaba-bulk/insulated-wedding-gift-tumbler-1395-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/insulated-wedding-gift-tumbler-1395-5.png",
-      "/images/products/alibaba-bulk/insulated-wedding-gift-tumbler-1395-6.png"
+      "/images/products/alibaba-bulk/insulated-wedding-gift-tumbler-1395-5.avif",
+      "/images/products/alibaba-bulk/insulated-wedding-gift-tumbler-1395-6.avif"
     ],
     "capacities": "Customized capacity",
     "summaryRows": [
@@ -8729,18 +8729,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom Gift Set Tumbler for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from OXYDIARY.",
     "heroSubtitle": "Custom Gift Set Tumbler for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/Custom-Cups-Stainless-Steel-Water-Bottle_1601717978680.html",
-    "image": "/images/products/alibaba-bulk/gift-set-tumbler-8680-1.png",
+    "image": "/images/products/alibaba-bulk/gift-set-tumbler-8680-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/gift-set-tumbler-8680-1.png",
-      "/images/products/alibaba-bulk/gift-set-tumbler-8680-2.jpg",
-      "/images/products/alibaba-bulk/gift-set-tumbler-8680-3.png",
-      "/images/products/alibaba-bulk/gift-set-tumbler-8680-4.jpg",
-      "/images/products/alibaba-bulk/gift-set-tumbler-8680-5.png",
-      "/images/products/alibaba-bulk/gift-set-tumbler-8680-6.png"
+      "/images/products/alibaba-bulk/gift-set-tumbler-8680-1.avif",
+      "/images/products/alibaba-bulk/gift-set-tumbler-8680-2.avif",
+      "/images/products/alibaba-bulk/gift-set-tumbler-8680-3.avif",
+      "/images/products/alibaba-bulk/gift-set-tumbler-8680-4.avif",
+      "/images/products/alibaba-bulk/gift-set-tumbler-8680-5.avif",
+      "/images/products/alibaba-bulk/gift-set-tumbler-8680-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/gift-set-tumbler-8680-5.png",
-      "/images/products/alibaba-bulk/gift-set-tumbler-8680-6.png"
+      "/images/products/alibaba-bulk/gift-set-tumbler-8680-5.avif",
+      "/images/products/alibaba-bulk/gift-set-tumbler-8680-6.avif"
     ],
     "capacities": "Customized capacity",
     "summaryRows": [
@@ -8827,18 +8827,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom Gift Set Thermos Water Bottle for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from OXY",
     "heroSubtitle": "Custom Gift Set Thermos Water Bottle for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/Bulk-Items-Stainless-Steel-Water-Bottle_1601717986630.html",
-    "image": "/images/products/alibaba-bulk/gift-set-thermos-water-bottle-6630-1.png",
+    "image": "/images/products/alibaba-bulk/gift-set-thermos-water-bottle-6630-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/gift-set-thermos-water-bottle-6630-1.png",
-      "/images/products/alibaba-bulk/gift-set-thermos-water-bottle-6630-2.jpg",
-      "/images/products/alibaba-bulk/gift-set-thermos-water-bottle-6630-3.png",
-      "/images/products/alibaba-bulk/gift-set-thermos-water-bottle-6630-4.png",
-      "/images/products/alibaba-bulk/gift-set-thermos-water-bottle-6630-5.png",
-      "/images/products/alibaba-bulk/gift-set-thermos-water-bottle-6630-6.png"
+      "/images/products/alibaba-bulk/gift-set-thermos-water-bottle-6630-1.avif",
+      "/images/products/alibaba-bulk/gift-set-thermos-water-bottle-6630-2.avif",
+      "/images/products/alibaba-bulk/gift-set-thermos-water-bottle-6630-3.avif",
+      "/images/products/alibaba-bulk/gift-set-thermos-water-bottle-6630-4.avif",
+      "/images/products/alibaba-bulk/gift-set-thermos-water-bottle-6630-5.avif",
+      "/images/products/alibaba-bulk/gift-set-thermos-water-bottle-6630-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/gift-set-thermos-water-bottle-6630-5.png",
-      "/images/products/alibaba-bulk/gift-set-thermos-water-bottle-6630-6.png"
+      "/images/products/alibaba-bulk/gift-set-thermos-water-bottle-6630-5.avif",
+      "/images/products/alibaba-bulk/gift-set-thermos-water-bottle-6630-6.avif"
     ],
     "capacities": "Customized capacity",
     "summaryRows": [
@@ -8925,18 +8925,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom Leak Proof Tumbler for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from OXYDIARY.",
     "heroSubtitle": "Custom Leak Proof Tumbler for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/Custom-Water-Bottle-Stainless-Steel-Tumbler_1601718024521.html",
-    "image": "/images/products/alibaba-bulk/leak-proof-tumbler-4521-1.png",
+    "image": "/images/products/alibaba-bulk/leak-proof-tumbler-4521-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/leak-proof-tumbler-4521-1.png",
-      "/images/products/alibaba-bulk/leak-proof-tumbler-4521-2.png",
-      "/images/products/alibaba-bulk/leak-proof-tumbler-4521-3.png",
-      "/images/products/alibaba-bulk/leak-proof-tumbler-4521-4.png",
-      "/images/products/alibaba-bulk/leak-proof-tumbler-4521-5.jpg",
-      "/images/products/alibaba-bulk/leak-proof-tumbler-4521-6.png"
+      "/images/products/alibaba-bulk/leak-proof-tumbler-4521-1.avif",
+      "/images/products/alibaba-bulk/leak-proof-tumbler-4521-2.avif",
+      "/images/products/alibaba-bulk/leak-proof-tumbler-4521-3.avif",
+      "/images/products/alibaba-bulk/leak-proof-tumbler-4521-4.avif",
+      "/images/products/alibaba-bulk/leak-proof-tumbler-4521-5.avif",
+      "/images/products/alibaba-bulk/leak-proof-tumbler-4521-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/leak-proof-tumbler-4521-5.jpg",
-      "/images/products/alibaba-bulk/leak-proof-tumbler-4521-6.png"
+      "/images/products/alibaba-bulk/leak-proof-tumbler-4521-5.avif",
+      "/images/products/alibaba-bulk/leak-proof-tumbler-4521-6.avif"
     ],
     "capacities": "Customized capacity",
     "summaryRows": [
@@ -9023,18 +9023,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom Straw Lid Tumbler for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from OXYDIARY.",
     "heroSubtitle": "Custom Straw Lid Tumbler for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/Custom-3D-Printed-Leakproof-Tumbler-New_1601718035461.html",
-    "image": "/images/products/alibaba-bulk/straw-lid-tumbler-5461-1.png",
+    "image": "/images/products/alibaba-bulk/straw-lid-tumbler-5461-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/straw-lid-tumbler-5461-1.png",
-      "/images/products/alibaba-bulk/straw-lid-tumbler-5461-2.png",
-      "/images/products/alibaba-bulk/straw-lid-tumbler-5461-3.jpg",
-      "/images/products/alibaba-bulk/straw-lid-tumbler-5461-4.jpg",
-      "/images/products/alibaba-bulk/straw-lid-tumbler-5461-5.png",
-      "/images/products/alibaba-bulk/straw-lid-tumbler-5461-6.png"
+      "/images/products/alibaba-bulk/straw-lid-tumbler-5461-1.avif",
+      "/images/products/alibaba-bulk/straw-lid-tumbler-5461-2.avif",
+      "/images/products/alibaba-bulk/straw-lid-tumbler-5461-3.avif",
+      "/images/products/alibaba-bulk/straw-lid-tumbler-5461-4.avif",
+      "/images/products/alibaba-bulk/straw-lid-tumbler-5461-5.avif",
+      "/images/products/alibaba-bulk/straw-lid-tumbler-5461-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/straw-lid-tumbler-5461-5.png",
-      "/images/products/alibaba-bulk/straw-lid-tumbler-5461-6.png"
+      "/images/products/alibaba-bulk/straw-lid-tumbler-5461-5.avif",
+      "/images/products/alibaba-bulk/straw-lid-tumbler-5461-6.avif"
     ],
     "capacities": "Customized capacity",
     "summaryRows": [
@@ -9121,18 +9121,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom Straw Lid Tumbler for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from OXYDIARY.",
     "heroSubtitle": "Custom Straw Lid Tumbler for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/Bulk-Items-New-Products-Stainless-Steel_1601717957660.html",
-    "image": "/images/products/alibaba-bulk/straw-lid-tumbler-7660-1.png",
+    "image": "/images/products/alibaba-bulk/straw-lid-tumbler-7660-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/straw-lid-tumbler-7660-1.png",
-      "/images/products/alibaba-bulk/straw-lid-tumbler-7660-2.png",
-      "/images/products/alibaba-bulk/straw-lid-tumbler-7660-3.jpg",
-      "/images/products/alibaba-bulk/straw-lid-tumbler-7660-4.png",
-      "/images/products/alibaba-bulk/straw-lid-tumbler-7660-5.png",
-      "/images/products/alibaba-bulk/straw-lid-tumbler-7660-6.png"
+      "/images/products/alibaba-bulk/straw-lid-tumbler-7660-1.avif",
+      "/images/products/alibaba-bulk/straw-lid-tumbler-7660-2.avif",
+      "/images/products/alibaba-bulk/straw-lid-tumbler-7660-3.avif",
+      "/images/products/alibaba-bulk/straw-lid-tumbler-7660-4.avif",
+      "/images/products/alibaba-bulk/straw-lid-tumbler-7660-5.avif",
+      "/images/products/alibaba-bulk/straw-lid-tumbler-7660-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/straw-lid-tumbler-7660-5.png",
-      "/images/products/alibaba-bulk/straw-lid-tumbler-7660-6.png"
+      "/images/products/alibaba-bulk/straw-lid-tumbler-7660-5.avif",
+      "/images/products/alibaba-bulk/straw-lid-tumbler-7660-6.avif"
     ],
     "capacities": "Customized capacity",
     "summaryRows": [
@@ -9219,18 +9219,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom Wedding Gift Set Tumbler for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from OXY",
     "heroSubtitle": "Custom Wedding Gift Set Tumbler for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/Custom-Cups-for-Wedding-Stainless-Steel_1601718014453.html",
-    "image": "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-4453-1.png",
+    "image": "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-4453-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-4453-1.png",
-      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-4453-2.png",
-      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-4453-3.png",
-      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-4453-4.png",
-      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-4453-5.jpg",
-      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-4453-6.jpg"
+      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-4453-1.avif",
+      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-4453-2.avif",
+      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-4453-3.avif",
+      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-4453-4.avif",
+      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-4453-5.avif",
+      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-4453-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-4453-5.jpg",
-      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-4453-6.jpg"
+      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-4453-5.avif",
+      "/images/products/alibaba-bulk/gift-set-wedding-gift-tumbler-4453-6.avif"
     ],
     "capacities": "Customized capacity",
     "summaryRows": [
@@ -9317,17 +9317,17 @@ export const bulkProductDetails = {
     "metaDescription": "Custom 40oz Leak Proof Tumbler for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from OXYDIARY.",
     "heroSubtitle": "Custom 40oz Leak Proof Tumbler for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/Tumblers-Wholesale-Bulk-40oz-Stainless-Steel_1601715756394.html",
-    "image": "/images/products/alibaba-bulk/40oz-leak-proof-tumbler-6394-1.png",
+    "image": "/images/products/alibaba-bulk/40oz-leak-proof-tumbler-6394-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/40oz-leak-proof-tumbler-6394-1.png",
-      "/images/products/alibaba-bulk/40oz-leak-proof-tumbler-6394-2.jpg",
-      "/images/products/alibaba-bulk/40oz-leak-proof-tumbler-6394-3.jpg",
-      "/images/products/alibaba-bulk/40oz-leak-proof-tumbler-6394-5.jpg",
-      "/images/products/alibaba-bulk/40oz-leak-proof-tumbler-6394-6.png"
+      "/images/products/alibaba-bulk/40oz-leak-proof-tumbler-6394-1.avif",
+      "/images/products/alibaba-bulk/40oz-leak-proof-tumbler-6394-2.avif",
+      "/images/products/alibaba-bulk/40oz-leak-proof-tumbler-6394-3.avif",
+      "/images/products/alibaba-bulk/40oz-leak-proof-tumbler-6394-5.avif",
+      "/images/products/alibaba-bulk/40oz-leak-proof-tumbler-6394-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/40oz-leak-proof-tumbler-6394-5.jpg",
-      "/images/products/alibaba-bulk/40oz-leak-proof-tumbler-6394-6.png"
+      "/images/products/alibaba-bulk/40oz-leak-proof-tumbler-6394-5.avif",
+      "/images/products/alibaba-bulk/40oz-leak-proof-tumbler-6394-6.avif"
     ],
     "capacities": "40oz",
     "summaryRows": [
@@ -9414,18 +9414,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom Sports Bottle for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from OXYDIARY.",
     "heroSubtitle": "Custom Sports Bottle for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/Hot-Selling-Products-2026-Plastic-Cups_1601686697648.html",
-    "image": "/images/products/alibaba-bulk/sports-bottle-7648-1.png",
+    "image": "/images/products/alibaba-bulk/sports-bottle-7648-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/sports-bottle-7648-1.png",
-      "/images/products/alibaba-bulk/sports-bottle-7648-2.jpg",
-      "/images/products/alibaba-bulk/sports-bottle-7648-3.jpg",
-      "/images/products/alibaba-bulk/sports-bottle-7648-4.jpg",
-      "/images/products/alibaba-bulk/sports-bottle-7648-5.jpg",
-      "/images/products/alibaba-bulk/sports-bottle-7648-6.jpg"
+      "/images/products/alibaba-bulk/sports-bottle-7648-1.avif",
+      "/images/products/alibaba-bulk/sports-bottle-7648-2.avif",
+      "/images/products/alibaba-bulk/sports-bottle-7648-3.avif",
+      "/images/products/alibaba-bulk/sports-bottle-7648-4.avif",
+      "/images/products/alibaba-bulk/sports-bottle-7648-5.avif",
+      "/images/products/alibaba-bulk/sports-bottle-7648-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/sports-bottle-7648-5.jpg",
-      "/images/products/alibaba-bulk/sports-bottle-7648-6.jpg"
+      "/images/products/alibaba-bulk/sports-bottle-7648-5.avif",
+      "/images/products/alibaba-bulk/sports-bottle-7648-6.avif"
     ],
     "capacities": "Customized capacity",
     "summaryRows": [
@@ -9512,18 +9512,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom Coffee Cup for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from OXYDIARY.",
     "heroSubtitle": "Custom Coffee Cup for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/Custom-Logo-Clear-Cute-Teddy-Bear_1601635442145.html",
-    "image": "/images/products/alibaba-bulk/coffee-cup-2145-1.png",
+    "image": "/images/products/alibaba-bulk/coffee-cup-2145-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/coffee-cup-2145-1.png",
-      "/images/products/alibaba-bulk/coffee-cup-2145-2.png",
-      "/images/products/alibaba-bulk/coffee-cup-2145-3.png",
-      "/images/products/alibaba-bulk/coffee-cup-2145-4.jpg",
-      "/images/products/alibaba-bulk/coffee-cup-2145-5.png",
-      "/images/products/alibaba-bulk/coffee-cup-2145-6.png"
+      "/images/products/alibaba-bulk/coffee-cup-2145-1.avif",
+      "/images/products/alibaba-bulk/coffee-cup-2145-2.avif",
+      "/images/products/alibaba-bulk/coffee-cup-2145-3.avif",
+      "/images/products/alibaba-bulk/coffee-cup-2145-4.avif",
+      "/images/products/alibaba-bulk/coffee-cup-2145-5.avif",
+      "/images/products/alibaba-bulk/coffee-cup-2145-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/coffee-cup-2145-5.png",
-      "/images/products/alibaba-bulk/coffee-cup-2145-6.png"
+      "/images/products/alibaba-bulk/coffee-cup-2145-5.avif",
+      "/images/products/alibaba-bulk/coffee-cup-2145-6.avif"
     ],
     "capacities": "Customized capacity",
     "summaryRows": [
@@ -9610,18 +9610,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom 20oz Sports Bottle for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from OXYDIARY.",
     "heroSubtitle": "Custom 20oz Sports Bottle for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/20oz-Large-Portable-Protein-Shaker-Cup_1601448694207.html",
-    "image": "/images/products/alibaba-bulk/20oz-sports-bottle-4207-1.png",
+    "image": "/images/products/alibaba-bulk/20oz-sports-bottle-4207-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/20oz-sports-bottle-4207-1.png",
-      "/images/products/alibaba-bulk/20oz-sports-bottle-4207-2.png",
-      "/images/products/alibaba-bulk/20oz-sports-bottle-4207-3.png",
-      "/images/products/alibaba-bulk/20oz-sports-bottle-4207-4.png",
-      "/images/products/alibaba-bulk/20oz-sports-bottle-4207-5.png",
-      "/images/products/alibaba-bulk/20oz-sports-bottle-4207-6.png"
+      "/images/products/alibaba-bulk/20oz-sports-bottle-4207-1.avif",
+      "/images/products/alibaba-bulk/20oz-sports-bottle-4207-2.avif",
+      "/images/products/alibaba-bulk/20oz-sports-bottle-4207-3.avif",
+      "/images/products/alibaba-bulk/20oz-sports-bottle-4207-4.avif",
+      "/images/products/alibaba-bulk/20oz-sports-bottle-4207-5.avif",
+      "/images/products/alibaba-bulk/20oz-sports-bottle-4207-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/20oz-sports-bottle-4207-5.png",
-      "/images/products/alibaba-bulk/20oz-sports-bottle-4207-6.png"
+      "/images/products/alibaba-bulk/20oz-sports-bottle-4207-5.avif",
+      "/images/products/alibaba-bulk/20oz-sports-bottle-4207-6.avif"
     ],
     "capacities": "20oz",
     "summaryRows": [
@@ -9708,18 +9708,18 @@ export const bulkProductDetails = {
     "metaDescription": "Custom 16oz Frosted Tumbler for wholesale OEM buyers with custom logo, Pantone color, packaging, low MOQ, and fast sampling. Request a quote from OXYDIARY.",
     "heroSubtitle": "Custom 16oz Frosted Tumbler for B2B wholesale programs with custom logo, color, packaging, and OEM/ODM support.",
     "sourceUrl": "https://www.alibaba.com/product-detail/16oz-20oz-High-Borosilicate-Frosted-Glass_1601702568009.html",
-    "image": "/images/products/alibaba-bulk/16oz-frosted-tumbler-8009-1.png",
+    "image": "/images/products/alibaba-bulk/16oz-frosted-tumbler-8009-1.avif",
     "gallery": [
-      "/images/products/alibaba-bulk/16oz-frosted-tumbler-8009-1.png",
-      "/images/products/alibaba-bulk/16oz-frosted-tumbler-8009-2.jpg",
-      "/images/products/alibaba-bulk/16oz-frosted-tumbler-8009-3.jpg",
-      "/images/products/alibaba-bulk/16oz-frosted-tumbler-8009-4.jpg",
-      "/images/products/alibaba-bulk/16oz-frosted-tumbler-8009-5.jpg",
-      "/images/products/alibaba-bulk/16oz-frosted-tumbler-8009-6.png"
+      "/images/products/alibaba-bulk/16oz-frosted-tumbler-8009-1.avif",
+      "/images/products/alibaba-bulk/16oz-frosted-tumbler-8009-2.avif",
+      "/images/products/alibaba-bulk/16oz-frosted-tumbler-8009-3.avif",
+      "/images/products/alibaba-bulk/16oz-frosted-tumbler-8009-4.avif",
+      "/images/products/alibaba-bulk/16oz-frosted-tumbler-8009-5.avif",
+      "/images/products/alibaba-bulk/16oz-frosted-tumbler-8009-6.avif"
     ],
     "scenarioImages": [
-      "/images/products/alibaba-bulk/16oz-frosted-tumbler-8009-5.jpg",
-      "/images/products/alibaba-bulk/16oz-frosted-tumbler-8009-6.png"
+      "/images/products/alibaba-bulk/16oz-frosted-tumbler-8009-5.avif",
+      "/images/products/alibaba-bulk/16oz-frosted-tumbler-8009-6.avif"
     ],
     "capacities": "16oz / 20oz",
     "summaryRows": [

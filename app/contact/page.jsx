@@ -1,8 +1,9 @@
 import { QuoteForm } from "../components/QuoteForm";
 
 export const metadata = {
-  title: "Contact | OXYDIARY",
-  description: "Request a quote for OEM/ODM stainless steel drinkware manufacturing.",
+  title: "Contact",
+  description: "Request a model-specific quote for custom stainless steel, plastic, or glass drinkware and lunch boxes.",
+  alternates: { canonical: "/contact" },
 };
 
 export default function ContactPage() {

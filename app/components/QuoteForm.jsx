@@ -47,9 +47,17 @@ export function QuoteForm() {
       <input className="field" type="email" name="Your Email" placeholder="Your Email" required />
       <input className="field" name="Company Name" placeholder="Company Name" required />
       <input className="field" name="Company Website / URL" placeholder="Company Website / URL" />
+      <select className="field" name="Product Category" defaultValue="" required>
+        <option value="" disabled>Product Category</option>
+        <option>Stainless Steel Drinkware</option>
+        <option>Plastic Drinkware</option>
+        <option>Glass Drinkware</option>
+        <option>Lunch Boxes / Food Containers</option>
+        <option>Mixed Product Program</option>
+      </select>
       <input className="field" name="Shipping Destination Country" placeholder="Shipping Destination Country" required />
       <input className="field" name="Quantity (PCS)" placeholder="Quantity (PCS)" required />
-      <textarea className="field full" name="Requirements" placeholder="Tell us your requirements..." />
+      <textarea className="field full" name="Requirements" placeholder="Model, material, capacity, logo, packaging, testing, and target delivery date..." />
       <button className="btn btn-primary" type="submit" disabled={status === "submitting"}>
         {status === "submitting" ? "Sending..." : "Submit Now"}
       </button>

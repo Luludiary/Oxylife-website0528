@@ -6,11 +6,11 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 const navItems = [
+  { href: "/solutions", label: "Solutions" },
   { href: "/oem-odm", label: "OEM/ODM" },
-  { href: "/factory", label: "Factory" },
   { href: "/quality", label: "Quality" },
+  { href: "/resources", label: "Resources" },
   { href: "/about", label: "About Us" },
-  { href: "/contact", label: "Contact" },
 ];
 
 const productLinks = [
@@ -20,6 +20,9 @@ const productLinks = [
   { href: "/products/water-bottles", label: "Water Bottles" },
   { href: "/products/sports-bottles", label: "Sports Bottles" },
   { href: "/products/kids-bottles", label: "Kids Bottles" },
+  { href: "/products/plastic-drinkware", label: "Plastic Drinkware" },
+  { href: "/products/glass-drinkware", label: "Glass Drinkware" },
+  { href: "/products/lunch-boxes", label: "Lunch Boxes" },
 ];
 
 export function Header() {
@@ -37,7 +40,7 @@ export function Header() {
             height={175}
             priority
           />
-          <span>CUSTOM DRINKWARE MANUFACTURER</span>
+          <span>CUSTOM DRINKWARE & FOODWARE</span>
         </Link>
         <button
           className="nav-toggle"
@@ -82,7 +85,7 @@ export function Header() {
             <Link
               key={item.href}
               href={item.href}
-              className={pathname === item.href ? "is-active" : ""}
+              className={pathname === item.href || pathname.startsWith(`${item.href}/`) ? "is-active" : ""}
               onClick={() => setOpen(false)}
             >
               {item.label}

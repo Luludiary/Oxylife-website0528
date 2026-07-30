@@ -27,15 +27,16 @@ export default function HomePage() {
         />
         <div className="hero-inner">
           <div className="hero-copy">
-            <p className="eyebrow">OEM / ODM drinkware partner</p>
+            <p className="eyebrow">OEM / ODM drinkware & foodware partner</p>
             <h1>
               <span>Custom Stainless Steel</span>
               <span>Drinkware Manufacturer</span>
               <span>for Global Brands</span>
             </h1>
             <p>
-              Reliable bottle, tumbler, mug, and accessory manufacturing with
-              flexible customization, controlled quality, and export-ready service.
+              Stainless steel is our core range, supported by selected plastic
+              and glass drinkware plus lunch boxes. Product material, capacity,
+              compliance scope, customization, and lead time are confirmed per model.
             </p>
             <div className="hero-actions">
               <Link className="btn btn-primary" href="/products">
@@ -64,7 +65,7 @@ export default function HomePage() {
                     <path d="M12 6.4v3.2l2.1 1.2" />
                   </svg>
                 </span>
-                <strong>15+ Years Experience</strong>
+                <strong>Source-Checked Product Pages</strong>
               </div>
               <div className="proof-item">
                 <span className="proof-icon">
@@ -74,7 +75,7 @@ export default function HomePage() {
                     <path d="M8 16h2M13 16h2M18 16h1" />
                   </svg>
                 </span>
-                <strong>Factory Direct Supply</strong>
+                <strong>Order-Specific Production Plan</strong>
               </div>
               <div className="proof-item">
                 <span className="proof-icon">
@@ -83,7 +84,7 @@ export default function HomePage() {
                     <path d="m8.8 12.1 2.1 2.1 4.5-4.8" />
                   </svg>
                 </span>
-                <strong>Strict Quality Control</strong>
+                <strong>Model-Specific Test Scope</strong>
               </div>
             </div>
           </div>
