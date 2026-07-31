@@ -1818,6 +1818,12 @@ p {
   gap: 18px;
 }
 
+.category-products-toggle {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
 .category-product-card {
   display: block;
   border: 1px solid var(--line);

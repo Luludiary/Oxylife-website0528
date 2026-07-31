@@ -774,10 +774,18 @@ function CategoryCollectionPage({ category, categorySlug }) {
     .filter(
       ([, product]) =>
         product.sourceUrl &&
-        product.categorySlug === categorySlug &&
-        (!Object.values(bulkProductDetails).includes(product) || product.indexable === true),
+        product.categorySlug === categorySlug,
     )
     .map(([slug, product]) => ({ slug, ...product }));
+  const categoryGridProducts = categoryProducts.map(
+    ({ slug, title, primaryKeyword, image, capacities }) => ({
+      slug,
+      title,
+      primaryKeyword,
+      image,
+      capacities,
+    }),
+  );
   const collectionSchema = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
@@ -829,7 +837,7 @@ function CategoryCollectionPage({ category, categorySlug }) {
       <section className="products-catalog-section">
         <div className="container">
           {categoryProducts.length > 0 ? (
-            <CategoryProductGrid products={categoryProducts} categoryTitle={category.title} />
+            <CategoryProductGrid products={categoryGridProducts} />
           ) : (
             <div className="category-empty-state">
               <h2>{category.title} products are being prepared.</h2>
