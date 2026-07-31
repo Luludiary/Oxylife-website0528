@@ -1,7 +1,7 @@
 export const categoryGuides = {
   "coffee-cups": {
     answer:
-      "For wholesale coffee programs, start with the drink temperature, serving size, lid format, decoration area, and cleaning expectations. Confirm the steel grade, contact components, insulation structure, logo process, packaging, and testing against the exact cup model before ordering.",
+      "For custom coffee mugs, bulk coffee mugs, and wholesale travel mug programs, start with the drink temperature, serving size, lid format, decoration area, and cleaning expectations. Confirm the steel grade, contact components, insulation structure, logo process, packaging, and testing against the exact cup model before ordering.",
     decisions: [
       ["Daily use", "Choose capacity and lid around commuting, office, café, or gifting use."],
       ["Branding", "Match laser engraving, screen printing, or wrap artwork to the finish and artwork detail."],
@@ -22,7 +22,7 @@ export const categoryGuides = {
   },
   tumblers: {
     answer:
-      "For custom tumblers, define the capacity, base diameter, handle or straw requirement, lid behavior, insulation target, and decoration method first. Large travel tumblers and compact retail tumblers serve different channels, so the approved sample must match the exact sales program.",
+      "For custom stainless steel tumblers, define the 20oz, 30oz, 40oz, or model-specific capacity, base diameter, handle or straw requirement, lid behavior, insulation target, and decoration method first. Large travel tumblers and compact retail tumblers serve different channels, so the approved sample must match the exact wholesale program.",
     decisions: [
       ["Channel fit", "Compare commuter, retail, promotional, and corporate-gift use before choosing a body shape."],
       ["Lid system", "Confirm straw, slider, screw thread, seals, and cleaning instructions as one system."],
@@ -43,7 +43,7 @@ export const categoryGuides = {
   },
   "smart-bottles": {
     answer:
-      "A smart bottle program must verify the bottle and the electronic lid together. Buyers should confirm the display function, battery design, water-resistance expectations, contact materials, replacement policy, labeling, destination requirements, and packaging protection for the exact model.",
+      "A custom smart water bottle program must verify the bottle and the electronic lid together. Buyers should confirm the display function, battery design, water-resistance expectations, contact materials, replacement policy, labeling, destination requirements, and packaging protection for the exact model.",
     decisions: [
       ["Electronic function", "Confirm what the display measures, how it activates, and the expected operating conditions."],
       ["Lid integration", "Treat the sensor, battery, seals, contact parts, and cleaning instructions as one validated assembly."],
@@ -64,7 +64,7 @@ export const categoryGuides = {
   },
   "water-bottles": {
     answer:
-      "For wholesale water bottles, match capacity, insulation, neck opening, cap type, carry method, decoration, and cleaning needs to the target channel. The bottle body, cap, seals, straw, and coating should be reviewed as the exact sellable configuration.",
+      "For custom and wholesale stainless steel water bottles, match capacity, insulation, neck opening, cap type, carry method, decoration, and cleaning needs to the target channel. Private-label, logo, and promotional programs should review the bottle body, cap, seals, straw, coating, packaging, and artwork as one exact sellable configuration.",
     decisions: [
       ["Use case", "Office, outdoor, school, retail, and gifting programs require different sizes and closures."],
       ["Closure", "Confirm screw, flip, straw, or sport caps for leak expectation, flow, cleaning, and replacement."],
@@ -85,7 +85,7 @@ export const categoryGuides = {
   },
   "sports-bottles": {
     answer:
-      "Sports bottle selection should begin with activity, flow rate, one-hand operation, carry method, impact exposure, cleaning, and leak expectations. Stainless steel and plastic models require different performance, packaging, and material checks.",
+      "Custom sports bottle selection should begin with activity, flow rate, one-hand operation, carry method, impact exposure, cleaning, and leak expectations. Stainless steel and plastic models require different performance, packaging, and material checks.",
     decisions: [
       ["Activity", "Gym, cycling, team sports, outdoor, and school use drive different closure and capacity choices."],
       ["Flow and sealing", "Test the assembled cap, straw or valve under the agreed orientation and handling conditions."],
@@ -106,7 +106,7 @@ export const categoryGuides = {
   },
   "kids-bottles": {
     answer:
-      "Kids bottle programs require stricter attention to age suitability, small parts, straw and seal components, drop exposure, cleaning, labeling, and the exact destination market. Never apply a general BPA-free or safety statement without matching evidence to the final SKU.",
+      "Custom kids water bottle programs require stricter attention to age suitability, small parts, straw and seal components, drop exposure, cleaning, labeling, and the exact destination market. Never apply a general BPA-free or safety statement without matching evidence to the final SKU.",
     decisions: [
       ["Age and supervision", "Define the intended age group and review small parts, straps, spouts, and instructions accordingly."],
       ["Cleaning", "Choose a lid and straw system that can be disassembled, inspected, and explained clearly to caregivers."],
@@ -127,7 +127,7 @@ export const categoryGuides = {
   },
   "plastic-drinkware": {
     answer:
-      "Plastic drinkware buyers should specify the resin for every contact component, intended temperature range, reuse pattern, cleaning method, closure, decoration, and destination requirements. A generic plastic or BPA-free claim is not enough for product approval.",
+      "Custom plastic water bottle and plastic tumbler buyers should specify the resin for every contact component, intended temperature range, reuse pattern, cleaning method, closure, decoration, and destination requirements. A generic plastic, Tritan, or BPA-free claim is not enough for product approval.",
     decisions: [
       ["Resin and use", "Confirm the exact resin, additives, colors, contact conditions, and whether the product is reusable."],
       ["Temperature", "Define hot, cold, room-temperature, freezer, microwave, and dishwasher expectations separately."],
@@ -169,7 +169,7 @@ export const categoryGuides = {
   },
   "lunch-boxes": {
     answer:
-      "Choose lunch boxes by food type, portion size, insulation need, microwave expectation, sealing requirement, cleaning, material, and transport conditions. Stainless steel insulated food containers and PP buckle boxes solve different buyer needs and should not share unsupported claims.",
+      "Choose custom stainless steel, insulated, bento-style, or plastic lunch boxes by food type, portion size, insulation need, microwave expectation, sealing requirement, cleaning, material, and transport conditions. Stainless steel insulated food containers and verified PP buckle boxes solve different buyer needs and should not share unsupported claims.",
     decisions: [
       ["Food and use", "Define hot or cold food, portioning, carry duration, microwave need, and target user."],
       ["Material choice", "Use stainless steel for durable insulated formats; consider model-specific PP when microwave use is required and explicitly supported."],

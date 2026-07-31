@@ -92,6 +92,38 @@ export const solutions = {
       ["/contact", "Share packaging requirements"],
     ],
   },
+  "private-label-water-bottles": {
+    title: "Private Label Water Bottles: OEM Sourcing Guide",
+    eyebrow: "Private-label solution",
+    description:
+      "A practical OEM sourcing workflow for private-label stainless steel water bottles, custom logos, packaging, testing, quality control, and repeat orders.",
+    answer:
+      "A private-label water bottle program starts with one controlled sellable configuration: bottle body, capacity, insulation, cap, seals, straw, finish, color, logo, packaging, labels, test scope, destination, and delivery requirement. Approve the specification, artwork, decorated sample, packaging, inspection criteria, and permitted changes before production.",
+    sections: [
+      ["Define the range before quoting", "Choose the target user, sales channel, capacity, closure, material, finish, price position, quantity, and destination. Separate required features from acceptable alternatives so quotations remain comparable."],
+      ["Approve product and brand together", "Review Pantone targets, logo method, artwork size and position, retail or gift packaging, labels, inserts, and carton marks on the exact selected model."],
+      ["Control evidence and repeat orders", "Match reports and inspection criteria to the final SKU. Record the approved sample, component sources, artwork files, packaging version, and every agreed change for repeat production."],
+    ],
+    headers: ["Program stage", "Buyer input", "Controlled output"],
+    rows: [
+      ["Product selection", "Use, capacity, lid, material, target price", "Shortlisted verified models and configuration"],
+      ["Branding and packaging", "Artwork, Pantone, label, box, insert", "Approved digital proof and physical sample"],
+      ["Evidence and quality", "Destination, test scope, inspection criteria", "SKU-linked evidence and acceptance plan"],
+      ["Production and repeat order", "Quantity, deadline, approved changes", "Production file, inspection record, and revision control"],
+    ],
+    checklist: ["Target market and sales channel", "Exact bottle, cap, seals, and accessories", "Artwork, color, finish, and decoration", "Retail packaging, labels, and carton marks", "Testing, inspection, destination, and required delivery date"],
+    faqs: [
+      ["What is the MOQ for a private-label water bottle?", "MOQ depends on the exact model, material, finish, color, cap, logo process, packaging, components, and production conditions. Confirm it after the configuration is complete."],
+      ["Can one logo method be used on every finish?", "No. Laser engraving, screen printing, heat transfer, and other methods interact differently with bare steel, powder coating, paint, plastic, and glass. Approve the method on the final surface."],
+      ["Can one report cover a full private-label range?", "Only when every covered model, material, component, sample, method, and condition is within the report scope. Evidence must be matched to each exact SKU."],
+    ],
+    related: [
+      ["/products/water-bottles", "Compare verified water bottle models"],
+      ["/oem-odm", "Review OEM/ODM options"],
+      ["/resources/custom-drinkware-rfq-checklist", "Prepare a comparable RFQ"],
+      ["/contact", "Submit a private-label brief"],
+    ],
+  },
 };
 
 export const resources = {
@@ -249,6 +281,37 @@ export const resources = {
       ["How should alternatives be quoted?", "Ask for a clearly labeled base configuration and separate optional upgrades without silently changing the requested SKU."],
     ],
     related: [["/products", "Choose a product category"], ["/oem-odm", "Review customization"], ["/contact", "Submit an RFQ"]],
+  },
+  "tumbler-size-guide-20oz-30oz-40oz": {
+    title: "20oz vs 30oz vs 40oz Tumblers: A B2B Size Guide",
+    description:
+      "Compare 20oz, 30oz, and 40oz stainless steel tumblers by target use, filled weight, cup-holder fit, lid and handle options, decoration area, packaging, and sales channel.",
+    answer:
+      "Choose a tumbler size from the intended user and channel, not from capacity alone. A 20oz tumbler often supports lighter everyday or promotional use, a 30oz model can balance capacity and portability, and a 40oz format can suit long-duration hydration programs. The exact dimensions, filled weight, base diameter, handle, lid, straw, carton size, and verified model specification decide whether a particular SKU fits the program.",
+    sections: [
+      ["Compare dimensions as well as ounces", "Two tumblers with the same stated capacity can have different height, base diameter, taper, handle clearance, lid geometry, and packed dimensions. Review the drawing or physical sample."],
+      ["Match the lid and carry pattern", "Confirm straw, slider, flip, or screw-lid behavior; one-hand use; cleaning; replacement parts; and whether the final assembled model meets the agreed splash or leak expectation."],
+      ["Calculate the packaging effect", "Higher capacity, handles, multi-piece lids, and straws can change inner-box dimensions, carton count, shipping volume, shelf space, and direct-to-consumer packaging."],
+    ],
+    headers: ["Decision factor", "20oz direction", "30oz direction", "40oz direction"],
+    rows: [
+      ["Typical program fit", "Everyday, coffee, gifting, compact retail", "Travel, retail, balanced hydration", "Long-duration hydration and large-format programs"],
+      ["Buyer checks", "Lid, drinking opening, base, decoration area", "Filled weight, handle option, cup-holder fit", "Base diameter, handle clearance, straw, stability"],
+      ["Packaging impact", "Usually more compact; verify exact box", "Model-dependent balance of size and count", "Larger pack-out; verify carton and freight effect"],
+      ["Approval evidence", "Drawing and decorated sample", "Drawing, assembled lid, decorated sample", "Drawing, assembled lid/handle/straw, pack-out sample"],
+    ],
+    checklist: ["Target user and sales channel", "Exact capacity, dimensions, base, and filled weight", "Lid, straw, handle, and cleaning", "Decoration area and approved artwork", "Retail packaging, carton count, and transport check"],
+    faqs: [
+      ["Is every 40oz tumbler cup-holder compatible?", "No. Cup-holder fit depends on the exact base diameter and taper. Confirm the drawing or physical sample for the target vehicle or accessory."],
+      ["Should 20oz, 30oz, and 40oz have separate product pages?", "Create detail pages for verified, genuinely different products. Do not create near-duplicate pages that differ only by a keyword when the underlying product and buyer information are the same."],
+      ["Which size is best for promotional orders?", "The best size depends on recipient, occasion, budget, artwork, packaging, shipping, and expected use. Compare the complete configured unit rather than capacity alone."],
+    ],
+    related: [
+      ["/products/tumblers", "Browse verified tumbler models"],
+      ["/resources/drinkware-logo-methods-comparison", "Compare logo methods"],
+      ["/solutions/corporate-gift-promotional-drinkware", "Plan a promotional program"],
+      ["/contact", "Request a size recommendation"],
+    ],
   },
 };
 

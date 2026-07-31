@@ -41,7 +41,7 @@ const curatedProductSlugs = [
 ];
 
 export default function sitemap() {
-  const lastModified = new Date("2026-07-30T00:00:00+08:00");
+  const lastModified = new Date("2026-07-31T00:00:00+08:00");
 
   return [
     ...staticRoutes.map((route) => ({

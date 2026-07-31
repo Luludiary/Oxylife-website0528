@@ -119,7 +119,7 @@ export function RelatedLinks({ links }) {
 export function EditorialMeta({ reviewedBy = "OXYDIARY Product & Quality Team" }) {
   return (
     <div className="container editorial-meta">
-      <span>Last updated: July 30, 2026</span>
+      <span>Last updated: July 31, 2026</span>
       <span>Reviewed by: {reviewedBy}</span>
       <span>Scope: B2B sourcing guidance; requirements remain SKU- and market-specific.</span>
     </div>

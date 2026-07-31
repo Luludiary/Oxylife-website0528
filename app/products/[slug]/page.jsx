@@ -22,7 +22,12 @@ import {
 const baseProductDetails = {
   "coffee-cups": {
     category: "Coffee Cup Series",
-    title: "Custom Stainless Steel Coffee Cup",
+    title: "Custom Coffee Mugs & Stainless Steel Travel Cups",
+    seoTitle: "Custom Coffee Mugs & Travel Mugs | Bulk Logo Drinkware",
+    metaDescription:
+      "Custom stainless steel coffee mugs and travel mugs for bulk, wholesale, private-label, and logo programs. Compare capacity, lid, insulation, finish, decoration, packaging, and testing by model.",
+    collectionIntro:
+      "Compare custom coffee mugs, vacuum insulated coffee cups, and travel mugs for wholesale and logo programs. Select the exact capacity, lid, insulation construction, finish, decoration, packaging, and test scope for each verified model.",
     image: "/images/products/coffee-cup-transparent.png",
     gallery: [
       "/images/products/category-coffee-cups.png",
@@ -33,7 +38,12 @@ const baseProductDetails = {
   },
   tumblers: {
     category: "Tumbler Series",
-    title: "Custom Stainless Steel Tumbler",
+    title: "Custom Stainless Steel Tumblers",
+    seoTitle: "Custom Stainless Steel Tumblers | 20oz, 30oz & 40oz Wholesale",
+    metaDescription:
+      "Custom stainless steel tumblers in verified 20oz, 30oz, 40oz, straw-lid, handled, and compact formats for wholesale, logo, private-label, and retail programs.",
+    collectionIntro:
+      "Compare custom and wholesale stainless steel tumblers by 20oz, 30oz, 40oz, lid, straw, handle, insulation, base diameter, decoration, and packaging. Specifications and performance claims remain model-specific.",
     image: "/images/products/tumbler-transparent.png",
     gallery: [
       "/images/products/category-tumblers.png",
@@ -44,7 +54,12 @@ const baseProductDetails = {
   },
   "smart-bottles": {
     category: "Smart Bottle Series",
-    title: "Custom Smart Stainless Steel Bottle",
+    title: "Custom Smart Water Bottles",
+    seoTitle: "Custom Smart Water Bottles | Wholesale",
+    metaDescription:
+      "Custom smart water bottles for wholesale and private-label programs. Confirm display, electronic lid, battery, sealing, materials, care instructions, packaging, and documents by model.",
+    collectionIntro:
+      "Compare verified smart water bottle models by capacity, display function, electronic lid, battery design, sealing, decoration, packaging, care instructions, and destination requirements.",
     image: "/images/products/smart-bottle-transparent.png",
     gallery: [
       "/images/products/category-smart-bottles.png",
@@ -55,7 +70,12 @@ const baseProductDetails = {
   },
   "water-bottles": {
     category: "Water Bottle Series",
-    title: "Custom Stainless Steel Water Bottle",
+    title: "Custom Stainless Steel Water Bottles",
+    seoTitle: "Custom Stainless Steel Water Bottles | Wholesale & Private Label",
+    metaDescription:
+      "Custom stainless steel water bottles for wholesale, private-label, logo, promotional, and insulated bottle programs. Compare capacity, cap, straw, finish, packaging, and testing by model.",
+    collectionIntro:
+      "Compare custom, wholesale, and private-label stainless steel water bottles by capacity, insulation, opening, cap, straw, carry method, finish, logo, packaging, and destination-market evidence. Every claim is confirmed for the exact model and sellable configuration.",
     image: "/images/products/water-bottle-transparent.png",
     gallery: [
       "/images/products/category-water-bottles.png",
@@ -66,7 +86,12 @@ const baseProductDetails = {
   },
   "sports-bottles": {
     category: "Sports Bottle Series",
-    title: "Custom Stainless Steel Sports Bottle",
+    title: "Custom Sports Water Bottles",
+    seoTitle: "Custom Sports Water Bottles | Wholesale",
+    metaDescription:
+      "Custom sports water bottles for wholesale, team, retail, and promotional programs. Compare capacity, material, flow, closure, carry method, logo, packaging, and testing by model.",
+    collectionIntro:
+      "Compare verified custom sports bottle models by activity, capacity, material, flow, closure, one-hand use, carry method, decoration, cleaning, packaging, and agreed leak-testing method.",
     image: "/images/products/sports-bottles-transparent.png",
     gallery: [
       "/images/products/category-sports-bottles.png",
@@ -77,7 +102,12 @@ const baseProductDetails = {
   },
   "kids-bottles": {
     category: "Kids Bottle Series",
-    title: "Custom Stainless Steel Kids Bottle",
+    title: "Custom Kids Water Bottles",
+    seoTitle: "Custom Kids Water Bottles | Wholesale",
+    metaDescription:
+      "Custom kids water bottles for wholesale and private-label programs. Confirm age suitability, lid, straw, seals, materials, artwork, cleaning, warnings, packaging, and testing by exact model.",
+    collectionIntro:
+      "Compare verified custom kids water bottles by age range, capacity, drinking system, carry parts, contact materials, artwork, cleaning, labeling, packaging, and destination-market evidence.",
     image: "/images/products/category-kids-bottles.png",
     gallery: [
       "/images/products/category-kids-bottles.png",
@@ -88,7 +118,8 @@ const baseProductDetails = {
   },
   "plastic-drinkware": {
     category: "Plastic Drinkware Series",
-    title: "Custom Plastic Drinkware",
+    title: "Custom Plastic Water Bottles & Tumblers",
+    seoTitle: "Custom Plastic Water Bottles & Tumblers | Wholesale",
     image: "/images/products/alibaba-bulk/sports-bottle-7648-1.avif",
     gallery: [
       "/images/products/alibaba-bulk/sports-bottle-7648-1.avif",
@@ -102,7 +133,8 @@ const baseProductDetails = {
   },
   "glass-drinkware": {
     category: "Glass Drinkware Series",
-    title: "Custom Glass Drinkware",
+    title: "Custom Glass Tumblers & Drinkware",
+    seoTitle: "Custom Glass Tumblers & Drinkware | Wholesale",
     image: "/images/products/alibaba-bulk/16oz-frosted-tumbler-8009-1.avif",
     gallery: [
       "/images/products/alibaba-bulk/16oz-frosted-tumbler-8009-1.avif",
@@ -116,7 +148,8 @@ const baseProductDetails = {
   },
   "lunch-boxes": {
     category: "Lunch Box Series",
-    title: "Custom Lunch Boxes & Insulated Food Containers",
+    title: "Custom Stainless Steel & Plastic Lunch Boxes",
+    seoTitle: "Custom Stainless Steel & Plastic Lunch Boxes | Wholesale",
     image: "/images/products/lunch-boxes/pp-lunch-box-1.avif",
     gallery: [
       "/images/products/lunch-boxes/pp-lunch-box-1.avif",
@@ -808,6 +841,17 @@ function CategoryCollectionPage({ category, categorySlug }) {
         "@graph": [{ ...collectionSchema, "@context": undefined }, faqSchema(guide.faqs)],
       }
     : collectionSchema;
+  const categoryRelatedLinks = [
+    ...(categorySlug === "water-bottles"
+      ? [["/solutions/private-label-water-bottles", "Plan a private-label water bottle program"]]
+      : []),
+    ...(categorySlug === "tumblers"
+      ? [["/resources/tumbler-size-guide-20oz-30oz-40oz", "Compare 20oz, 30oz, and 40oz tumblers"]]
+      : []),
+    ["/oem-odm", "Review OEM/ODM options"],
+    ["/quality", "Match evidence to the SKU"],
+    ["/contact", "Request a model recommendation"],
+  ];
 
   return (
     <main className="product-detail-page">
@@ -860,11 +904,7 @@ function CategoryCollectionPage({ category, categorySlug }) {
           <Checklist items={guide.checklist} />
           <FaqSection faqs={guide.faqs} title={`${category.title} sourcing questions`} />
           <RelatedLinks
-            links={[
-              ["/oem-odm", "Review OEM/ODM options"],
-              ["/quality", "Match evidence to the SKU"],
-              ["/contact", "Request a model recommendation"],
-            ]}
+            links={categoryRelatedLinks}
           />
         </>
       ) : null}
