@@ -124,7 +124,7 @@ export function QualityInspection() {
             width={900}
             height={900}
             sizes="(max-width: 980px) 100vw, 50vw"
-            quality={100}
+            quality={90}
             priority={index === 0}
             key={item.image}
           />

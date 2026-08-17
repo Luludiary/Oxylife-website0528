@@ -14,7 +14,7 @@ export function SiteFooter() {
               width={580}
               height={175}
             />
-            <span>CUSTOM DRINKWARE & FOODWARE</span>
+            <span>CUSTOM DRINKWARE MANUFACTURER</span>
           </div>
           <p style={{ marginTop: 18 }}>
             Custom stainless steel, plastic, and glass drinkware plus lunch boxes
@@ -25,7 +25,7 @@ export function SiteFooter() {
           <h3>Quick Links</h3>
           <div className="footer-links">
             <Link href="/products">Products</Link>
-            <Link href="/solutions">Solutions</Link>
+            <Link href="/faq">FAQ</Link>
             <Link href="/oem-odm">OEM/ODM</Link>
             <Link href="/factory">Factory</Link>
             <Link href="/quality">Quality</Link>

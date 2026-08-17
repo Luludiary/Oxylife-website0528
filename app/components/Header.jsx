@@ -6,10 +6,10 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 const navItems = [
-  { href: "/solutions", label: "Solutions" },
   { href: "/oem-odm", label: "OEM/ODM" },
   { href: "/quality", label: "Quality" },
   { href: "/resources", label: "Resources" },
+  { href: "/faq", label: "FAQ" },
   { href: "/about", label: "About Us" },
 ];
 
@@ -40,7 +40,7 @@ export function Header() {
             height={175}
             priority
           />
-          <span>CUSTOM DRINKWARE & FOODWARE</span>
+          <span>CUSTOM DRINKWARE MANUFACTURER</span>
         </Link>
         <button
           className="nav-toggle"

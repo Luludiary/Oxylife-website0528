@@ -29,7 +29,8 @@ export function ProductGallery({ title, images }) {
           alt={`${title} main product image`}
           width={920}
           height={920}
-          quality={100}
+          sizes="(max-width: 640px) calc(100vw - 56px), (max-width: 980px) calc(100vw - 80px), 46vw"
+          quality={90}
           priority
         />
       </div>
@@ -60,7 +61,8 @@ export function ProductGallery({ title, images }) {
               alt={`${title} thumbnail ${thumbStart + index + 1}`}
               width={180}
               height={180}
-              quality={100}
+              sizes="(max-width: 640px) 22vw, 90px"
+              quality={84}
             />
           </button>
           ))}

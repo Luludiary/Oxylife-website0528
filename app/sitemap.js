@@ -1,5 +1,5 @@
 import { indexableVerifiedProductSlugs } from "./products/[slug]/verifiedProducts";
-import { resourceList, solutionList } from "./_data/editorialContent";
+import { resourceList } from "./_data/editorialContent";
 
 const baseUrl = "https://oxylifediary.com";
 
@@ -11,7 +11,7 @@ const staticRoutes = [
   "/quality",
   "/about",
   "/contact",
-  "/solutions",
+  "/faq",
   "/resources",
 ];
 
@@ -25,6 +25,12 @@ const categorySlugs = [
   "plastic-drinkware",
   "glass-drinkware",
   "lunch-boxes",
+];
+
+const paginatedCategoryRoutes = [
+  "/products/coffee-cups?page=2",
+  "/products/tumblers?page=2",
+  "/products/sports-bottles?page=2",
 ];
 
 const curatedProductSlugs = [
@@ -56,21 +62,21 @@ export default function sitemap() {
       changeFrequency: "weekly",
       priority: 0.8,
     })),
+    ...paginatedCategoryRoutes.map((route) => ({
+      url: `${baseUrl}${route}`,
+      lastModified,
+      changeFrequency: "weekly",
+      priority: 0.75,
+    })),
     ...curatedProductSlugs.map((slug) => ({
       url: `${baseUrl}/products/${slug}`,
       lastModified,
       changeFrequency: "monthly",
       priority: 0.7,
     })),
-    ...solutionList.map(({ slug }) => ({
-      url: `${baseUrl}/solutions/${slug}`,
-      lastModified,
-      changeFrequency: "monthly",
-      priority: 0.75,
-    })),
-    ...resourceList.map(({ slug }) => ({
+    ...resourceList.map(({ slug, dates }) => ({
       url: `${baseUrl}/resources/${slug}`,
-      lastModified,
+      lastModified: new Date(`${dates.modified}T00:00:00+08:00`),
       changeFrequency: "monthly",
       priority: 0.65,
     })),

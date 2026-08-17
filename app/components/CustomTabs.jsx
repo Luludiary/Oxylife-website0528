@@ -205,7 +205,7 @@ export function CustomTabs() {
                     width={520}
                     height={520}
                     sizes="(max-width: 640px) 86vw, (max-width: 980px) 44vw, 20vw"
-                    quality={100}
+                    quality={90}
                   />
                 </div>
                 <div className="branding-copy">
@@ -245,7 +245,7 @@ export function CustomTabs() {
                     width={520}
                     height={520}
                     sizes="(max-width: 640px) 86vw, (max-width: 980px) 44vw, 20vw"
-                    quality={100}
+                    quality={90}
                   />
                 </div>
               </article>
@@ -272,7 +272,7 @@ export function CustomTabs() {
                   width={520}
                   height={520}
                   sizes="(max-width: 640px) 90vw, (max-width: 980px) 45vw, 20vw"
-                  quality={100}
+                  quality={90}
                 />
               </div>
               <div className="branding-copy">

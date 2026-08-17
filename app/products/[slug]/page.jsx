@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { QuoteForm } from "../../components/QuoteForm";
 import { products } from "../../components/Sections";
 import { CategoryProductGrid } from "./CategoryProductGrid";
+import { coffeeProductCoverImages } from "./coffeeProductCovers";
 import { ProductGallery } from "./ProductGallery";
 import { bulkProductDetails } from "./bulkProducts";
 import { verifiedProductDetails } from "./verifiedProducts";
@@ -497,11 +498,39 @@ const baseProductDetails = {
   },
 };
 
-const productDetails = {
+const rawProductDetails = {
   ...baseProductDetails,
   ...bulkProductDetails,
   ...verifiedProductDetails,
 };
+
+const productDetails = Object.fromEntries(
+  Object.entries(rawProductDetails).map(([slug, product]) => {
+    const coverImage = coffeeProductCoverImages[slug];
+    if (!coverImage) return [slug, product];
+
+    return [
+      slug,
+      {
+        ...product,
+        image: coverImage,
+        gallery: [coverImage, ...(product.gallery || []).slice(1)],
+      },
+    ];
+  }),
+);
+
+const CATEGORY_PRODUCTS_PER_PAGE = 20;
+
+function parsePageNumber(searchParams) {
+  const rawPage = Array.isArray(searchParams?.page)
+    ? searchParams.page[0]
+    : searchParams?.page;
+
+  if (rawPage === undefined) return 1;
+  if (!/^[1-9]\d*$/.test(rawPage)) return null;
+  return Number(rawPage);
+}
 
 const categoryRoutes = {
   "Coffee Cup Series": "coffee-cups",
@@ -801,7 +830,7 @@ function AdvantageDetailIcon({ type }) {
   );
 }
 
-function CategoryCollectionPage({ category, categorySlug }) {
+function CategoryCollectionPage({ category, categorySlug, currentPage }) {
   const guide = categoryGuides[categorySlug];
   const categoryProducts = Object.entries(productDetails)
     .filter(
@@ -810,7 +839,18 @@ function CategoryCollectionPage({ category, categorySlug }) {
         product.categorySlug === categorySlug,
     )
     .map(([slug, product]) => ({ slug, ...product }));
-  const categoryGridProducts = categoryProducts.map(
+  const totalPages = Math.max(
+    1,
+    Math.ceil(categoryProducts.length / CATEGORY_PRODUCTS_PER_PAGE),
+  );
+  if (currentPage > totalPages) notFound();
+
+  const pageStartIndex = (currentPage - 1) * CATEGORY_PRODUCTS_PER_PAGE;
+  const paginatedProducts = categoryProducts.slice(
+    pageStartIndex,
+    pageStartIndex + CATEGORY_PRODUCTS_PER_PAGE,
+  );
+  const categoryGridProducts = paginatedProducts.map(
     ({ slug, title, primaryKeyword, image, capacities }) => ({
       slug,
       title,
@@ -824,26 +864,52 @@ function CategoryCollectionPage({ category, categorySlug }) {
     "@type": "CollectionPage",
     name: category.title,
     description: category.collectionIntro,
-    url: `https://oxylifediary.com/products/${categorySlug}`,
+    url: `https://oxylifediary.com/products/${categorySlug}${currentPage > 1 ? `?page=${currentPage}` : ""}`,
     mainEntity: {
       "@type": "ItemList",
-      itemListElement: categoryProducts.map((product, index) => ({
+      itemListElement: paginatedProducts.map((product, index) => ({
         "@type": "ListItem",
-        position: index + 1,
+        position: pageStartIndex + index + 1,
         url: `https://oxylifediary.com/products/${product.slug}`,
         name: product.title,
       })),
     },
   };
-  const categorySchema = guide
-    ? {
-        "@context": "https://schema.org",
-        "@graph": [{ ...collectionSchema, "@context": undefined }, faqSchema(guide.faqs)],
-      }
-    : collectionSchema;
+  const categoryUrl = `https://oxylifediary.com/products/${categorySlug}${currentPage > 1 ? `?page=${currentPage}` : ""}`;
+  const categoryBreadcrumbSchema = {
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: "https://oxylifediary.com/",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Products",
+        item: "https://oxylifediary.com/products",
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: `${category.title}${currentPage > 1 ? ` - Page ${currentPage}` : ""}`,
+        item: categoryUrl,
+      },
+    ],
+  };
+  const categorySchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      { ...collectionSchema, "@context": undefined },
+      categoryBreadcrumbSchema,
+      ...(guide ? [faqSchema(guide.faqs)] : []),
+    ],
+  };
   const categoryRelatedLinks = [
     ...(categorySlug === "water-bottles"
-      ? [["/solutions/private-label-water-bottles", "Plan a private-label water bottle program"]]
+      ? [["/faq#customization", "Review private-label customization questions"]]
       : []),
     ...(categorySlug === "tumblers"
       ? [["/resources/tumbler-size-guide-20oz-30oz-40oz", "Compare 20oz, 30oz, and 40oz tumblers"]]
@@ -881,7 +947,12 @@ function CategoryCollectionPage({ category, categorySlug }) {
       <section className="products-catalog-section">
         <div className="container">
           {categoryProducts.length > 0 ? (
-            <CategoryProductGrid products={categoryGridProducts} />
+            <CategoryProductGrid
+              categorySlug={categorySlug}
+              currentPage={currentPage}
+              products={categoryGridProducts}
+              totalPages={totalPages}
+            />
           ) : (
             <div className="category-empty-state">
               <h2>{category.title} products are being prepared.</h2>
@@ -922,10 +993,18 @@ export function generateStaticParams() {
   return Object.keys(productDetails).map((slug) => ({ slug }));
 }
 
-export async function generateMetadata({ params }) {
+export async function generateMetadata({ params, searchParams }) {
   const { slug } = await params;
   const item = productDetails[slug];
   if (!item) notFound();
+  const categorySlug = item.categorySlug || categoryRoutes[item.category];
+  const isCategoryPage = !item.sourceUrl && categorySlug;
+  const currentPage = isCategoryPage
+    ? parsePageNumber(await searchParams)
+    : 1;
+  if (currentPage === null) notFound();
+  const pageSuffix = currentPage > 1 ? ` - Page ${currentPage}` : "";
+  const canonicalUrl = `/products/${slug}${currentPage > 1 ? `?page=${currentPage}` : ""}`;
   const pageTitle = (
     item.seoTitle ||
     `${item.title} | Custom Drinkware Manufacturer`
@@ -934,27 +1013,27 @@ export async function generateMetadata({ params }) {
     Object.prototype.hasOwnProperty.call(bulkProductDetails, slug) &&
     item.indexable !== true;
   return {
-    title: pageTitle,
+    title: `${pageTitle}${pageSuffix}`,
     description:
       item.metaDescription ||
       `OEM/ODM ${item.title.toLowerCase()} detail page for global B2B buyers. Custom logo, packaging, and wholesale support available.`,
     alternates: {
-      canonical: `/products/${slug}`,
+      canonical: canonicalUrl,
     },
     robots: isUnverifiedBulk
       ? { index: false, follow: true }
       : { index: true, follow: true },
     openGraph: {
-      title: item.title,
+      title: `${item.title}${pageSuffix}`,
       description: item.metaDescription || item.collectionIntro,
-      url: `/products/${slug}`,
+      url: canonicalUrl,
       type: "website",
       images: item.image ? [{ url: item.image, alt: item.title }] : [],
     },
   };
 }
 
-export default async function ProductDetailPage({ params }) {
+export default async function ProductDetailPage({ params, searchParams }) {
   const { slug } = await params;
   const item = productDetails[slug];
   if (!item) notFound();
@@ -962,7 +1041,15 @@ export default async function ProductDetailPage({ params }) {
   const isCategoryPage = !item.sourceUrl && categorySlug;
 
   if (isCategoryPage) {
-    return <CategoryCollectionPage category={item} categorySlug={categorySlug} />;
+    const currentPage = parsePageNumber(await searchParams);
+    if (currentPage === null) notFound();
+    return (
+      <CategoryCollectionPage
+        category={item}
+        categorySlug={categorySlug}
+        currentPage={currentPage}
+      />
+    );
   }
 
   const rows = item.summaryRows || [summaryRows[0], ["Capacity", item.capacities], ...summaryRows.slice(1)];
@@ -1019,6 +1106,7 @@ export default async function ProductDetailPage({ params }) {
   const productSchema = {
     "@context": "https://schema.org",
     "@type": "Product",
+    "@id": `https://oxylifediary.com/products/${slug}#product`,
     name: item.title,
     description: item.metaDescription || item.heroSubtitle,
     url: `https://oxylifediary.com/products/${slug}`,
@@ -1027,6 +1115,9 @@ export default async function ProductDetailPage({ params }) {
     brand: {
       "@type": "Brand",
       name: "OXYDIARY",
+    },
+    manufacturer: {
+      "@id": "https://oxylifediary.com/#organization",
     },
     additionalProperty: specRows.map(([name, value]) => ({
       "@type": "PropertyValue",
@@ -1058,6 +1149,18 @@ export default async function ProductDetailPage({ params }) {
       },
     ],
   };
+  const productFaqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer,
+      },
+    })),
+  };
 
   return (
     <main className="product-detail-page">
@@ -1071,6 +1174,12 @@ export default async function ProductDetailPage({ params }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(breadcrumbSchema).replace(/</g, "\\u003c"),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(productFaqSchema).replace(/</g, "\\u003c"),
         }}
       />
       <section className="product-detail-hero">
@@ -1122,7 +1231,8 @@ export default async function ProductDetailPage({ params }) {
                     alt={feature.title}
                     width={220}
                     height={220}
-                    quality={95}
+                    sizes="(max-width: 640px) 44vw, (max-width: 980px) 30vw, 18vw"
+                    quality={88}
                   />
                 </div>
                 <h3>{feature.title}</h3>
@@ -1151,7 +1261,8 @@ export default async function ProductDetailPage({ params }) {
                     alt={option.title}
                     width={420}
                     height={300}
-                    quality={95}
+                    sizes="(max-width: 640px) 44vw, (max-width: 980px) 30vw, 16vw"
+                    quality={88}
                   />
                 </div>
                 <h3>{option.title}</h3>
@@ -1164,7 +1275,14 @@ export default async function ProductDetailPage({ params }) {
             {detailItems.map((detail) => (
               <article className="detail-placeholder-card" key={detail.text}>
                 <div className="detail-image-frame">
-                  <Image src={detail.image} alt={detail.alt} width={620} height={620} quality={95} />
+                  <Image
+                    src={detail.image}
+                    alt={detail.alt}
+                    width={620}
+                    height={620}
+                    sizes="(max-width: 640px) calc(100vw - 56px), (max-width: 980px) 44vw, 28vw"
+                    quality={88}
+                  />
                 </div>
                 <p>{detail.text}</p>
               </article>
@@ -1176,7 +1294,14 @@ export default async function ProductDetailPage({ params }) {
             {scenarioItems.map((scenario) => (
               <article className="detail-placeholder-card" key={scenario.text}>
                 <div className="detail-image-frame">
-                  <Image src={scenario.image} alt={scenario.alt} width={620} height={620} quality={95} />
+                  <Image
+                    src={scenario.image}
+                    alt={scenario.alt}
+                    width={620}
+                    height={620}
+                    sizes="(max-width: 640px) calc(100vw - 56px), (max-width: 980px) 44vw, 42vw"
+                    quality={88}
+                  />
                 </div>
                 <p>{scenario.text}</p>
               </article>
@@ -1188,7 +1313,14 @@ export default async function ProductDetailPage({ params }) {
             {appliedQualitySteps.map((step) => (
               <article key={step.title}>
                 <div className="quality-flow-image">
-                  <Image src={step.image} alt={step.title} width={360} height={360} quality={95} />
+                  <Image
+                    src={step.image}
+                    alt={step.title}
+                    width={360}
+                    height={360}
+                    sizes="(max-width: 640px) calc(100vw - 56px), (max-width: 980px) 44vw, 24vw"
+                    quality={86}
+                  />
                 </div>
                 <h3>{step.title}</h3>
                 <p>{step.text}</p>
@@ -1221,7 +1353,14 @@ export default async function ProductDetailPage({ params }) {
           <div className="related-products-grid">
             {related.map((product) => (
               <Link className="related-product-card" href={`/products/${product.id}`} key={product.id}>
-                <Image src={product.image} alt={product.alt} width={320} height={320} quality={100} />
+                <Image
+                  src={product.image}
+                  alt={product.alt}
+                  width={320}
+                  height={320}
+                  sizes="(max-width: 640px) 44vw, (max-width: 980px) 44vw, 22vw"
+                  quality={88}
+                />
                 <span>{product.title}</span>
               </Link>
             ))}

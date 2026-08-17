@@ -60,10 +60,24 @@ export const products = [
   },
 ];
 
-export function PageHero({ eyebrow, title, text }) {
+export function PageHero({ eyebrow, title, text, image, imageAlt = "", className = "" }) {
   return (
-    <section className="page-hero">
-      <div className="container">
+    <section className={`page-hero${image ? " page-hero-with-image" : ""}${className ? ` ${className}` : ""}`}>
+      {image ? (
+        <>
+          <Image
+            className="page-hero-image"
+            src={image}
+            alt={imageAlt}
+            fill
+            priority
+            sizes="100vw"
+            quality={88}
+          />
+          <div className="page-hero-image-overlay" aria-hidden="true" />
+        </>
+      ) : null}
+      <div className="container page-hero-content">
         <p className="eyebrow">{eyebrow}</p>
         <h1>{title}</h1>
         <p>{text}</p>
@@ -282,7 +296,7 @@ export function ProcessSection() {
                   width={720}
                   height={720}
                   sizes="(max-width: 640px) 86vw, (max-width: 980px) 44vw, 22vw"
-                  quality={100}
+                  quality={90}
                 />
               </div>
               <div className="step-body">
@@ -424,7 +438,7 @@ export function BuyerSection() {
                   width={760}
                   height={920}
                   sizes="(max-width: 640px) 100vw, (max-width: 980px) 44vw, 30vw"
-                  quality={100}
+                  quality={90}
                 />
               </div>
               <h3>{buyer.title}</h3>
@@ -505,7 +519,7 @@ export function ShippingQuoteSection() {
                   alt={mode.alt}
                   width={520}
                   height={520}
-                  quality={95}
+                  quality={90}
                 />
               </article>
             ))}

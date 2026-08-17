@@ -59,11 +59,14 @@ export default function RootLayout({ children }) {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "Organization",
+        "@type": ["Organization", "LocalBusiness"],
         "@id": "https://oxylifediary.com/#organization",
         name: "OXYDIARY",
         url: "https://oxylifediary.com",
+        description:
+          "B2B drinkware and lunch box manufacturing partner for custom, wholesale, OEM, and ODM programs.",
         logo: "https://oxylifediary.com/images/logo.png",
+        image: "https://oxylifediary.com/images/logo.png",
         email: "shservice@oxylifediary.com",
         telephone: "+86-151-0210-6279",
         address: {
@@ -73,6 +76,15 @@ export default function RootLayout({ children }) {
           addressRegion: "Zhejiang",
           postalCode: "321313",
           addressCountry: "CN",
+        },
+        areaServed: "Worldwide",
+        contactPoint: {
+          "@type": "ContactPoint",
+          contactType: "sales",
+          telephone: "+86-151-0210-6279",
+          email: "shservice@oxylifediary.com",
+          areaServed: "Worldwide",
+          availableLanguage: ["English", "Chinese"],
         },
         sameAs: socialLinks.map((item) => item.url),
         knowsAbout: [

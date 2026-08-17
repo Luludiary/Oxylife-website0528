@@ -17,14 +17,19 @@ export default function HomePage() {
       <section className="hero">
         <video
           className="hero-bg-video"
-          src="/videos/premium-stainless-steel-tumbler-manufacturer.mp4"
           autoPlay
           muted
           loop
           playsInline
-          preload="metadata"
+          preload="none"
           aria-hidden="true"
-        />
+        >
+          <source
+            src="/videos/premium-stainless-steel-tumbler-manufacturer.mp4"
+            type="video/mp4"
+            media="(min-width: 641px)"
+          />
+        </video>
         <div className="hero-inner">
           <div className="hero-copy">
             <p className="eyebrow">OEM / ODM drinkware & foodware partner</p>

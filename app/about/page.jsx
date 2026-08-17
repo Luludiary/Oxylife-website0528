@@ -21,6 +21,9 @@ export default function AboutPage() {
         eyebrow="About OXYDIARY"
         title="A Manufacturing Partner for Long-Term Drinkware Programs"
         text="We support buyers who need reliable production, clear communication, practical customization, and controlled export service."
+        image="/images/heroes/about-manufacturer-story-v1.png"
+        imageAlt="Manufacturing engineers reviewing a stainless steel bottle and tooling in a modern drinkware factory"
+        className="content-image-page-hero about-page-hero"
       />
       <EditorialMeta reviewedBy="OXYDIARY Commercial & Product Team" />
       <DirectAnswer label="Company focus">

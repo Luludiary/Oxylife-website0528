@@ -47,6 +47,9 @@ export default function QualityPage() {
         eyebrow="Quality assurance"
         title="Inspection and Compliance Support for Global Buyers"
         text="Quality is managed across raw material, production, surface treatment, vacuum performance, packaging, and final shipment checks."
+        image="/images/heroes/quality-testing-lab-v1.png"
+        imageAlt="Stainless steel vacuum bottle undergoing dimensional, pressure, and thermal quality checks"
+        className="content-image-page-hero quality-page-hero"
       />
       <EditorialMeta />
       <DirectAnswer label="Evidence policy">
